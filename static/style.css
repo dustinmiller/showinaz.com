@@ -357,6 +357,7 @@ body {
         text-align: right;
         width: 100%;
         margin-top: -2.5em;
+        padding-left: 5em;
     }
 
     .show-artist .show-link {
