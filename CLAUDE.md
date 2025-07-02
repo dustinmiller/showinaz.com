@@ -40,14 +40,15 @@ venue_url = "https://venue-website.com"
 +++
 ```
 
-### Python Utilities
+### Bash Utilities
 
-- `generate_shows.py` - Generates event markdown files from `list.txt`
+- `generate_shows.sh` - Generates event markdown files from `list.txt`
   - Parses format: `6/25 Artist @ Venue`
-  - Maps venue names to URLs using `venue_links` dictionary
   - Creates properly formatted markdown files with frontmatter
-- `remove_past_shows.py` - Removes past event files to keep content current
-- `generate_shows.sh` - Alternative bash script for show generation
+  - No external dependencies, portable across environments
+- `remove_past_shows.sh` - Removes past event files to keep content current
+  - Uses filename pattern matching for date comparison
+  - Automatically runs daily via GitHub Actions
 - `list.txt` - Plain text file with show listings in M/D format
 
 ## Common Development Commands
@@ -58,9 +59,8 @@ venue_url = "https://venue-website.com"
 - `zola check` - Validate site structure and links
 
 ### Content Management
-- `python3 generate_shows.py` - Generate event files from list.txt
-- `python3 remove_past_shows.py` - Clean up past events
-- `./generate_shows.sh` - Alternative show generation (bash)
+- `./generate_shows.sh` - Generate event files from list.txt
+- `./remove_past_shows.sh` - Clean up past events
 
 ### Sass Compilation
 Zola automatically compiles Sass files from `sass/` to `static/` when `compile_sass = true` in config.toml.
@@ -75,16 +75,16 @@ Zola automatically compiles Sass files from `sass/` to `static/` when `compile_s
 - **Auto-hide Past Events**: JavaScript automatically hides past shows (`script.js:180-201`)
 
 ### Content Generation
-The `generate_shows.py` script processes show data with:
-- Date parsing from M/D to ISO format (assumes current year)
-- Venue name normalization and URL mapping
+The `generate_shows.sh` script processes show data with:
+- Date parsing from M/D to ISO format (assumes 2025)
 - Filename slugification for SEO-friendly URLs
 - Automatic frontmatter generation
 
-### Venue URL Mapping
-Common venues are mapped to their websites in `generate_shows.py:8-20`:
-- Crescent Ballroom, The Van Buren, Walter Studios, etc.
-- Multiple name variations handled (e.g., "Crescent Ballrm" → "Crescent Ballroom")
+### Automated Cleanup
+GitHub Actions workflow runs daily at 6 AM EST to automatically remove past events:
+- Triggered by cron schedule: `0 11 * * *` (UTC)
+- Can be manually triggered via GitHub web interface
+- Uses `remove_past_shows.sh` for cleanup logic
 
 ## File Organization
 
@@ -94,9 +94,22 @@ This ensures proper chronological sorting and prevents filename conflicts.
 ## Development Workflow
 
 1. Add new shows to `list.txt` in format: `M/D Artist @ Venue`
-2. Run `python3 generate_shows.py` to create markdown files
+2. Run `./generate_shows.sh` to create markdown files
 3. Use `zola serve` to preview changes locally
-4. Run `python3 remove_past_shows.py` periodically to clean up past events
+4. Past events are automatically cleaned up via GitHub Actions daily
 5. Build for production with `zola build`
 
 The site uses Zola's built-in features for RSS feeds, HTML minification, and Sass compilation as configured in `config.toml`.
+
+## Architecture Notes
+
+### Template Structure
+- `base.html` provides the main layout with header/footer and logo
+- `shows.html` contains the main event listing with inline JavaScript for filtering
+- All JavaScript functionality is embedded directly in the template (no external JS files)
+- CSS uses a dark theme with responsive design patterns
+
+### Static Assets
+- Logo image served from `static/logo.png` 
+- CSS uses responsive sizing with viewport units and media queries
+- Mobile-first approach with breakpoint at 768px
