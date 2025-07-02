@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="show-detail">
+    <div class="show-detail-header">
+        <div class="show-date-large">{{ page.date | date(format="%B %d, %Y") }}</div>
+        <h1 class="show-artist-large">{{ page.extra.artist }}</h1>
+        <div class="show-venue-large">
+            {% if page.extra.venue_url %}
+                <a href="{{ page.extra.venue_url }}" target="_blank" rel="noopener">{{ page.extra.venue }}</a>
+            {% else %}
+                {{ page.extra.venue }}
+            {% endif %}
+        </div>
+    </div>
+    
+    {% if page.content %}
+    <div class="show-description">
+        {{ page.content | safe }}
+    </div>
+    {% endif %}
+    
+    <div class="show-actions">
+        <a href="/" class="btn-back">← Back to All Shows</a>
+    </div>
+</div>
+{% endblock content %}

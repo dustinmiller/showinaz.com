@@ -1,0 +1,228 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <h2>Upcoming Events</h2>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search artists, venues, or dates..." class="search-input" aria-label="Search shows">
+        <button id="clearSearch" class="clear-btn" aria-label="Clear search">&times;</button>
+    </div>
+    <div class="date-filter">
+        <button class="filter-btn active" data-filter="all" aria-pressed="true">All Events</button>
+        <button class="filter-btn" data-filter="today" aria-pressed="false">Today</button>
+        <button class="filter-btn" data-filter="weekend" aria-pressed="false">This Weekend</button>
+        <button class="filter-btn" data-filter="upcoming" aria-pressed="false">Next 7 Days</button>
+    </div>
+</section>
+
+<section class="shows-list" id="showsList">
+    {% set event_section = get_section(path="event/_index.md") %}
+    {% set upcoming_shows = event_section.pages | sort(attribute="date") %}
+
+    <div class="results-count">Showing {{ upcoming_shows | length }} event{{ upcoming_shows | length | pluralize }}</div>
+
+    {% for page in upcoming_shows %}
+    <div class="show-item clickable-card" data-date="{{ page.date | date(format='%m/%d') }}" data-artist="{{ page.extra.artist | lower }}" data-venue="{{ page.extra.venue | lower }}" data-href="{{ page.permalink }}">
+        <div class="show-date">{{ page.date | date(format="%m/%d") }}</div>
+        <div class="show-artist">{{ page.extra.artist }}</div>
+        <div class="show-venue">
+            {% if page.extra.venue_url %}
+                <a href="{{ page.extra.venue_url }}" class="venue-link" target="_blank" rel="noopener">{{ page.extra.venue }}</a> 🎟️
+            {% else %}
+                {{ page.extra.venue }}
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</section>
+
+<script>
+let currentFilter = 'all';
+let currentSearch = '';
+
+function getDateObj(dateStr) {
+    const [month, day] = dateStr.split('/').map(Number);
+    const currentYear = new Date().getFullYear();
+    return new Date(currentYear, month - 1, day);
+}
+
+function getWeekendDates() {
+    const today = new Date();
+    const currentDay = today.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+    const weekendDates = [];
+
+    // Calculate the upcoming Saturday and Sunday
+    let daysUntilSaturday;
+    if (currentDay === 0) { // Sunday
+        daysUntilSaturday = 6; // Next Saturday
+    } else if (currentDay === 6) { // Saturday
+        daysUntilSaturday = 0; // Today is Saturday
+    } else { // Monday through Friday
+        daysUntilSaturday = 6 - currentDay; // Days until Saturday
+    }
+
+    const saturday = new Date(today);
+    saturday.setDate(today.getDate() + daysUntilSaturday);
+    
+    const sunday = new Date(saturday);
+    sunday.setDate(saturday.getDate() + 1);
+
+    weekendDates.push(
+        `${String(saturday.getMonth() + 1).padStart(2, '0')}/${String(saturday.getDate()).padStart(2, '0')}`,
+        `${String(sunday.getMonth() + 1).padStart(2, '0')}/${String(sunday.getDate()).padStart(2, '0')}`
+    );
+
+    return weekendDates;
+}
+
+function filterShows(filter) {
+    currentFilter = filter;
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    const todayStr = `${month}/${day}`;
+
+    const allItems = document.querySelectorAll('.show-item');
+    let visibleCount = 0;
+
+    allItems.forEach(item => {
+        const itemDate = item.getAttribute('data-date');
+        let shouldShow = true;
+
+        switch(filter) {
+            case 'today':
+                shouldShow = itemDate === todayStr;
+                break;
+            case 'weekend':
+                const weekendDates = getWeekendDates();
+                shouldShow = weekendDates.includes(itemDate);
+                break;
+            case 'upcoming':
+                const nextWeek = new Date(today);
+                nextWeek.setDate(today.getDate() + 7);
+                const showDate = getDateObj(itemDate);
+                shouldShow = showDate <= nextWeek;
+                break;
+            default:
+                shouldShow = true;
+        }
+
+        if (currentSearch) {
+            const artist = item.getAttribute('data-artist') || '';
+            const venue = item.getAttribute('data-venue') || '';
+            const searchMatch = artist.includes(currentSearch.toLowerCase()) ||
+                              venue.includes(currentSearch.toLowerCase()) ||
+                              itemDate.includes(currentSearch);
+            shouldShow = shouldShow && searchMatch;
+        }
+
+        if (shouldShow) {
+            item.style.display = 'flex';
+            visibleCount++;
+        } else {
+            item.style.display = 'none';
+        }
+    });
+
+    updateResultsCount(visibleCount);
+}
+
+function updateResultsCount(count) {
+    const resultsCount = document.querySelector('.results-count');
+    if (resultsCount) {
+        resultsCount.textContent = `Showing ${count} event${count !== 1 ? 's' : ''}`;
+    }
+}
+
+function initializeSearch() {
+    const searchInput = document.getElementById('searchInput');
+    const clearBtn = document.getElementById('clearSearch');
+
+    searchInput.addEventListener('input', (e) => {
+        currentSearch = e.target.value;
+        clearBtn.classList.toggle('visible', currentSearch.length > 0);
+        filterShows(currentFilter);
+    });
+
+    clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        currentSearch = '';
+        clearBtn.classList.remove('visible');
+        filterShows(currentFilter);
+    });
+
+    searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            searchInput.blur();
+        }
+    });
+}
+
+function initializeFilters() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+
+    filterButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            filterButtons.forEach(btn => {
+                btn.classList.remove('active');
+                btn.setAttribute('aria-pressed', 'false');
+            });
+            e.target.classList.add('active');
+            e.target.setAttribute('aria-pressed', 'true');
+
+            const filter = e.target.getAttribute('data-filter');
+            filterShows(filter);
+        });
+    });
+}
+
+function hidePastShows() {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const allItems = document.querySelectorAll('.show-item');
+    let visibleCount = 0;
+
+    allItems.forEach(item => {
+        const itemDate = item.getAttribute('data-date');
+        const showDate = getDateObj(itemDate);
+
+        if (showDate >= today) {
+            item.style.display = 'flex';
+            visibleCount++;
+        } else {
+            item.style.display = 'none';
+        }
+    });
+
+    updateResultsCount(visibleCount);
+}
+
+function initializeClickableCards() {
+    document.querySelectorAll('.clickable-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+            // Don't navigate if clicking on a link
+            if (e.target.tagName === 'A' || e.target.closest('a')) {
+                return;
+            }
+
+            const href = card.getAttribute('data-href');
+            if (href) {
+                window.location.href = href;
+            }
+        });
+
+        // Add cursor pointer style
+        card.style.cursor = 'pointer';
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    initializeFilters();
+    initializeSearch();
+    initializeClickableCards();
+    hidePastShows();
+});
+</script>
+{% endblock content %}
