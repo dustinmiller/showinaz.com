@@ -327,35 +327,43 @@ body {
     .logo {
         font-size: 1.8rem;
     }
-    
+
     .hero h2 {
         font-size: 1.3rem;
     }
-    
+
     .search-container {
         max-width: 100%;
         margin-bottom: 1rem;
     }
-    
+
     .search-input {
         padding: 10px 35px 10px 12px;
         font-size: 0.9rem;
     }
-    
+
     .date-filter {
-        gap: 0.5rem;
+        gap: 0.3rem;
     }
-    
+
     .show-item {
         flex-direction: column;
         align-items: flex-start;
         padding: 1rem;
     }
-    
+
     .show-artist {
         margin: 0.5rem 0;
+        text-align: right;
+        width: 100%;
+        margin-top: -2.5em;
     }
-    
+
+    .show-artist .show-link {
+        display: block;
+        text-align: right;
+    }
+
     .show-venue {
         text-align: right;
         min-width: auto;
@@ -366,16 +374,16 @@ body {
         overflow-wrap: break-word;
         hyphens: auto;
     }
-    
+
     .filter-btn {
         padding: 6px 12px;
         font-size: 0.8rem;
     }
-    
+
     .show-artist-large {
         font-size: 2rem;
     }
-    
+
     .show-detail-header {
         padding: 1.5rem;
     }
