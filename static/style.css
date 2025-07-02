@@ -21,7 +21,7 @@ body {
 .header {
     background: #44475a;
     border-bottom: 1px solid #6272a4;
-    /* padding: 2rem 0; */
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -36,9 +36,9 @@ body {
 }
 
 .logo-img {
-    height: 500px;
-    width: auto;
-    max-width: 100%;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
     object-fit: contain;
 }
 
@@ -330,7 +330,7 @@ body {
 
 @media (max-width: 768px) {
     .logo-img {
-        height: 300px;
+        max-width: 90vw;
     }
 
     .hero h2 {
