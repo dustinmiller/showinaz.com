@@ -12,8 +12,12 @@
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="logo"><a href="{{ get_url(path='/') }}">{{ config.title }}</a></h1>
-            <p class="tagline">{{ config.extra.tagline }}</p>
+            <div class="logo">
+                <a href="{{ get_url(path='/') }}">
+                    <img src="{{ get_url(path='logo.png') }}" alt="{{ config.title }}" class="logo-img">
+                </a>
+            </div>
+            <!-- <p class="tagline">{{ config.extra.tagline }}</p> -->
         </div>
     </header>
 

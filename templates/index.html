@@ -2,7 +2,7 @@
 
 {% block content %}
 <section class="hero">
-    <h2>Upcoming Events</h2>
+    <!-- <h2>Upcoming Events</h2> -->
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Search artists, venues, or dates..." class="search-input" aria-label="Search shows">
         <button id="clearSearch" class="clear-btn" aria-label="Clear search">&times;</button>
@@ -63,7 +63,7 @@ function getWeekendDates() {
 
     const saturday = new Date(today);
     saturday.setDate(today.getDate() + daysUntilSaturday);
-    
+
     const sunday = new Date(saturday);
     sunday.setDate(saturday.getDate() + 1);
 
