@@ -357,8 +357,14 @@ body {
     }
     
     .show-venue {
-        text-align: left;
+        text-align: right;
         min-width: auto;
+        width: 100%;
+        margin-top: 0.25rem;
+        line-height: 1.4;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
     }
     
     .filter-btn {
