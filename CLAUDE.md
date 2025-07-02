@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Shows in AZ is a static website for listing live music events in Arizona. It's built using Zola static site generator with Python utilities for content management.
+Shows in AZ is a static website for listing live music events in Arizona. It's built using Zola static site generator with bash utilities for content management.
 
 ## Architecture
 
@@ -68,11 +68,12 @@ Zola automatically compiles Sass files from `sass/` to `static/` when `compile_s
 ## Key Features
 
 ### Frontend Functionality (`templates/shows.html`)
-- **Live Search**: Filters events by artist, venue, or date (`script.js:138-160`)
-- **Date Filters**: "All Events", "Today", "This Weekend", "Next 7 Days" (`script.js:80-129`)
+- **Live Search**: Filters events by artist, venue, or date with inline JavaScript
+- **Date Filters**: "All Events", "Today", "This Weekend", "Next 7 Days" 
 - **Responsive Design**: CSS Grid layout adapting to screen size
 - **Venue Links**: Clickable venue names linking to venue websites
-- **Auto-hide Past Events**: JavaScript automatically hides past shows (`script.js:180-201`)
+- **Auto-hide Past Events**: JavaScript automatically hides past shows
+- **No external JS dependencies**: All functionality embedded in HTML templates
 
 ### Content Generation
 The `generate_shows.sh` script processes show data with:
@@ -110,6 +111,14 @@ The site uses Zola's built-in features for RSS feeds, HTML minification, and Sas
 - CSS uses a dark theme with responsive design patterns
 
 ### Static Assets
-- Logo image served from `static/logo.png` 
-- CSS uses responsive sizing with viewport units and media queries
+- Logo image served from `static/logo.png` with responsive sizing
+- CSS uses viewport units and media queries for fluid scaling
 - Mobile-first approach with breakpoint at 768px
+- Dark theme with custom color palette (#282a36 background, #f8f8f2 text)
+
+### Content Input Format
+Shows are added via `list.txt` using simple format: `M/D Artist @ Venue`
+- Example: `7/15 The Strokes @ Crescent Ballroom`
+- Date assumes current year (2025)
+- Artist and venue names are automatically slugified for URLs
+- No manual markdown file creation needed
