@@ -6,6 +6,6 @@ slug = "2025-10-17-the-white-buffalo"
 
 [extra]
 artist = "The White Buffalo"
-venue = "The Rebel Loung"
-venue_url = ""
+venue = "The Rebel Lounge"
+venue_url = "https://www.rebelphx.com/"
 +++

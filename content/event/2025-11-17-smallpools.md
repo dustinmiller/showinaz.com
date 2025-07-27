@@ -6,6 +6,6 @@ slug = "2025-11-17-smallpools"
 
 [extra]
 artist = "SmallPools"
-venue = "The Crescent Ballrm"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

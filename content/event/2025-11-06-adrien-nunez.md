@@ -6,6 +6,6 @@ slug = "2025-11-06-adrien-nunez"
 
 [extra]
 artist = "Adrien Nunez"
-venue = "The Crescent Ballrm"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

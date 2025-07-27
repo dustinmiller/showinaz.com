@@ -6,6 +6,6 @@ slug = "2025-09-26-air-play-moon-safari"
 
 [extra]
 artist = "Air Play Moon Safari"
-venue = "AZ Financial Th"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

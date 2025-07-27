@@ -6,6 +6,6 @@ slug = "2025-09-14-maris-caroline-kingsbury"
 
 [extra]
 artist = "Maris & Caroline Kingsbury"
-venue = "Valley Br"
-venue_url = ""
+venue = "Valley Bar"
+venue_url = "https://www.valleybarphx.com/"
 +++

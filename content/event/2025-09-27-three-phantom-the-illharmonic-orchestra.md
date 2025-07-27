@@ -6,6 +6,6 @@ slug = "2025-09-27-three-phantom-the-illharmonic-orchestra"
 
 [extra]
 artist = "Three Phantom & The Illharmonic Orchestra"
-venue = "Orpheum Theater"
-venue_url = "https://www.orpheumflagstaff.com/"
+venue = "Orpheum Theater Phoenix"
+venue_url = "https://www.orpheumtheatrephoenix.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-09-04-paper-foxes-post-crucifixion"
 
 [extra]
 artist = "Paper Foxes, Post Crucifixion"
-venue = "Valley B"
-venue_url = ""
+venue = "Valley Bar"
+venue_url = "https://www.valleybarphx.com/"
 +++

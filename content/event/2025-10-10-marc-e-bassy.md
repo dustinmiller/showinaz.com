@@ -6,6 +6,6 @@ slug = "2025-10-10-marc-e-bassy"
 
 [extra]
 artist = "Marc E. Bassy"
-venue = "The Crescent Ballrm"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

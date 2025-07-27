@@ -6,6 +6,6 @@ slug = "2025-11-12-ethan-regan"
 
 [extra]
 artist = "Ethan Regan"
-venue = "The Crescent Ballrm"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-10-16-allen-stone-ripe"
 
 [extra]
 artist = "Allen Stone & Ripe"
-venue = "Celebrity Thtr"
-venue_url = ""
+venue = "Celebrity Theatre"
+venue_url = "https://celebritytheatre.com/"
 +++

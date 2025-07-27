@@ -6,6 +6,6 @@ slug = "2025-09-04-little-big-town"
 
 [extra]
 artist = "Little Big Town"
-venue = "Talking Stick Amphith"
-venue_url = ""
+venue = "Talking Stick Resort Amphitheatre"
+venue_url = "https://www.talkingstickresortamphitheatre.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-12-09-la-santa-cecilia"
 
 [extra]
 artist = "La Santa Cecilia"
-venue = "The Ceescent BR"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

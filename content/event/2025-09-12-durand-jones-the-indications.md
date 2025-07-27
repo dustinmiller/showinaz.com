@@ -6,6 +6,6 @@ slug = "2025-09-12-durand-jones-the-indications"
 
 [extra]
 artist = "Durand Jones & The Indications"
-venue = "The Orpheum Theater Flagstaff"
-venue_url = ""
+venue = "Orpheum Theater Flagstaff"
+venue_url = "https://www.orpheumflagstaff.com/"
 +++

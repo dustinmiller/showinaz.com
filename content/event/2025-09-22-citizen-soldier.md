@@ -6,6 +6,6 @@ slug = "2025-09-22-citizen-soldier"
 
 [extra]
 artist = "Citizen Soldier"
-venue = "The Crescent Ballrm"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

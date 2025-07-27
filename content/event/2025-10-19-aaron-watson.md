@@ -6,6 +6,6 @@ slug = "2025-10-19-aaron-watson"
 
 [extra]
 artist = "Aaron Watson"
-venue = "Orpheum Theater"
-venue_url = "https://www.orpheumflagstaff.com/"
+venue = "Orpheum Theater Phoenix"
+venue_url = "https://www.orpheumtheatrephoenix.com/"
 +++

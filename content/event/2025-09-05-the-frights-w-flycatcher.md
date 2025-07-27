@@ -6,6 +6,6 @@ slug = "2025-09-05-the-frights-w-flycatcher"
 
 [extra]
 artist = "The Frights w/ Flycatcher"
-venue = "Crescent Br"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-09-20-pepper-w-tunnel-vision"
 
 [extra]
 artist = "Pepper w/ Tunnel Vision"
-venue = "Orpheum Theater"
-venue_url = "https://www.orpheumflagstaff.com/"
+venue = "Orpheum Theater Phoenix"
+venue_url = "https://www.orpheumtheatrephoenix.com/"
 +++

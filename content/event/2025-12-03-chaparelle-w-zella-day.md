@@ -6,6 +6,6 @@ slug = "2025-12-03-chaparelle-w-zella-day"
 
 [extra]
 artist = "Chaparelle w/ Zella Day"
-venue = "Crescent br"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++
