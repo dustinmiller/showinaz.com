@@ -1,5 +1,5 @@
 +++
-title = "Collie Budz at The Marquee Theater "
+title = "Collie Budz at The Marquee Theater"
 date = 2025-08-15
 template = "page.html"
 slug = "2025-08-15-collie-budz"

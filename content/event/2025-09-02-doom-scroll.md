@@ -1,5 +1,5 @@
 +++
-title = "Doom Scroll at Nile Underground "
+title = "Doom Scroll at Nile Underground"
 date = 2025-09-02
 template = "page.html"
 slug = "2025-09-02-doom-scroll"

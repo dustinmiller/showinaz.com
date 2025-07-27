@@ -1,5 +1,5 @@
 +++
-title = "David Lowery (of Cracker & Camper Van Beethoven) at The Rialto Theater "
+title = "David Lowery (of Cracker & Camper Van Beethoven) at The Rialto Theater"
 date = 2025-10-12
 template = "page.html"
 slug = "2025-10-12-david-lowery-of-cracker-camper-van-beethoven"

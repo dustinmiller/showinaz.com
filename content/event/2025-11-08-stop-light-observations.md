@@ -1,5 +1,5 @@
 +++
-title = "Stop Light Observations at Crescent "
+title = "Stop Light Observations at Crescent"
 date = 2025-11-08
 template = "page.html"
 slug = "2025-11-08-stop-light-observations"

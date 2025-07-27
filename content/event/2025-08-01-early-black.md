@@ -1,5 +1,5 @@
 +++
-title = "Early Black at Club Congress "
+title = "Early Black at Club Congress"
 date = 2025-08-01
 template = "page.html"
 slug = "2025-08-01-early-black"

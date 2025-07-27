@@ -1,5 +1,5 @@
 +++
-title = "Mystery Skulls at Crescent Ballroom "
+title = "Mystery Skulls at Crescent Ballroom"
 date = 2025-08-09
 template = "page.html"
 slug = "2025-08-09-mystery-skulls"

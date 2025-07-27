@@ -1,5 +1,5 @@
 +++
-title = "Weird Al Yankovic at Arizona Financial "
+title = "Weird Al Yankovic at Arizona Financial"
 date = 2025-08-31
 template = "page.html"
 slug = "2025-08-31-weird-al-yankovic"

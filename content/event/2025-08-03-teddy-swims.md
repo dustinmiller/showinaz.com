@@ -1,5 +1,5 @@
 +++
-title = "Teddy Swims at AZ Financial Theater "
+title = "Teddy Swims at AZ Financial Theater"
 date = 2025-08-03
 template = "page.html"
 slug = "2025-08-03-teddy-swims"

@@ -1,5 +1,5 @@
 +++
-title = "Aaron Watson at Orpheum Flagstaff "
+title = "Aaron Watson at Orpheum Flagstaff"
 date = 2025-10-19
 template = "page.html"
 slug = "2025-10-19-aaron-watson"

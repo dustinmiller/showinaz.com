@@ -1,5 +1,5 @@
 +++
-title = "Chevelle, Asking Alexandria at AZ Financial Theater "
+title = "Chevelle, Asking Alexandria at AZ Financial Theater"
 date = 2025-09-21
 template = "page.html"
 slug = "2025-09-21-chevelle-asking-alexandria"

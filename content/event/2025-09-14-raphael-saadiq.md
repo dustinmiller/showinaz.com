@@ -1,5 +1,5 @@
 +++
-title = "Raphael Saadiq at Fox Theater "
+title = "Raphael Saadiq at Fox Theater"
 date = 2025-09-14
 template = "page.html"
 slug = "2025-09-14-raphael-saadiq"

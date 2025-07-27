@@ -1,5 +1,5 @@
 +++
-title = "The Altons & The Sinseers at Orpheum Theater Flagstaff "
+title = "The Altons & The Sinseers at Orpheum Theater Flagstaff"
 date = 2025-08-06
 template = "page.html"
 slug = "2025-08-06-the-altons-the-sinseers"

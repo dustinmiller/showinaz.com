@@ -1,5 +1,5 @@
 +++
-title = "The Beths w/ Phoebe Rings at The Van Buren "
+title = "The Beths w/ Phoebe Rings at The Van Buren"
 date = 2025-11-06
 template = "page.html"
 slug = "2025-11-06-the-beths-w-phoebe-rings"

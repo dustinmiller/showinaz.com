@@ -1,5 +1,5 @@
 +++
-title = "Lizzie w/ Significant Others at The Rebel Lounge "
+title = "Lizzie w/ Significant Others at The Rebel Lounge"
 date = 2025-08-25
 template = "page.html"
 slug = "2025-08-25-lizzie-w-significant-others"

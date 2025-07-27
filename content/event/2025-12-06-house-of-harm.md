@@ -1,5 +1,5 @@
 +++
-title = "House of Harm at Last Exit Live "
+title = "House of Harm at Last Exit Live"
 date = 2025-12-06
 template = "page.html"
 slug = "2025-12-06-house-of-harm"

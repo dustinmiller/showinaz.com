@@ -1,5 +1,5 @@
 +++
-title = "Thievery Corporation at The Van Buren "
+title = "Thievery Corporation at The Van Buren"
 date = 2025-09-04
 template = "page.html"
 slug = "2025-09-04-thievery-corporation"

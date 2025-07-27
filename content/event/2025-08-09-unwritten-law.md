@@ -1,5 +1,5 @@
 +++
-title = "Unwritten Law at The Nile Theater "
+title = "Unwritten Law at The Nile Theater"
 date = 2025-08-09
 template = "page.html"
 slug = "2025-08-09-unwritten-law"

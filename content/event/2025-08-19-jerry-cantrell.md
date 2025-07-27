@@ -1,5 +1,5 @@
 +++
-title = "Jerry Cantrell at The Marquee Theater "
+title = "Jerry Cantrell at The Marquee Theater"
 date = 2025-08-19
 template = "page.html"
 slug = "2025-08-19-jerry-cantrell"

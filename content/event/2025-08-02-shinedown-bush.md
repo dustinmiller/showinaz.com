@@ -1,5 +1,5 @@
 +++
-title = "Shinedown & Bush at Footprint Center "
+title = "Shinedown & Bush at PHX Arena"
 date = 2025-08-02
 template = "page.html"
 slug = "2025-08-02-shinedown-bush"

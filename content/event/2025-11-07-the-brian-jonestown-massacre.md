@@ -1,5 +1,5 @@
 +++
-title = "The Brian Jonestown Massacre at The Van Buren "
+title = "The Brian Jonestown Massacre at The Van Buren"
 date = 2025-11-07
 template = "page.html"
 slug = "2025-11-07-the-brian-jonestown-massacre"

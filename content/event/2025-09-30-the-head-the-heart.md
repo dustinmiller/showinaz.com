@@ -1,5 +1,5 @@
 +++
-title = "The Head & The Heart at Arizona Financial Theater "
+title = "The Head & The Heart at Arizona Financial Theater"
 date = 2025-09-30
 template = "page.html"
 slug = "2025-09-30-the-head-the-heart"

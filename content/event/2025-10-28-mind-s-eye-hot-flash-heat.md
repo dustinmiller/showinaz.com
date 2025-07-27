@@ -1,5 +1,5 @@
 +++
-title = "Mind's Eye & Hot Flash Heat at The Rebel Lounge "
+title = "Mind's Eye & Hot Flash Heat at The Rebel Lounge"
 date = 2025-10-28
 template = "page.html"
 slug = "2025-10-28-mind-s-eye-hot-flash-heat"

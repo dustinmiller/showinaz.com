@@ -1,5 +1,5 @@
 +++
-title = "Space Face & Jesika Von Rabbit at Club Congress "
+title = "Space Face & Jesika Von Rabbit at Club Congress"
 date = 2025-09-01
 template = "page.html"
 slug = "2025-09-01-space-face-jesika-von-rabbit"

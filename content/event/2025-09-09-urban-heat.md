@@ -1,5 +1,5 @@
 +++
-title = "Urban Heat at 191 Toole "
+title = "Urban Heat at 191 Toole"
 date = 2025-09-09
 template = "page.html"
 slug = "2025-09-09-urban-heat"

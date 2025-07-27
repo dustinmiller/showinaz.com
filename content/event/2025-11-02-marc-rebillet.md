@@ -1,5 +1,5 @@
 +++
-title = "Marc Rebillet at The Marquee Theater "
+title = "Marc Rebillet at The Marquee Theater"
 date = 2025-11-02
 template = "page.html"
 slug = "2025-11-02-marc-rebillet"

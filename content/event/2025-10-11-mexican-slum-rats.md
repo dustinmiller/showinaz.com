@@ -1,5 +1,5 @@
 +++
-title = "Mexican Slum Rats at Club Congress "
+title = "Mexican Slum Rats at Club Congress"
 date = 2025-10-11
 template = "page.html"
 slug = "2025-10-11-mexican-slum-rats"

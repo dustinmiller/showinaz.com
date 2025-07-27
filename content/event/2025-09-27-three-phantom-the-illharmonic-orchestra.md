@@ -1,5 +1,5 @@
 +++
-title = "Three Phantom & The Illharmonic Orchestra at Orpheum Theater Flagstaff "
+title = "Three Phantom & The Illharmonic Orchestra at Orpheum Theater Flagstaff"
 date = 2025-09-27
 template = "page.html"
 slug = "2025-09-27-three-phantom-the-illharmonic-orchestra"

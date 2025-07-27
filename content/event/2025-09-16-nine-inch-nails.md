@@ -1,5 +1,5 @@
 +++
-title = "Nine Inch Nails at Footprint Center "
+title = "Nine Inch Nails at PHX Arena"
 date = 2025-09-16
 template = "page.html"
 slug = "2025-09-16-nine-inch-nails"

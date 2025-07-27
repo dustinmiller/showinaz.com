@@ -1,5 +1,5 @@
 +++
-title = "Frost Children at Nile Underground "
+title = "Frost Children at Nile Underground"
 date = 2025-10-21
 template = "page.html"
 slug = "2025-10-21-frost-children"

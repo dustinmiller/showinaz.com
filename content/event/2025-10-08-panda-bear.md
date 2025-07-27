@@ -1,5 +1,5 @@
 +++
-title = "Panda Bear at The Rialto Theater "
+title = "Panda Bear at The Rialto Theater"
 date = 2025-10-08
 template = "page.html"
 slug = "2025-10-08-panda-bear"

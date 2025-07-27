@@ -1,5 +1,5 @@
 +++
-title = "Giovanni Kiyingi & Medio Pinto at The Crescent Ballroom "
+title = "Giovanni Kiyingi & Medio Pinto at The Crescent Ballroom"
 date = 2025-08-30
 template = "page.html"
 slug = "2025-08-30-giovanni-kiyingi-medio-pinto"

@@ -1,5 +1,5 @@
 +++
-title = "Crystal Bowersox at The MIM "
+title = "Crystal Bowersox at The MIM"
 date = 2025-08-05
 template = "page.html"
 slug = "2025-08-05-crystal-bowersox"

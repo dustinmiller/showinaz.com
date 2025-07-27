@@ -1,5 +1,5 @@
 +++
-title = "Pepper w/ Tunnel Vision at Orpheum Flagstaff "
+title = "Pepper w/ Tunnel Vision at Orpheum Flagstaff"
 date = 2025-09-20
 template = "page.html"
 slug = "2025-09-20-pepper-w-tunnel-vision"

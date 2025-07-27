@@ -1,5 +1,5 @@
 +++
-title = "Glitterfox at Club Congress "
+title = "Glitterfox at Club Congress"
 date = 2025-10-22
 template = "page.html"
 slug = "2025-10-22-glitterfox"

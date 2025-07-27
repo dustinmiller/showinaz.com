@@ -1,5 +1,5 @@
 +++
-title = "Kings Kaleidoscope at The Marquee "
+title = "Kings Kaleidoscope at The Marquee"
 date = 2025-11-12
 template = "page.html"
 slug = "2025-11-12-kings-kaleidoscope"

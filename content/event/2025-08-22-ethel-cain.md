@@ -1,5 +1,5 @@
 +++
-title = "Ethel Cain at Arizona Financial Theater "
+title = "Ethel Cain at Arizona Financial Theater"
 date = 2025-08-22
 template = "page.html"
 slug = "2025-08-22-ethel-cain"

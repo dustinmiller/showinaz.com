@@ -1,5 +1,5 @@
 +++
-title = "Sarah & The Safe Word at Valley Bar "
+title = "Sarah & The Safe Word at Valley Bar"
 date = 2025-07-24
 template = "page.html"
 slug = "2025-07-24-sarah-the-safe-word"
