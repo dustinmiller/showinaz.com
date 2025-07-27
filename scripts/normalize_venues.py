@@ -316,13 +316,16 @@ def fix_toml_formatting(content: str) -> str:
     fixed_lines = []
     
     for line in lines:
-        # Fix title field with unescaped quotes
+        # Fix title field with unescaped quotes and trailing spaces
         if line.strip().startswith('title = "'):
             title_match = re.match(r'^(\s*title = ")(.*)(")\s*$', line)
             if title_match:
                 prefix = title_match.group(1)
                 title_content = title_match.group(2)
                 suffix = title_match.group(3)
+                
+                # Remove trailing spaces from title content
+                title_content = title_content.rstrip()
                 
                 # Check if quotes are properly escaped
                 if '"' in title_content and '\\"' not in title_content:
