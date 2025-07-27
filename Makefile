@@ -19,8 +19,10 @@ clean: ## @@ Remove build artifacts and generated files
 	rm -rf public/
 	@echo "Cleaned build artifacts"
 
-remove-past: ## @@ Remove past event files (automated cleanup)
+remove-past: ## @@ Archive past event files (preserves URLs)
 	./scripts/remove_past_shows.sh
+
+archive-past: remove-past ## @@ Alias for remove-past - archive old events
 
 lint: ## @@ Check code formatting and style
 	@echo "No specific linting configured for Zola sites"
@@ -38,7 +40,7 @@ dev: serve ## @@ Alias for serve - start development server
 
 new-events: generate ## @@ Alias for generate - create events from list.txt
 
-cleanup: remove-past ## @@ Alias for remove-past - clean up old events
+cleanup: remove-past ## @@ Alias for remove-past - archive old events
 
 all: clean build ## @@ Clean and build the site
 
@@ -79,8 +81,14 @@ normalize-venues: ## @@ Normalize venue names and add URLs
 normalize-venues-dry: ## @@ Preview venue normalization changes (dry run)
 	python3 scripts/normalize_venues.py --dry-run
 
-update-events: generate remove-past ## @@ Update events: generate new ones and remove past ones
+update-events: generate remove-past ## @@ Update events: generate new ones and archive past ones
 	@echo "Events updated successfully!"
 
 setup-events: generate normalize-venues ## @@ Complete event setup: generate and normalize venues
 	@echo "Events generated and venues normalized!"
+
+audit-venues: ## @@ Audit venue mappings and show missing URLs
+	python3 scripts/audit_venues.py
+
+audit-venues-reference: ## @@ Create venue reference file for URL research
+	python3 scripts/audit_venues.py --create-reference
