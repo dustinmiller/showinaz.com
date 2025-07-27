@@ -59,6 +59,9 @@ body {
 .nav {
     display: flex;
     gap: 2rem;
+    text-align: center;
+    align-items: center;
+    align: center;
 }
 
 .nav-link {
@@ -68,6 +71,15 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 6px;
     transition: background-color 0.2s ease;
+    text-align: center;
+    align-items: center;
+    align: center;
+}
+
+.nav-links {
+  text-align: center;
+  align-items: center;
+  align: center;
 }
 
 .nav-link:hover {
@@ -244,7 +256,7 @@ body {
     transition: all 0.2s ease;
 }
 
-.venue-link {
+a {
     color: #50fa7b;
     text-decoration: none;
     transition: all 0.2s ease;
