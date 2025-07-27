@@ -7,7 +7,5 @@ slug = "2025-08-14-ward-davis"
 [extra]
 artist = "Ward Davis"
 venue = "Crescent Ballroom"
-venue_url = "https://www.crescentphx.com"
+venue_url = ""
 +++
-
-Ward Davis performs at Crescent Ballroom.

@@ -7,7 +7,5 @@ slug = "2025-09-09-arcy-drive"
 [extra]
 artist = "Arcy Drive"
 venue = "Crescent Ballroom"
-venue_url = "https://www.crescentphx.com"
+venue_url = ""
 +++
-
-Arcy Drive performs at Crescent Ballroom.

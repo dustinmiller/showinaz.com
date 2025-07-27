@@ -6,8 +6,6 @@ slug = "2025-10-02-cannibal-corpse"
 
 [extra]
 artist = "Cannibal Corpse"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Cannibal Corpse performs at The Van Buren.

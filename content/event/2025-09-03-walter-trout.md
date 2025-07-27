@@ -6,8 +6,6 @@ slug = "2025-09-03-walter-trout"
 
 [extra]
 artist = "Walter Trout"
-venue = "MIM"
-venue_url = "https://mim.org"
+venue = "The MIM"
+venue_url = ""
 +++
-
-Walter Trout performs at The MIM.

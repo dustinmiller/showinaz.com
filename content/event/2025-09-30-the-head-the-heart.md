@@ -7,7 +7,5 @@ slug = "2025-09-30-the-head-the-heart"
 [extra]
 artist = "The Head & The Heart"
 venue = "Arizona Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue_url = ""
 +++
-
-The Head & The Heart performs at Arizona Financial Theater.

@@ -6,8 +6,6 @@ slug = "2025-09-06-circle-jerks"
 
 [extra]
 artist = "Circle Jerks"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Circle Jerks performs at The Van Buren.

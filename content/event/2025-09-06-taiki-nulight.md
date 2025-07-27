@@ -1,0 +1,11 @@
++++
+title = "Taiki Nulight at X Phoenix (rooftop pool)"
+date = 2025-09-06
+template = "page.html"
+slug = "2025-09-06-taiki-nulight"
+
+[extra]
+artist = "Taiki Nulight"
+venue = "X Phoenix (rooftop pool)"
+venue_url = ""
++++

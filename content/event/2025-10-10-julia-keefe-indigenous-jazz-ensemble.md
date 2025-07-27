@@ -7,7 +7,5 @@ slug = "2025-10-10-julia-keefe-indigenous-jazz-ensemble"
 [extra]
 artist = "Julia Keefe Indigenous Jazz Ensemble"
 venue = "Fox Theater"
-venue_url = "https://www.foxtheatreaz.com"
+venue_url = ""
 +++
-
-Julia Keefe Indigenous Jazz Ensemble performs at Fox Theater.

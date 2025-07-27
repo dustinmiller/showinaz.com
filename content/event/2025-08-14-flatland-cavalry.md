@@ -6,8 +6,6 @@ slug = "2025-08-14-flatland-cavalry"
 
 [extra]
 artist = "Flatland Cavalry"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Flatland Cavalry performs at The Van Buren.

@@ -6,8 +6,6 @@ slug = "2025-09-18-bird-talker-w-boy-golden"
 
 [extra]
 artist = "Bird Talker w/ Boy Golden"
-venue = "Rebel Lounge"
-venue_url = "https://rebelbar.com"
+venue = "Rebel Lg"
+venue_url = ""
 +++
-
-Bird Talker w/ Boy Golden performs at Rebel Lg.

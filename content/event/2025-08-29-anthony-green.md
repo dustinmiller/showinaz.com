@@ -7,7 +7,5 @@ slug = "2025-08-29-anthony-green"
 [extra]
 artist = "Anthony Green"
 venue = "Crescent Ballroom"
-venue_url = "https://www.crescentphx.com"
+venue_url = ""
 +++
-
-Anthony Green performs at Crescent Ballroom.

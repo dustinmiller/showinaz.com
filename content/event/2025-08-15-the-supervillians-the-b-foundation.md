@@ -7,7 +7,5 @@ slug = "2025-08-15-the-supervillians-the-b-foundation"
 [extra]
 artist = "The Supervillians & The B Foundation"
 venue = "Valley Bar"
-venue_url = "https://thevalleybar.com"
+venue_url = ""
 +++
-
-The Supervillians & The B Foundation performs at Valley Bar.

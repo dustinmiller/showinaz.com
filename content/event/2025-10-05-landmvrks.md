@@ -6,8 +6,6 @@ slug = "2025-10-05-landmvrks"
 
 [extra]
 artist = "Landmvrks"
-venue = "Nile Theater"
-venue_url = "https://theniletheatre.com"
+venue = "The Nile Theater"
+venue_url = ""
 +++
-
-Landmvrks performs at The Nile Theater.

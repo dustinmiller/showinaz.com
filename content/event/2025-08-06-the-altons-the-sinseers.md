@@ -7,7 +7,5 @@ slug = "2025-08-06-the-altons-the-sinseers"
 [extra]
 artist = "The Altons & The Sinseers"
 venue = "Orpheum Theater Flagstaff"
-venue_url = "https://orpheumflagstaff.com"
+venue_url = ""
 +++
-
-The Altons & The Sinseers performs at Orpheum Theater Flagstaff.

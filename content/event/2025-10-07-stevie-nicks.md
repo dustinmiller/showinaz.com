@@ -1,13 +1,11 @@
 +++
-title = "Stevie Nicks at Footprint Center"
+title = "Stevie Nicks at PHX Arena"
 date = 2025-10-07
 template = "page.html"
 slug = "2025-10-07-stevie-nicks"
 
 [extra]
 artist = "Stevie Nicks"
-venue = "Footprint Center"
-venue_url = "https://www.footprintcenter.com"
+venue = "PHX Arena"
+venue_url = ""
 +++
-
-Stevie Nicks performs at Footprint Center.

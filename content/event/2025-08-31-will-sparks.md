@@ -7,7 +7,5 @@ slug = "2025-08-31-will-sparks"
 [extra]
 artist = "Will Sparks"
 venue = "Sunbar"
-venue_url = "https://sunbarphx.com"
+venue_url = ""
 +++
-
-Will Sparks performs at Sunbar.

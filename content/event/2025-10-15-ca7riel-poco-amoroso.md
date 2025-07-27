@@ -7,7 +7,5 @@ slug = "2025-10-15-ca7riel-poco-amoroso"
 [extra]
 artist = "Ca7riel & Poco Amoroso"
 venue = "Walter Wherehouse"
-venue_url = "https://walterwherehouse.com"
+venue_url = ""
 +++
-
-Ca7riel & Poco Amoroso performs at Walter Wherehouse.

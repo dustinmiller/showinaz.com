@@ -6,8 +6,6 @@ slug = "2025-09-25-davina-the-vagabonds"
 
 [extra]
 artist = "Davina & The Vagabonds"
-venue = "MIM"
-venue_url = "https://mim.org"
+venue = "The MIM"
+venue_url = ""
 +++
-
-Davina & The Vagabonds performs at The MIM.

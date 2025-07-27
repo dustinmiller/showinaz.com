@@ -6,8 +6,6 @@ slug = "2025-08-11-something-else"
 
 [extra]
 artist = "Something Else!"
-venue = "MIM"
-venue_url = "https://mim.org"
+venue = "The MIM"
+venue_url = ""
 +++
-
-Something Else! performs at The MIM.

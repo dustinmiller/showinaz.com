@@ -6,8 +6,6 @@ slug = "2025-08-07-decisions-decisions"
 
 [extra]
 artist = "Decisions Decisions"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Decisions Decisions performs at The Van Buren.

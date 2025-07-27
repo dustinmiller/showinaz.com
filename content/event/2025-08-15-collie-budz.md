@@ -6,8 +6,6 @@ slug = "2025-08-15-collie-budz"
 
 [extra]
 artist = "Collie Budz"
-venue = "Marquee Theater"
-venue_url = "https://luckymanonline.com/venues/marquee-theatre"
+venue = "The Marquee Theater"
+venue_url = ""
 +++
-
-Collie Budz performs at The Marquee Theater.

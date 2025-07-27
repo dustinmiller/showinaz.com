@@ -6,8 +6,6 @@ slug = "2025-10-06-ru-paul-s-drag-race"
 
 [extra]
 artist = "Ru Paul's Drag Race"
-venue = "AZ Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue = "AZ Financial Tr"
+venue_url = ""
 +++
-
-Ru Paul's Drag Race performs at AZ Financial Tr.

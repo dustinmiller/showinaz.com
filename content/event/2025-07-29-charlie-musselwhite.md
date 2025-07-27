@@ -6,8 +6,6 @@ slug = "2025-07-29-charlie-musselwhite"
 
 [extra]
 artist = "Charlie Musselwhite"
-venue = "MIM"
-venue_url = "https://mim.org"
+venue = "The MIM"
+venue_url = ""
 +++
-
-Charlie Musselwhite performs at The MIM.

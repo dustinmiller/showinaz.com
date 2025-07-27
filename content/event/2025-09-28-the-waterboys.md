@@ -7,7 +7,5 @@ slug = "2025-09-28-the-waterboys"
 [extra]
 artist = "The Waterboys"
 venue = "Crescent Ballroom"
-venue_url = "https://www.crescentphx.com"
+venue_url = ""
 +++
-
-The Waterboys performs at Crescent Ballroom.

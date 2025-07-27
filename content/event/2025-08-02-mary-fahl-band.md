@@ -6,8 +6,6 @@ slug = "2025-08-02-mary-fahl-band"
 
 [extra]
 artist = "Mary Fahl Band"
-venue = "MIM"
-venue_url = "https://mim.org"
+venue = "The MIM"
+venue_url = ""
 +++
-
-Mary Fahl Band performs at The MIM.

@@ -6,8 +6,6 @@ slug = "2025-09-10-symphony-x"
 
 [extra]
 artist = "Symphony X"
-venue = "Nile Theater"
-venue_url = "https://theniletheatre.com"
+venue = "The Nile Theater"
+venue_url = ""
 +++
-
-Symphony X performs at The Nile Theater.

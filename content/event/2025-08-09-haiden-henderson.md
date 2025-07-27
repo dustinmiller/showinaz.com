@@ -7,7 +7,5 @@ slug = "2025-08-09-haiden-henderson"
 [extra]
 artist = "Haiden Henderson"
 venue = "Rebel Lounge"
-venue_url = "https://rebelbar.com"
+venue_url = ""
 +++
-
-Haiden Henderson performs at Rebel Lounge.

@@ -7,7 +7,5 @@ slug = "2025-07-28-the-mountain-grass-unit"
 [extra]
 artist = "The Mountain Grass Unit"
 venue = "Valley Bar"
-venue_url = "https://thevalleybar.com"
+venue_url = ""
 +++
-
-The Mountain Grass Unit performs at Valley Bar.

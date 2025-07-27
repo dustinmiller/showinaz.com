@@ -6,8 +6,6 @@ slug = "2025-08-14-simple-plan"
 
 [extra]
 artist = "Simple Plan"
-venue = "Arizona Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue = "Arizona Financial Theatr"
+venue_url = ""
 +++
-
-Simple Plan performs at Arizona Financial Theatr.

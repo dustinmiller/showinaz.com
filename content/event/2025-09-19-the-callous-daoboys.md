@@ -7,7 +7,5 @@ slug = "2025-09-19-the-callous-daoboys"
 [extra]
 artist = "The Callous Daoboys"
 venue = "Rebel Lounge"
-venue_url = "https://rebelbar.com"
+venue_url = ""
 +++
-
-The Callous Daoboys performs at Rebel Lounge.

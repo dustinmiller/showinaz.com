@@ -6,8 +6,6 @@ slug = "2025-09-04-thievery-corporation"
 
 [extra]
 artist = "Thievery Corporation"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Thievery Corporation performs at The Van Buren.

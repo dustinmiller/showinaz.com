@@ -6,8 +6,6 @@ slug = "2025-10-17-nx-worries"
 
 [extra]
 artist = "NX Worries"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-NX Worries performs at The Van Buren.

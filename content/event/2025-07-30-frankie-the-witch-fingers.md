@@ -6,8 +6,6 @@ slug = "2025-07-30-frankie-the-witch-fingers"
 
 [extra]
 artist = "Frankie & The Witch Fingers"
-venue = "Rebel Lounge"
-venue_url = "https://rebelbar.com"
+venue = "Rebel L"
+venue_url = ""
 +++
-
-Frankie & The Witch Fingers performs at Rebel L.

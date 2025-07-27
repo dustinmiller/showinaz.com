@@ -9,5 +9,3 @@ artist = "The Uncommon Good"
 venue = "Wasted Grain (Jay Allan's Birthday show)"
 venue_url = ""
 +++
-
-The Uncommon Good performs at Wasted Grain (Jay Allan's Birthday show).

@@ -7,7 +7,5 @@ slug = "2025-08-31-weird-al-yankovic"
 [extra]
 artist = "Weird Al Yankovic"
 venue = "Arizona Financial"
-venue_url = "https://arizonafinancialtheatre.com"
+venue_url = ""
 +++
-
-Weird Al Yankovic performs at Arizona Financial.

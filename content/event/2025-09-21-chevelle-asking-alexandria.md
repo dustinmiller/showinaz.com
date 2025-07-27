@@ -7,7 +7,5 @@ slug = "2025-09-21-chevelle-asking-alexandria"
 [extra]
 artist = "Chevelle, Asking Alexandria"
 venue = "AZ Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue_url = ""
 +++
-
-Chevelle, Asking Alexandria performs at AZ Financial Theater.

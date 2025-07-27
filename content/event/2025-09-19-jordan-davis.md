@@ -7,7 +7,5 @@ slug = "2025-09-19-jordan-davis"
 [extra]
 artist = "Jordan Davis"
 venue = "AZ Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue_url = ""
 +++
-
-Jordan Davis performs at AZ Financial Theater.

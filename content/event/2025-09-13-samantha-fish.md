@@ -7,7 +7,5 @@ slug = "2025-09-13-samantha-fish"
 [extra]
 artist = "Samantha Fish"
 venue = "Celebrity Theater"
-venue_url = "https://celebritytheatre.com"
+venue_url = ""
 +++
-
-Samantha Fish performs at Celebrity Theater.

@@ -6,8 +6,6 @@ slug = "2025-09-11-durand-jones-the-indications"
 
 [extra]
 artist = "Durand Jones & The Indications"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Durand Jones & The Indications performs at The Van Buren.

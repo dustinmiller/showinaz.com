@@ -6,8 +6,6 @@ slug = "2025-10-07-michael-schenker"
 
 [extra]
 artist = "Michael Schenker"
-venue = "Marquee Theater"
-venue_url = "https://luckymanonline.com/venues/marquee-theatre"
+venue = "The Marquee"
+venue_url = ""
 +++
-
-Michael Schenker performs at The Marquee.

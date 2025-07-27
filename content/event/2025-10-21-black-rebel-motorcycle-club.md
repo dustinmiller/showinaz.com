@@ -6,8 +6,6 @@ slug = "2025-10-21-black-rebel-motorcycle-club"
 
 [extra]
 artist = "Black Rebel Motorcycle Club"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Black Rebel Motorcycle Club performs at The Van Buren.

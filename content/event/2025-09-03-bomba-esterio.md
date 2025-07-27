@@ -6,8 +6,6 @@ slug = "2025-09-03-bomba-esterio"
 
 [extra]
 artist = "Bomba Esterio"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Bomba Esterio performs at The Van Buren.

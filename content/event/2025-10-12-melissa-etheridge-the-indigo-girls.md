@@ -7,7 +7,5 @@ slug = "2025-10-12-melissa-etheridge-the-indigo-girls"
 [extra]
 artist = "Melissa Etheridge & The Indigo Girls"
 venue = "Arizona Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue_url = ""
 +++
-
-Melissa Etheridge & The Indigo Girls performs at Arizona Financial Theater.

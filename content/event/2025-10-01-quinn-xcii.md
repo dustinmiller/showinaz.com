@@ -7,7 +7,5 @@ slug = "2025-10-01-quinn-xcii"
 [extra]
 artist = "Quinn XCII"
 venue = "AZ Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue_url = ""
 +++
-
-Quinn XCII performs at AZ Financial Theater.

@@ -7,7 +7,5 @@ slug = "2025-08-09-mystery-skulls"
 [extra]
 artist = "Mystery Skulls"
 venue = "Crescent Ballroom"
-venue_url = "https://www.crescentphx.com"
+venue_url = ""
 +++
-
-Mystery Skulls performs at Crescent Ballroom.

@@ -7,7 +7,5 @@ slug = "2025-09-10-kolohe-kai"
 [extra]
 artist = "Kolohe Kai"
 venue = "Arizona Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue_url = ""
 +++
-
-Kolohe Kai performs at Arizona Financial Theater.

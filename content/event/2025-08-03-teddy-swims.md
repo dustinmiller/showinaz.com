@@ -7,7 +7,5 @@ slug = "2025-08-03-teddy-swims"
 [extra]
 artist = "Teddy Swims"
 venue = "AZ Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue_url = ""
 +++
-
-Teddy Swims performs at AZ Financial Theater.

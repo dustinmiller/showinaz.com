@@ -7,7 +7,5 @@ slug = "2025-10-05-the-legendary-pink-dots"
 [extra]
 artist = "The Legendary Pink Dots"
 venue = "Valley Bar"
-venue_url = "https://thevalleybar.com"
+venue_url = ""
 +++
-
-The Legendary Pink Dots performs at Valley Bar.

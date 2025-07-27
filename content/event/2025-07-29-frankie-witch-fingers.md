@@ -6,8 +6,6 @@ slug = "2025-07-29-frankie-witch-fingers"
 
 [extra]
 artist = "Frankie & Witch Fingers"
-venue = "Club Congress"
-venue_url = "https://hotelcongress.com"
+venue = "Club Congrs"
+venue_url = ""
 +++
-
-Frankie & Witch Fingers performs at Club Congrs.

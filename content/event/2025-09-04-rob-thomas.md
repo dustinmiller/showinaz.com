@@ -6,8 +6,6 @@ slug = "2025-09-04-rob-thomas"
 
 [extra]
 artist = "Rob Thomas"
-venue = "Arizona Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue = "Arizona Financial Theatr"
+venue_url = ""
 +++
-
-Rob Thomas performs at Arizona Financial Theatr.

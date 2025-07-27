@@ -6,8 +6,6 @@ slug = "2025-10-07-maddie-zahm"
 
 [extra]
 artist = "Maddie Zahm"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Maddie Zahm performs at The Van Buren.

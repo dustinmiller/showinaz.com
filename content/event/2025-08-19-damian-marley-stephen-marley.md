@@ -6,8 +6,6 @@ slug = "2025-08-19-damian-marley-stephen-marley"
 
 [extra]
 artist = "Damian Marley & Stephen Marley"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Damian Marley & Stephen Marley performs at The Van Buren.

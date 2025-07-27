@@ -7,7 +7,5 @@ slug = "2025-09-02-doom-scroll"
 [extra]
 artist = "Doom Scroll"
 venue = "Nile Underground"
-venue_url = "https://theniletheatre.com"
+venue_url = ""
 +++
-
-Doom Scroll performs at Nile Underground.

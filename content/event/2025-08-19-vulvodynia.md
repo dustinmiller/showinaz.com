@@ -6,8 +6,6 @@ slug = "2025-08-19-vulvodynia"
 
 [extra]
 artist = "Vulvodynia"
-venue = "Nile Underground"
-venue_url = "https://theniletheatre.com"
+venue = "The Nile Underground"
+venue_url = ""
 +++
-
-Vulvodynia performs at The Nile Underground.

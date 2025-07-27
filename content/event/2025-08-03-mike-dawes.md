@@ -6,8 +6,6 @@ slug = "2025-08-03-mike-dawes"
 
 [extra]
 artist = "Mike Dawes"
-venue = "MIM"
-venue_url = "https://mim.org"
+venue = "The MIM"
+venue_url = ""
 +++
-
-Mike Dawes performs at The MIM.

@@ -7,7 +7,5 @@ slug = "2025-10-20-nicotine-dolls"
 [extra]
 artist = "Nicotine Dolls"
 venue = "Crescent Ballroom"
-venue_url = "https://www.crescentphx.com"
+venue_url = ""
 +++
-
-Nicotine Dolls performs at Crescent Ballroom.

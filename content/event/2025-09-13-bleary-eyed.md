@@ -7,7 +7,5 @@ slug = "2025-09-13-bleary-eyed"
 [extra]
 artist = "Bleary Eyed"
 venue = "Valley Bar"
-venue_url = "https://thevalleybar.com"
+venue_url = ""
 +++
-
-Bleary Eyed performs at Valley Bar.

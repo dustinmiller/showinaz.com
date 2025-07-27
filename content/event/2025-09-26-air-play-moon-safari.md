@@ -6,8 +6,6 @@ slug = "2025-09-26-air-play-moon-safari"
 
 [extra]
 artist = "Air Play Moon Safari"
-venue = "AZ Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue = "AZ Financial Th"
+venue_url = ""
 +++
-
-Air Play Moon Safari performs at AZ Financial Th.

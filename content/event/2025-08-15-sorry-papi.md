@@ -6,8 +6,6 @@ slug = "2025-08-15-sorry-papi"
 
 [extra]
 artist = "Sorry Papi"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Sorry Papi performs at The Van Buren.

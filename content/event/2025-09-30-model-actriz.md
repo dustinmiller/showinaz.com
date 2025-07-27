@@ -7,7 +7,5 @@ slug = "2025-09-30-model-actriz"
 [extra]
 artist = "Model / Actriz"
 venue = "Rebel Lounge"
-venue_url = "https://rebelbar.com"
+venue_url = ""
 +++
-
-Model / Actriz performs at Rebel Lounge.

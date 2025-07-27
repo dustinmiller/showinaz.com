@@ -7,7 +7,5 @@ slug = "2025-09-06-proxima-parada"
 [extra]
 artist = "Proxima Parada"
 venue = "Crescent Ballroom"
-venue_url = "https://www.crescentphx.com"
+venue_url = ""
 +++
-
-Proxima Parada performs at Crescent Ballroom.

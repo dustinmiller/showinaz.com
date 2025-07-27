@@ -6,8 +6,6 @@ slug = "2025-09-28-royel-otis"
 
 [extra]
 artist = "Royel Otis"
-venue = "Marquee Theater"
-venue_url = "https://luckymanonline.com/venues/marquee-theatre"
+venue = "The Marquee Theater"
+venue_url = ""
 +++
-
-Royel Otis performs at The Marquee Theater.

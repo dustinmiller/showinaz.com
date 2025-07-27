@@ -1,5 +1,5 @@
 +++
-title = "Michael Franti & Spearhead at Pepsi Amphitheateritheater"
+title = "Michael Franti & Spearhead at Pepsi Amphitheater"
 date = 2025-08-21
 template = "page.html"
 slug = "2025-08-21-michael-franti-spearhead"
@@ -7,7 +7,5 @@ slug = "2025-08-21-michael-franti-spearhead"
 [extra]
 artist = "Michael Franti & Spearhead"
 venue = "Pepsi Amphitheater"
-venue_url = "https://www.livenation.com/venues/14250/talking-stick-resort-amphitheatre"
+venue_url = ""
 +++
-
-Michael Franti & Spearhead performs at Pepsi Amphitheateritheater.

@@ -7,7 +7,5 @@ slug = "2025-09-01-young-widows"
 [extra]
 artist = "Young Widows"
 venue = "Valley Bar"
-venue_url = "https://thevalleybar.com"
+venue_url = ""
 +++
-
-Young Widows performs at Valley Bar.

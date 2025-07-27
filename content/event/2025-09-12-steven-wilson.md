@@ -6,8 +6,6 @@ slug = "2025-09-12-steven-wilson"
 
 [extra]
 artist = "Steven Wilson"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Steven Wilson performs at The Van Buren.

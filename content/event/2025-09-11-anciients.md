@@ -7,7 +7,5 @@ slug = "2025-09-11-anciients"
 [extra]
 artist = "Anciients"
 venue = "Nile Underground"
-venue_url = "https://theniletheatre.com"
+venue_url = ""
 +++
-
-Anciients performs at Nile Underground.

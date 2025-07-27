@@ -6,8 +6,6 @@ slug = "2025-08-29-kirk-whalum"
 
 [extra]
 artist = "Kirk Whalum"
-venue = "MIM"
-venue_url = "https://mim.org"
+venue = "The MIM"
+venue_url = ""
 +++
-
-Kirk Whalum performs at The MIM.

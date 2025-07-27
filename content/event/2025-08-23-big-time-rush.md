@@ -1,13 +1,11 @@
 +++
-title = "Big Time Rush at Talking Stick Amphitheater"
+title = "Big Time Rush at Talking Stick Amph"
 date = 2025-08-23
 template = "page.html"
 slug = "2025-08-23-big-time-rush"
 
 [extra]
 artist = "Big Time Rush"
-venue = "Talking Stick Amphitheater"
-venue_url = "https://www.livenation.com/venues/14250/talking-stick-resort-amphitheatre"
+venue = "Talking Stick Amph"
+venue_url = ""
 +++
-
-Big Time Rush performs at Talking Stick Amphitheater.

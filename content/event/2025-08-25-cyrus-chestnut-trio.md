@@ -6,8 +6,6 @@ slug = "2025-08-25-cyrus-chestnut-trio"
 
 [extra]
 artist = "Cyrus Chestnut Trio"
-venue = "MIM"
-venue_url = "https://mim.org"
+venue = "The MIM"
+venue_url = ""
 +++
-
-Cyrus Chestnut Trio performs at The MIM.

@@ -7,7 +7,5 @@ slug = "2025-09-19-slow-crush"
 [extra]
 artist = "Slow Crush"
 venue = "Crescent Ballroom"
-venue_url = "https://www.crescentphx.com"
+venue_url = ""
 +++
-
-Slow Crush performs at Crescent Ballroom.

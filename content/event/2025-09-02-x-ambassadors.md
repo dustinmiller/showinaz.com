@@ -6,8 +6,6 @@ slug = "2025-09-02-x-ambassadors"
 
 [extra]
 artist = "X Ambassadors"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-X Ambassadors performs at The Van Buren.

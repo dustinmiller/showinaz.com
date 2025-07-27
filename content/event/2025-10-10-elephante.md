@@ -7,7 +7,5 @@ slug = "2025-10-10-elephante"
 [extra]
 artist = "Elephante"
 venue = "Darkstar"
-venue_url = "https://www.darkstarbar.com"
+venue_url = ""
 +++
-
-Elephante performs at Darkstar.

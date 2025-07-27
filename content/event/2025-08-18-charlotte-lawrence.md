@@ -7,7 +7,5 @@ slug = "2025-08-18-charlotte-lawrence"
 [extra]
 artist = "Charlotte Lawrence"
 venue = "Valley Bar"
-venue_url = "https://thevalleybar.com"
+venue_url = ""
 +++
-
-Charlotte Lawrence performs at Valley Bar.

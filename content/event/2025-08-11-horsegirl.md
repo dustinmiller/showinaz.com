@@ -7,7 +7,5 @@ slug = "2025-08-11-horsegirl"
 [extra]
 artist = "Horsegirl"
 venue = "Valley Bar"
-venue_url = "https://thevalleybar.com"
+venue_url = ""
 +++
-
-Horsegirl performs at Valley Bar.

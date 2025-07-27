@@ -6,8 +6,6 @@ slug = "2025-09-11-lucy-dacus"
 
 [extra]
 artist = "Lucy Dacus"
-venue = "Arizona Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue = "Arizona Financial Theatr"
+venue_url = ""
 +++
-
-Lucy Dacus performs at Arizona Financial Theatr.

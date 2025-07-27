@@ -7,7 +7,5 @@ slug = "2025-09-30-pup-jeff-rosenstock"
 [extra]
 artist = "Pup & Jeff Rosenstock"
 venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue_url = ""
 +++
-
-Pup & Jeff Rosenstock performs at Van Buren.

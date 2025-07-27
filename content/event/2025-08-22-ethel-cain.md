@@ -7,7 +7,5 @@ slug = "2025-08-22-ethel-cain"
 [extra]
 artist = "Ethel Cain"
 venue = "Arizona Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue_url = ""
 +++
-
-Ethel Cain performs at Arizona Financial Theater.

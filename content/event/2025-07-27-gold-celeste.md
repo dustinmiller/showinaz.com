@@ -7,7 +7,5 @@ slug = "2025-07-27-gold-celeste"
 [extra]
 artist = "Gold Celeste"
 venue = "Valley Bar"
-venue_url = "https://thevalleybar.com"
+venue_url = ""
 +++
-
-Gold Celeste performs at Valley Bar.

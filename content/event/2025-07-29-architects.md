@@ -6,8 +6,6 @@ slug = "2025-07-29-architects"
 
 [extra]
 artist = "Architects"
-venue = "Van Buren"
-venue_url = "https://www.thevanburenphx.com"
+venue = "The Van Buren"
+venue_url = ""
 +++
-
-Architects performs at The Van Buren.

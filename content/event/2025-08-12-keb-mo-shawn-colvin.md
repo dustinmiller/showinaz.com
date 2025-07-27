@@ -7,7 +7,5 @@ slug = "2025-08-12-keb-mo-shawn-colvin"
 [extra]
 artist = "Keb' Mo' & Shawn Colvin"
 venue = "Fox Theater"
-venue_url = "https://www.foxtheatreaz.com"
+venue_url = ""
 +++
-
-Keb' Mo' & Shawn Colvin performs at Fox Theater.

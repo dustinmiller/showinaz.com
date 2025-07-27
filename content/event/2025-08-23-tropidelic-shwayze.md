@@ -1,13 +1,11 @@
 +++
-title = "Tropidelic & Shwayze at Crescent Ballroom"
+title = "Tropidelic & Shwayze at Crescent B.r."
 date = 2025-08-23
 template = "page.html"
 slug = "2025-08-23-tropidelic-shwayze"
 
 [extra]
 artist = "Tropidelic & Shwayze"
-venue = "Crescent Ballroom"
-venue_url = "https://www.crescentphx.com"
+venue = "Crescent B.r."
+venue_url = ""
 +++
-
-Tropidelic & Shwayze performs at Crescent Ballroom.

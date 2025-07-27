@@ -6,8 +6,6 @@ slug = "2025-10-14-jed-harrelson"
 
 [extra]
 artist = "Jed Harrelson"
-venue = "Rhythm Room"
-venue_url = "https://www.rhythmroom.com"
+venue = "The Rhythm Room"
+venue_url = ""
 +++
-
-Jed Harrelson performs at The Rhythm Room.

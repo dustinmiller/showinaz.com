@@ -6,8 +6,6 @@ slug = "2025-10-10-all-shall-perish"
 
 [extra]
 artist = "All Shall Perish"
-venue = "Nile Theater"
-venue_url = "https://theniletheatre.com"
+venue = "The Nile Theater"
+venue_url = ""
 +++
-
-All Shall Perish performs at The Nile Theater.

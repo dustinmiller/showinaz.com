@@ -6,8 +6,6 @@ slug = "2025-09-13-kota-the-friend"
 
 [extra]
 artist = "Kota the Friend"
-venue = "Nile Theater"
-venue_url = "https://theniletheatre.com"
+venue = "The Nile Theater"
+venue_url = ""
 +++
-
-Kota the Friend performs at The Nile Theater.

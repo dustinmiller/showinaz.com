@@ -1,0 +1,11 @@
++++
+title = "Vader & Kataklysm at The Nile"
+date = 2025-10-09
+template = "page.html"
+slug = "2025-10-09-vader-kataklysm"
+
+[extra]
+artist = "Vader & Kataklysm"
+venue = "The Nile"
+venue_url = ""
++++

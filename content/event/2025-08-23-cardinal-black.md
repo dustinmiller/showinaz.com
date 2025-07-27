@@ -6,8 +6,6 @@ slug = "2025-08-23-cardinal-black"
 
 [extra]
 artist = "Cardinal Black"
-venue = "Rebel Lounge"
-venue_url = "https://rebelbar.com"
+venue = "The Rebel Lounge"
+venue_url = ""
 +++
-
-Cardinal Black performs at The Rebel Lounge.

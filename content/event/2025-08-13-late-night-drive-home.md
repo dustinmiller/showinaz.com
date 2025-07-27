@@ -6,8 +6,6 @@ slug = "2025-08-13-late-night-drive-home"
 
 [extra]
 artist = "Late Night Drive Home"
-venue = "Crescent Ballroom"
-venue_url = "https://www.crescentphx.com"
+venue = "Crescent BR"
+venue_url = ""
 +++
-
-Late Night Drive Home performs at Crescent BR.

@@ -7,7 +7,5 @@ slug = "2025-08-06-femi-kuti-the-positive-force"
 [extra]
 artist = "Femi Kuti & the Positive Force"
 venue = "MIM"
-venue_url = "https://mim.org"
+venue_url = ""
 +++
-
-Femi Kuti & the Positive Force performs at MIM.

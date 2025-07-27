@@ -7,7 +7,5 @@ slug = "2025-10-01-midnight-generation"
 [extra]
 artist = "Midnight Generation"
 venue = "Rebel Lounge"
-venue_url = "https://rebelbar.com"
+venue_url = ""
 +++
-
-Midnight Generation performs at Rebel Lounge.

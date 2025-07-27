@@ -6,8 +6,6 @@ slug = "2025-08-13-kevin-kaarl"
 
 [extra]
 artist = "Kevin Kaarl"
-venue = "Arizona Financial Theater"
-venue_url = "https://arizonafinancialtheatre.com"
+venue = "Arizona Financial Theatr"
+venue_url = ""
 +++
-
-Kevin Kaarl performs at Arizona Financial Theatr.

@@ -7,7 +7,5 @@ slug = "2025-09-16-pile-w-nnamdi"
 [extra]
 artist = "Pile w/ Nnamdi"
 venue = "Rebel Lounge"
-venue_url = "https://rebelbar.com"
+venue_url = ""
 +++
-
-Pile w/ Nnamdi performs at Rebel Lounge.

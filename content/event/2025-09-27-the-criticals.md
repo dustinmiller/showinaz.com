@@ -7,7 +7,5 @@ slug = "2025-09-27-the-criticals"
 [extra]
 artist = "The Criticals"
 venue = "Valley Bar"
-venue_url = "https://thevalleybar.com"
+venue_url = ""
 +++
-
-The Criticals performs at Valley Bar.

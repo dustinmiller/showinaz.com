@@ -1,0 +1,11 @@
++++
+title = "Devon Allman's Blues Summit at MIM"
+date = 2025-09-04
+template = "page.html"
+slug = "2025-09-04-devon-allman-s-blues-summit"
+
+[extra]
+artist = "Devon Allman's Blues Summit"
+venue = "MIM"
+venue_url = ""
++++
