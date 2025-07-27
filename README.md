@@ -12,6 +12,8 @@ A sleek, fast, and responsive website showcasing upcoming concerts and live musi
 🚀 **Lightning Fast** - Static site generation for optimal performance  
 🔄 **Auto-Updates** - Past events automatically cleaned up daily  
 🎪 **Venue Links** - Direct links to venue websites and tickets  
+📱 **Social Sharing** - Optimized link previews with proper Open Graph tags  
+🛠️ **Smart Normalization** - Automatic venue name standardization and URL addition  
 
 ## 🏗️ Tech Stack
 
@@ -45,48 +47,72 @@ zola serve
    8/5 Local Natives @ Walter Studios
    ```
 
-2. **Generate event files:**
+2. **Generate and normalize event files:**
    ```bash
-   ./generate_shows.sh
+   make setup-events
+   # Or manually:
+   ./scripts/generate_shows.sh
+   python3 scripts/normalize_venues.py
    ```
 
 3. **Preview your changes:**
    ```bash
-   zola serve
+   make serve
    ```
 
 ## 🛠️ Development
 
 ### Commands
 ```bash
-# Build for production
-zola build
+# See all available commands
+make help
 
-# Validate site
-zola check
+# Build for production
+make build
+
+# Start development server
+make serve
+
+# Generate events from list.txt
+make generate
+
+# Normalize venue names and add URLs
+make normalize-venues
 
 # Clean up past events
-./remove_past_shows.sh
+make remove-past
+
+# Complete event setup (generate + normalize)
+make setup-events
 ```
 
 ### Project Structure
 ```
 ├── content/event/          # Auto-generated event markdown files
 ├── templates/             # HTML templates
-│   ├── base.html         # Main layout
-│   ├── shows.html        # Event listing page
+│   ├── base.html         # Main layout with social media tags
+│   ├── shows.html        # Event listing page with filtering
 │   └── index.html        # Homepage
 ├── static/               # CSS, images, assets
-├── generate_shows.sh     # Event generation script
-├── remove_past_shows.sh  # Cleanup script
-└── list.txt             # Show data input
+│   ├── logo.png          # Main logo
+│   └── logo-social.png   # Social media optimized logo
+├── scripts/              # Automation scripts
+│   ├── generate_shows.sh # Event generation from list.txt
+│   ├── remove_past_shows.sh # Cleanup past events
+│   └── normalize_venues.py # Venue name & URL normalization
+├── Makefile              # Self-documenting build commands
+└── list.txt             # Show data input file
 ```
 
 ## 🤖 Automation
 
 **Daily Cleanup** - GitHub Actions automatically removes past events every day at 6 AM EST, keeping the site fresh and current.
 
-**Content Generation** - Simple bash scripts convert plain text show listings into properly formatted markdown files with metadata.
+**Content Generation** - Bash scripts convert plain text show listings into properly formatted markdown files with metadata.
+
+**Venue Normalization** - Python script automatically normalizes venue names, adds official URLs, and fixes TOML formatting issues.
+
+**Social Media Optimization** - Auto-generated Open Graph and Twitter Card tags ensure proper link previews with optimized logos.
 
 ## 🎨 Design Philosophy
 
