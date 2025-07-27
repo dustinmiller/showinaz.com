@@ -7,5 +7,5 @@ slug = "2025-08-15-chainbreaker"
 [extra]
 artist = "Chainbreaker"
 venue = "San Tan Gardens"
-venue_url = ""
+venue_url = "https://santanbrewing.com/santan-gardens/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-07-27-vinyl-station"
 [extra]
 artist = "Vinyl Station"
 venue = "Dynamite Beer Co"
-venue_url = ""
+venue_url = "https://www.dynamitebeer.com/"
 +++

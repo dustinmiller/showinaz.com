@@ -7,5 +7,5 @@ slug = "2025-08-09-planck-love-mischief"
 [extra]
 artist = "Planck & Love Mischief"
 venue = "San Tan Gardens"
-venue_url = ""
+venue_url = "https://santanbrewing.com/santan-gardens/"
 +++

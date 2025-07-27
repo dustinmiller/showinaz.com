@@ -7,5 +7,5 @@ slug = "2025-08-09-sunday-scaries"
 [extra]
 artist = "Sunday Scaries"
 venue = "X Phoenix"
-venue_url = ""
+venue_url = "https://www.thexlife.co/locations/phoenix"
 +++

@@ -1,5 +1,5 @@
 +++
-title = "Dub & Down w/ friends at Orpheum Theater"
+title = "Dub & Down w/ friends at Orpheum Theater Phoenix"
 date = 2025-08-22
 template = "page.html"
 slug = "2025-08-22-dub-down-w-friends"
