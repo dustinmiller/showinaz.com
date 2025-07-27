@@ -7,5 +7,5 @@ slug = "2025-10-11-mexican-slum-rats"
 [extra]
 artist = "Mexican Slum Rats"
 venue = "Club Congress"
-venue_url = ""
+venue_url = "https://www.hotelcongress.com/club-congress/"
 +++

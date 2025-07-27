@@ -7,5 +7,5 @@ slug = "2025-09-05-jean-dawson"
 [extra]
 artist = "Jean Dawson"
 venue = "191 Toole"
-venue_url = ""
+venue_url = "https://www.191toole.com/"
 +++

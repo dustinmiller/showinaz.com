@@ -7,5 +7,5 @@ slug = "2025-08-03-chris-travis"
 [extra]
 artist = "Chris Travis"
 venue = "The Marquee Theater"
-venue_url = ""
+venue_url = "https://www.luckymanonline.com/venue/marquee-theatre/"
 +++

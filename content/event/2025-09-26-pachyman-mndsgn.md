@@ -7,5 +7,5 @@ slug = "2025-09-26-pachyman-mndsgn"
 [extra]
 artist = "Pachyman & Mndsgn"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

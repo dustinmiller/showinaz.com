@@ -7,7 +7,7 @@ slug = "2025-08-15-wonkywilla"
 [extra]
 artist = "Wonkywilla"
 venue = "Walter Studios"
-venue_url = "https://walterstudios.com"
+venue_url = "https://walterstudios.com/"
 +++
 
 Wonkywilla performs at Walter Studios.

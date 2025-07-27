@@ -6,6 +6,6 @@ slug = "2025-11-15-the-fab-four-beatles-tribute"
 
 [extra]
 artist = "The Fab Four (Beatles Tribute)"
-venue = "The Fox Theater"
-venue_url = ""
+venue = "Fox Theater"
+venue_url = "https://www.foxtheatretucson.com/"
 +++

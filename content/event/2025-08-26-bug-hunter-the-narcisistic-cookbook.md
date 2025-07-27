@@ -7,5 +7,5 @@ slug = "2025-08-26-bug-hunter-the-narcisistic-cookbook"
 [extra]
 artist = "Bug Hunter & The Narcisistic Cookbook"
 venue = "The Rebel Lounge"
-venue_url = ""
+venue_url = "https://www.rebelphx.com/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-09-03-boys-like-girls"
 [extra]
 artist = "Boys Like Girls"
 venue = "The Rialto Theater"
-venue_url = ""
+venue_url = "https://www.rialtotheatre.com/"
 +++

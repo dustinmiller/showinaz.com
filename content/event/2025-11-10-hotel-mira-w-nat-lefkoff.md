@@ -7,5 +7,5 @@ slug = "2025-11-10-hotel-mira-w-nat-lefkoff"
 [extra]
 artist = "Hotel Mira w/ Nat Lefkoff"
 venue = "The Rebel Lounge"
-venue_url = ""
+venue_url = "https://www.rebelphx.com/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-11-03-willi-carlisle"
 [extra]
 artist = "Willi Carlisle"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

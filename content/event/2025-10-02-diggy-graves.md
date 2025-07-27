@@ -6,6 +6,6 @@ slug = "2025-10-02-diggy-graves"
 
 [extra]
 artist = "Diggy Graves"
-venue = "Rebel Lounge"
-venue_url = ""
+venue = "The Rebel Lounge"
+venue_url = "https://www.rebelphx.com/"
 +++

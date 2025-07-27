@@ -7,5 +7,5 @@ slug = "2025-08-22-taj-farrant"
 [extra]
 artist = "Taj Farrant"
 venue = "191 Toole"
-venue_url = ""
+venue_url = "https://www.191toole.com/"
 +++

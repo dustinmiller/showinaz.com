@@ -7,5 +7,5 @@ slug = "2025-12-06-house-of-harm"
 [extra]
 artist = "House of Harm"
 venue = "Last Exit Live"
-venue_url = ""
+venue_url = "https://lastexitlive.com/"
 +++

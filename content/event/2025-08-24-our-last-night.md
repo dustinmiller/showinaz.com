@@ -7,5 +7,5 @@ slug = "2025-08-24-our-last-night"
 [extra]
 artist = "Our Last Night"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

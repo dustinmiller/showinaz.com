@@ -7,5 +7,5 @@ slug = "2025-09-23-s-g-goodman"
 [extra]
 artist = "S.G. Goodman"
 venue = "Club Congress"
-venue_url = ""
+venue_url = "https://www.hotelcongress.com/club-congress/"
 +++

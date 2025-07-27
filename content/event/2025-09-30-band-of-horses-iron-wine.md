@@ -6,6 +6,6 @@ slug = "2025-09-30-band-of-horses-iron-wine"
 
 [extra]
 artist = "Band Of Horses, Iron & Wine"
-venue = "Pepsi Amphitheater"
-venue_url = ""
+venue = "Ak-Chin Pavilion"
+venue_url = "https://www.livenation.com/venue/KovZpZAEAkeA/ak-chin-pavilion-events"
 +++

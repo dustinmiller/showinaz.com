@@ -7,5 +7,5 @@ slug = "2025-07-30-cliffdiver"
 [extra]
 artist = "Cliffdiver"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

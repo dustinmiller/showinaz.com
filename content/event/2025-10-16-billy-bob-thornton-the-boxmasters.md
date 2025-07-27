@@ -6,6 +6,6 @@ slug = "2025-10-16-billy-bob-thornton-the-boxmasters"
 
 [extra]
 artist = "Billy Bob Thornton & The Boxmasters"
-venue = "Yucca North"
-venue_url = ""
+venue = "Yucca Tap Room"
+venue_url = "https://www.yuccatap.com/"
 +++

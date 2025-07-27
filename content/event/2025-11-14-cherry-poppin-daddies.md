@@ -7,5 +7,5 @@ slug = "2025-11-14-cherry-poppin-daddies"
 [extra]
 artist = "Cherry Poppin Daddies"
 venue = "Fox Theater"
-venue_url = ""
+venue_url = "https://www.foxtheatretucson.com/"
 +++

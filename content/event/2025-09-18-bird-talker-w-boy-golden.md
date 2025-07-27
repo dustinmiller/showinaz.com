@@ -6,6 +6,6 @@ slug = "2025-09-18-bird-talker-w-boy-golden"
 
 [extra]
 artist = "Bird Talker w/ Boy Golden"
-venue = "Rebel Lg"
-venue_url = ""
+venue = "The Rebel Lounge"
+venue_url = "https://www.rebelphx.com/"
 +++

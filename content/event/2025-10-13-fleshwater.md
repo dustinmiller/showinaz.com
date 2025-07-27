@@ -6,6 +6,6 @@ slug = "2025-10-13-fleshwater"
 
 [extra]
 artist = "Fleshwater"
-venue = "The Nile"
-venue_url = ""
+venue = "The Nile Theater"
+venue_url = "https://theniletheatre.com/"
 +++

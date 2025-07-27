@@ -7,5 +7,5 @@ slug = "2025-10-23-sons-of-habit"
 [extra]
 artist = "Sons of Habit"
 venue = "The Rebel Lounge"
-venue_url = ""
+venue_url = "https://www.rebelphx.com/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-09-23-castle-rat"
 [extra]
 artist = "Castle Rat"
 venue = "Last Exit Live"
-venue_url = ""
+venue_url = "https://lastexitlive.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-11-06-the-altons-the-sinseers"
 
 [extra]
 artist = "The Altons & The Sinseers"
-venue = "The Rialto"
-venue_url = ""
+venue = "The Rialto Theater"
+venue_url = "https://www.rialtotheatre.com/"
 +++

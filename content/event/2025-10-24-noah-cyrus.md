@@ -7,5 +7,5 @@ slug = "2025-10-24-noah-cyrus"
 [extra]
 artist = "Noah Cyrus"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

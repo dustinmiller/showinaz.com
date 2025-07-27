@@ -7,5 +7,5 @@ slug = "2025-09-18-darren-kiely"
 [extra]
 artist = "Darren Kiely"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

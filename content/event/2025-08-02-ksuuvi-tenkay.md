@@ -6,6 +6,6 @@ slug = "2025-08-02-ksuuvi-tenkay"
 
 [extra]
 artist = "Ksuuvi & Tenkay"
-venue = "The Nile Undergrnd"
-venue_url = ""
+venue = "Nile Underground"
+venue_url = "https://theniletheatre.com/"
 +++

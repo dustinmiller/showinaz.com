@@ -7,5 +7,5 @@ slug = "2025-08-12-keb-mo-shawn-colvin"
 [extra]
 artist = "Keb' Mo' & Shawn Colvin"
 venue = "Fox Theater"
-venue_url = ""
+venue_url = "https://www.foxtheatretucson.com/"
 +++

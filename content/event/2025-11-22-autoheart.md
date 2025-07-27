@@ -7,5 +7,5 @@ slug = "2025-11-22-autoheart"
 [extra]
 artist = "AutoHeart"
 venue = "The Nile Theater"
-venue_url = ""
+venue_url = "https://theniletheatre.com/"
 +++

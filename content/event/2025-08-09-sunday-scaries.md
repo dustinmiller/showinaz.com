@@ -6,6 +6,6 @@ slug = "2025-08-09-sunday-scaries"
 
 [extra]
 artist = "Sunday Scaries"
-venue = "X Phoenix (rooftop pool party)"
+venue = "X Phoenix"
 venue_url = ""
 +++

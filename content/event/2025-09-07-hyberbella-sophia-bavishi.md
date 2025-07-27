@@ -6,6 +6,6 @@ slug = "2025-09-07-hyberbella-sophia-bavishi"
 
 [extra]
 artist = "Hyberbella & Sophia Bavishi"
-venue = "Crescent"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-08-27-kali-uchis"
 
 [extra]
 artist = "Kali Uchis"
-venue = "PHX Arena"
-venue_url = ""
+venue = "Footprint Center"
+venue_url = "https://www.footprintcenter.com/"
 +++

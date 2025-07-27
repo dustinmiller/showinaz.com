@@ -6,6 +6,6 @@ slug = "2025-09-14-jontavious-willis"
 
 [extra]
 artist = "Jontavious Willis"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

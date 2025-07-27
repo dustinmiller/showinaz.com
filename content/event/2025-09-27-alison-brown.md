@@ -6,6 +6,6 @@ slug = "2025-09-27-alison-brown"
 
 [extra]
 artist = "Alison Brown"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

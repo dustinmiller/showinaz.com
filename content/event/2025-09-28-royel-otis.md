@@ -7,5 +7,5 @@ slug = "2025-09-28-royel-otis"
 [extra]
 artist = "Royel Otis"
 venue = "The Marquee Theater"
-venue_url = ""
+venue_url = "https://www.luckymanonline.com/venue/marquee-theatre/"
 +++

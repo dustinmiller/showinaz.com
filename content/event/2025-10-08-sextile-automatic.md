@@ -6,6 +6,6 @@ slug = "2025-10-08-sextile-automatic"
 
 [extra]
 artist = "Sextile & Automatic"
-venue = "Crescent Ballrm"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

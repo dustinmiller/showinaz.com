@@ -7,5 +7,5 @@ slug = "2025-08-19-jerry-cantrell"
 [extra]
 artist = "Jerry Cantrell"
 venue = "The Marquee Theater"
-venue_url = ""
+venue_url = "https://www.luckymanonline.com/venue/marquee-theatre/"
 +++

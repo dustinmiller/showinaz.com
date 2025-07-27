@@ -6,6 +6,6 @@ slug = "2025-09-09-the-melvins"
 
 [extra]
 artist = "The Melvins"
-venue = "Yucca North"
-venue_url = ""
+venue = "Yucca Tap Room"
+venue_url = "https://www.yuccatap.com/"
 +++

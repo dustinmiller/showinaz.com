@@ -7,5 +7,5 @@ slug = "2025-10-06-emotional-oranges"
 [extra]
 artist = "Emotional Oranges"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

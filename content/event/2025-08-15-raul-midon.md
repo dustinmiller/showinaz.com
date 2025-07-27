@@ -6,6 +6,6 @@ slug = "2025-08-15-raul-midon"
 
 [extra]
 artist = "Raul Midon"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

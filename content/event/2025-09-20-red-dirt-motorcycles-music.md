@@ -6,6 +6,6 @@ slug = "2025-09-20-red-dirt-motorcycles-music"
 
 [extra]
 artist = "Red Dirt Motorcycles & Music"
-venue = "Pepsi Amphitheater"
-venue_url = ""
+venue = "Ak-Chin Pavilion"
+venue_url = "https://www.livenation.com/venue/KovZpZAEAkeA/ak-chin-pavilion-events"
 +++

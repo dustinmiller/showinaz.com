@@ -7,5 +7,5 @@ slug = "2025-11-14-the-happy-fits"
 [extra]
 artist = "The Happy Fits"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

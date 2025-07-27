@@ -6,6 +6,6 @@ slug = "2025-08-16-bad-cactus-brass-band"
 
 [extra]
 artist = "Bad Cactus Brass Band"
-venue = "Crescent BR"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

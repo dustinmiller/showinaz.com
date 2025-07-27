@@ -7,5 +7,5 @@ slug = "2025-09-12-elias-medina"
 [extra]
 artist = "Elias Medina"
 venue = "The Rialto Theater"
-venue_url = ""
+venue_url = "https://www.rialtotheatre.com/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-12-09-andy-bell-of-erasure"
 [extra]
 artist = "Andy Bell of Erasure"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-09-19-jordan-davis"
 
 [extra]
 artist = "Jordan Davis"
-venue = "AZ Financial Theater"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-10-08-panda-bear"
 [extra]
 artist = "Panda Bear"
 venue = "The Rialto Theater"
-venue_url = ""
+venue_url = "https://www.rialtotheatre.com/"
 +++

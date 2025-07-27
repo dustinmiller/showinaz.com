@@ -6,6 +6,6 @@ slug = "2025-08-14-slightly-stoopid"
 
 [extra]
 artist = "Slightly Stoopid"
-venue = "Talking Stick Amph"
-venue_url = ""
+venue = "Talking Stick Resort Amphitheatre"
+venue_url = "https://www.talkingstickresortamphitheatre.com/"
 +++

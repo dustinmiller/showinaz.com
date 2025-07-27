@@ -6,6 +6,6 @@ slug = "2025-07-27-the-word-alive"
 
 [extra]
 artist = "The Word Alive"
-venue = "The Nile"
-venue_url = ""
+venue = "The Nile Theater"
+venue_url = "https://theniletheatre.com/"
 +++

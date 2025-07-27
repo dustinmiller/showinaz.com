@@ -7,5 +7,5 @@ slug = "2025-08-19-damian-marley-stephen-marley"
 [extra]
 artist = "Damian Marley & Stephen Marley"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

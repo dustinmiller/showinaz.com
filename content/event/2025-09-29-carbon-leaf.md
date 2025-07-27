@@ -6,6 +6,6 @@ slug = "2025-09-29-carbon-leaf"
 
 [extra]
 artist = "Carbon Leaf"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

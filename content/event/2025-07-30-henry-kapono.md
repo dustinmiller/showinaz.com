@@ -6,6 +6,6 @@ slug = "2025-07-30-henry-kapono"
 
 [extra]
 artist = "Henry Kapono"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

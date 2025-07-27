@@ -7,5 +7,5 @@ slug = "2025-12-21-squirrel-nut-zippers"
 [extra]
 artist = "Squirrel Nut Zippers"
 venue = "Fox Theater"
-venue_url = ""
+venue_url = "https://www.foxtheatretucson.com/"
 +++

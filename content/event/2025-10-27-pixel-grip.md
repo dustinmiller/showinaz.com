@@ -7,5 +7,5 @@ slug = "2025-10-27-pixel-grip"
 [extra]
 artist = "Pixel Grip"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

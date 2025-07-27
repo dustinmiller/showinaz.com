@@ -7,5 +7,5 @@ slug = "2025-08-08-molly-santana"
 [extra]
 artist = "Molly Santana"
 venue = "Walter Studios"
-venue_url = ""
+venue_url = "https://walterstudios.com/"
 +++

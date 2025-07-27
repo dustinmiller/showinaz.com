@@ -6,6 +6,6 @@ slug = "2025-07-28-photobooth-paper-flower"
 
 [extra]
 artist = "Photobooth, Paper Flower"
-venue = "Rebel Lge"
-venue_url = ""
+venue = "The Rebel Lounge"
+venue_url = "https://www.rebelphx.com/"
 +++

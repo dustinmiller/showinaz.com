@@ -7,5 +7,5 @@ slug = "2025-08-11-redferrin"
 [extra]
 artist = "Redferrin"
 venue = "Crescent Ballroom"
-venue_url = ""
+venue_url = "https://www.crescentphx.com/"
 +++

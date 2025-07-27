@@ -6,6 +6,6 @@ slug = "2025-09-30-model-actriz"
 
 [extra]
 artist = "Model / Actriz"
-venue = "Rebel Lounge"
-venue_url = ""
+venue = "The Rebel Lounge"
+venue_url = "https://www.rebelphx.com/"
 +++

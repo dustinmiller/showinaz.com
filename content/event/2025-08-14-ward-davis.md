@@ -7,5 +7,5 @@ slug = "2025-08-14-ward-davis"
 [extra]
 artist = "Ward Davis"
 venue = "Crescent Ballroom"
-venue_url = ""
+venue_url = "https://www.crescentphx.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-10-11-wednesday"
 
 [extra]
 artist = "Wednesday"
-venue = "The Crescent Ballroom"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

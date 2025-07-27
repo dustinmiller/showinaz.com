@@ -7,5 +7,5 @@ slug = "2025-10-15-danny-worsnop"
 [extra]
 artist = "Danny Worsnop"
 venue = "Rockbar"
-venue_url = ""
+venue_url = "https://rockbarscottsdale.com/"
 +++

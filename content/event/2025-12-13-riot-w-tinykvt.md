@@ -7,5 +7,5 @@ slug = "2025-12-13-riot-w-tinykvt"
 [extra]
 artist = "Riot w/ TinyKvt"
 venue = "Darkstar"
-venue_url = ""
+venue_url = "https://www.darkstarbar.com/"
 +++

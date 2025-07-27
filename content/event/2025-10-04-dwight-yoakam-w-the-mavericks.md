@@ -6,6 +6,6 @@ slug = "2025-10-04-dwight-yoakam-w-the-mavericks"
 
 [extra]
 artist = "Dwight Yoakam w/ The Mavericks"
-venue = "Mesa Amphitheater"
-venue_url = ""
+venue = "Mesa Amphitheatre"
+venue_url = "https://www.mesaamp.com/"
 +++

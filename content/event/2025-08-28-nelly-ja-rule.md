@@ -6,6 +6,6 @@ slug = "2025-08-28-nelly-ja-rule"
 
 [extra]
 artist = "Nelly & Ja Rule"
-venue = "Talking Stick Amph"
-venue_url = ""
+venue = "Talking Stick Resort Amphitheatre"
+venue_url = "https://www.talkingstickresortamphitheatre.com/"
 +++

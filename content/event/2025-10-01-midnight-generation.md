@@ -6,6 +6,6 @@ slug = "2025-10-01-midnight-generation"
 
 [extra]
 artist = "Midnight Generation"
-venue = "Rebel Lounge"
-venue_url = ""
+venue = "The Rebel Lounge"
+venue_url = "https://www.rebelphx.com/"
 +++

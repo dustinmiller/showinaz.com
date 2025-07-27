@@ -7,5 +7,5 @@ slug = "2025-09-28-daisy-the-great"
 [extra]
 artist = "Daisy The Great"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

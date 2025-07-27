@@ -6,6 +6,6 @@ slug = "2025-09-23-mae-the-spill-canvases"
 
 [extra]
 artist = "Mae & The Spill Canvases"
-venue = "Crescent"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

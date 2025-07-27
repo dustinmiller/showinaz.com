@@ -6,6 +6,6 @@ slug = "2025-10-16-soft-blue-shimmer"
 
 [extra]
 artist = "Soft Blue Shimmer"
-venue = "Rebel Lounge"
-venue_url = ""
+venue = "The Rebel Lounge"
+venue_url = "https://www.rebelphx.com/"
 +++

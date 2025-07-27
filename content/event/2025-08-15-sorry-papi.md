@@ -7,5 +7,5 @@ slug = "2025-08-15-sorry-papi"
 [extra]
 artist = "Sorry Papi"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

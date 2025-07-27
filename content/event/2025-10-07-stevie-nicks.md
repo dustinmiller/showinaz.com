@@ -6,6 +6,6 @@ slug = "2025-10-07-stevie-nicks"
 
 [extra]
 artist = "Stevie Nicks"
-venue = "PHX Arena"
-venue_url = ""
+venue = "Footprint Center"
+venue_url = "https://www.footprintcenter.com/"
 +++

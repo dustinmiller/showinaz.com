@@ -6,6 +6,6 @@ slug = "2025-09-26-destroyer-w-jennifer-castle"
 
 [extra]
 artist = "Destroyer w/ Jennifer Castle"
-venue = "Rebel L"
-venue_url = ""
+venue = "The Rebel Lounge"
+venue_url = "https://www.rebelphx.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-08-22-kyle-rising-the-happys"
 
 [extra]
 artist = "Kyle Rising & The Happys"
-venue = "Last Exit"
-venue_url = ""
+venue = "Last Exit Live"
+venue_url = "https://lastexitlive.com/"
 +++

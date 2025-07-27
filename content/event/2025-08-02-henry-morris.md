@@ -7,5 +7,5 @@ slug = "2025-08-02-henry-morris"
 [extra]
 artist = "Henry Morris"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

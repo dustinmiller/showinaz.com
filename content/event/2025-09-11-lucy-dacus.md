@@ -6,6 +6,6 @@ slug = "2025-09-11-lucy-dacus"
 
 [extra]
 artist = "Lucy Dacus"
-venue = "Arizona Financial Theatr"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

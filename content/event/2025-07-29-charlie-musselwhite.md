@@ -6,6 +6,6 @@ slug = "2025-07-29-charlie-musselwhite"
 
 [extra]
 artist = "Charlie Musselwhite"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

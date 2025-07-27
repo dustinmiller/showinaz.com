@@ -6,6 +6,6 @@ slug = "2025-12-11-the-floozies-dirtwire"
 
 [extra]
 artist = "The Floozies & Dirtwire"
-venue = "Van Buren"
-venue_url = ""
+venue = "The Van Buren"
+venue_url = "https://www.thevanburen.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-10-25-mo-lowda-the-humble"
 
 [extra]
 artist = "Mo Lowda @ The Humble"
-venue = "The Crescent Ballroom"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

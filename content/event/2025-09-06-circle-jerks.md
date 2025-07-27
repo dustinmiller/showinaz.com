@@ -7,5 +7,5 @@ slug = "2025-09-06-circle-jerks"
 [extra]
 artist = "Circle Jerks"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

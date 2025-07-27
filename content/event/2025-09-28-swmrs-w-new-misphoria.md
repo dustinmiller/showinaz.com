@@ -6,6 +6,6 @@ slug = "2025-09-28-swmrs-w-new-misphoria"
 
 [extra]
 artist = "Swmrs w/ New Misphoria"
-venue = "Rebel Lge"
-venue_url = ""
+venue = "The Rebel Lounge"
+venue_url = "https://www.rebelphx.com/"
 +++

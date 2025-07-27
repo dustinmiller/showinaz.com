@@ -6,6 +6,6 @@ slug = "2025-09-19-chastity-brown"
 
 [extra]
 artist = "Chastity Brown"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

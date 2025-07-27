@@ -7,5 +7,5 @@ slug = "2025-08-20-burton-cummings-of-the-guess-who"
 [extra]
 artist = "Burton Cummings (of The Guess Who)"
 venue = "Fox Theater"
-venue_url = ""
+venue_url = "https://www.foxtheatretucson.com/"
 +++

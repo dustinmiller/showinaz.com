@@ -6,6 +6,6 @@ slug = "2025-09-06-taiki-nulight"
 
 [extra]
 artist = "Taiki Nulight"
-venue = "X Phoenix (rooftop pool)"
+venue = "X Phoenix"
 venue_url = ""
 +++

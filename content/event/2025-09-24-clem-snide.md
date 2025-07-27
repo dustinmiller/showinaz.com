@@ -7,5 +7,5 @@ slug = "2025-09-24-clem-snide"
 [extra]
 artist = "Clem Snide"
 venue = "The Rebel Lounge"
-venue_url = ""
+venue_url = "https://www.rebelphx.com/"
 +++

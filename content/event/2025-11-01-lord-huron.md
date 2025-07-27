@@ -6,6 +6,6 @@ slug = "2025-11-01-lord-huron"
 
 [extra]
 artist = "Lord Huron"
-venue = "Arizona Financial Thtr"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

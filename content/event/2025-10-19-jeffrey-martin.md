@@ -7,5 +7,5 @@ slug = "2025-10-19-jeffrey-martin"
 [extra]
 artist = "Jeffrey Martin"
 venue = "Last Exit Live"
-venue_url = ""
+venue_url = "https://lastexitlive.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-08-26-american-aquarium"
 
 [extra]
 artist = "American Aquarium"
-venue = "The Crescent"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

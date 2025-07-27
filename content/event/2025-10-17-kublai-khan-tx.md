@@ -6,6 +6,6 @@ slug = "2025-10-17-kublai-khan-tx"
 
 [extra]
 artist = "Kublai Khan TX"
-venue = "The Marquee"
-venue_url = ""
+venue = "The Marquee Theater"
+venue_url = "https://www.luckymanonline.com/venue/marquee-theatre/"
 +++

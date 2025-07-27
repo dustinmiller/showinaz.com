@@ -6,6 +6,6 @@ slug = "2025-09-21-ruthie-foster"
 
 [extra]
 artist = "Ruthie Foster"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

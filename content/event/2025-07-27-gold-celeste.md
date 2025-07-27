@@ -7,5 +7,5 @@ slug = "2025-07-27-gold-celeste"
 [extra]
 artist = "Gold Celeste"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

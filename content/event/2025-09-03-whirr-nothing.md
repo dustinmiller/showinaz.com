@@ -6,6 +6,6 @@ slug = "2025-09-03-whirr-nothing"
 
 [extra]
 artist = "Whirr, Nothing"
-venue = "The Nile"
-venue_url = ""
+venue = "The Nile Theater"
+venue_url = "https://theniletheatre.com/"
 +++

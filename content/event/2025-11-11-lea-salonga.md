@@ -7,5 +7,5 @@ slug = "2025-11-11-lea-salonga"
 [extra]
 artist = "Lea Salonga"
 venue = "Fox Theater"
-venue_url = ""
+venue_url = "https://www.foxtheatretucson.com/"
 +++

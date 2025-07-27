@@ -6,6 +6,6 @@ slug = "2025-08-02-shinedown-bush"
 
 [extra]
 artist = "Shinedown & Bush"
-venue = "PHX Arena"
-venue_url = ""
+venue = "Footprint Center"
+venue_url = "https://www.footprintcenter.com/"
 +++

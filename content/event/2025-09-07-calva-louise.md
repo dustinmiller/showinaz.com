@@ -6,6 +6,6 @@ slug = "2025-09-07-calva-louise"
 
 [extra]
 artist = "Calva Louise"
-venue = "The Nile Underground"
-venue_url = ""
+venue = "Nile Underground"
+venue_url = "https://theniletheatre.com/"
 +++

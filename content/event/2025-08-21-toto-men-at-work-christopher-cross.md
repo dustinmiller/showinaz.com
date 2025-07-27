@@ -6,6 +6,6 @@ slug = "2025-08-21-toto-men-at-work-christopher-cross"
 
 [extra]
 artist = "Toto, Men At Work, Christopher Cross"
-venue = "Arizona Financial Theater"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

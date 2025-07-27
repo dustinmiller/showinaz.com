@@ -7,5 +7,5 @@ slug = "2025-11-16-built-to-spill"
 [extra]
 artist = "Built To Spill"
 venue = "Crescent Ballroom"
-venue_url = ""
+venue_url = "https://www.crescentphx.com/"
 +++

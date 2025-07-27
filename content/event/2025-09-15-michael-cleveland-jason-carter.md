@@ -6,6 +6,6 @@ slug = "2025-09-15-michael-cleveland-jason-carter"
 
 [extra]
 artist = "Michael Cleveland,Jason Carter"
-venue = "MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-09-26-sasha-w-nacim"
 
 [extra]
 artist = "Sasha w/ Nacim"
-venue = "Walter Wherehouse"
-venue_url = ""
+venue = "Walter Studios"
+venue_url = "https://walterstudios.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-08-07-mario-why-w-hyberbella"
 
 [extra]
 artist = "Mario Why w/ Hyberbella"
-venue = "Crescent BR"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

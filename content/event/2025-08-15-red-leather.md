@@ -7,5 +7,5 @@ slug = "2025-08-15-red-leather"
 [extra]
 artist = "Red Leather"
 venue = "Last Exit Live"
-venue_url = ""
+venue_url = "https://lastexitlive.com/"
 +++

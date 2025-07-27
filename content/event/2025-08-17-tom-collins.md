@@ -7,5 +7,5 @@ slug = "2025-08-17-tom-collins"
 [extra]
 artist = "Tom & Collins"
 venue = "Maya Day Club"
-venue_url = ""
+venue_url = "https://mayadayclub.com/"
 +++

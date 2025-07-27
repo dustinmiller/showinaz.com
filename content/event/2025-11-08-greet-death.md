@@ -7,5 +7,5 @@ slug = "2025-11-08-greet-death"
 [extra]
 artist = "Greet Death"
 venue = "Last Exit Live"
-venue_url = ""
+venue_url = "https://lastexitlive.com/"
 +++

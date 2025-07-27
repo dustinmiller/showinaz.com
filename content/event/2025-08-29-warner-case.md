@@ -7,5 +7,5 @@ slug = "2025-08-29-warner-case"
 [extra]
 artist = "Warner Case"
 venue = "Darkstar"
-venue_url = ""
+venue_url = "https://www.darkstarbar.com/"
 +++

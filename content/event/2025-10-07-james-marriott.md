@@ -7,5 +7,5 @@ slug = "2025-10-07-james-marriott"
 [extra]
 artist = "James Marriott"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

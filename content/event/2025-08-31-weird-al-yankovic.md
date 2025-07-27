@@ -6,6 +6,6 @@ slug = "2025-08-31-weird-al-yankovic"
 
 [extra]
 artist = "Weird Al Yankovic"
-venue = "Arizona Financial"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

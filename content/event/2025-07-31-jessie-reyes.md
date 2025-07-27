@@ -6,6 +6,6 @@ slug = "2025-07-31-jessie-reyes"
 
 [extra]
 artist = "Jessie Reyes"
-venue = "AZ Financial Theater"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

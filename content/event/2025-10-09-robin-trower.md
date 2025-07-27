@@ -6,6 +6,6 @@ slug = "2025-10-09-robin-trower"
 
 [extra]
 artist = "Robin Trower"
-venue = "Celebrity Theater"
-venue_url = ""
+venue = "Celebrity Theatre"
+venue_url = "https://celebritytheatre.com/"
 +++

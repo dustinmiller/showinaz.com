@@ -7,5 +7,5 @@ slug = "2025-08-23-metal-fest-xxxv"
 [extra]
 artist = "Metal Fest XXXV"
 venue = "191 Toole"
-venue_url = ""
+venue_url = "https://www.191toole.com/"
 +++

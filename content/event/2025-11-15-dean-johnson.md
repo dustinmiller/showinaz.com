@@ -7,5 +7,5 @@ slug = "2025-11-15-dean-johnson"
 [extra]
 artist = "Dean Johnson"
 venue = "Club Congress"
-venue_url = ""
+venue_url = "https://www.hotelcongress.com/club-congress/"
 +++

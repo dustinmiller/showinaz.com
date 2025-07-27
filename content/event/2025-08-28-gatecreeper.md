@@ -7,5 +7,5 @@ slug = "2025-08-28-gatecreeper"
 [extra]
 artist = "Gatecreeper"
 venue = "191 Toole"
-venue_url = ""
+venue_url = "https://www.191toole.com/"
 +++

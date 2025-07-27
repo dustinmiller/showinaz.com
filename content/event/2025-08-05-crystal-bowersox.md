@@ -6,6 +6,6 @@ slug = "2025-08-05-crystal-bowersox"
 
 [extra]
 artist = "Crystal Bowersox"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

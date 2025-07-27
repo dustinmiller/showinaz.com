@@ -7,5 +7,5 @@ slug = "2025-11-14-dean-johnson"
 [extra]
 artist = "Dean Johnson"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

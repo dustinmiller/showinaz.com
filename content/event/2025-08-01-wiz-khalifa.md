@@ -6,6 +6,6 @@ slug = "2025-08-01-wiz-khalifa"
 
 [extra]
 artist = "Wiz Khalifa"
-venue = "Talking Stick Amphithtr"
-venue_url = ""
+venue = "Talking Stick Resort Amphitheatre"
+venue_url = "https://www.talkingstickresortamphitheatre.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-11-11-steve-hackett"
 
 [extra]
 artist = "Steve Hackett"
-venue = "Celebrity Theater"
-venue_url = ""
+venue = "Celebrity Theatre"
+venue_url = "https://celebritytheatre.com/"
 +++

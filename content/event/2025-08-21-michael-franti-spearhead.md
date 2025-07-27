@@ -6,6 +6,6 @@ slug = "2025-08-21-michael-franti-spearhead"
 
 [extra]
 artist = "Michael Franti & Spearhead"
-venue = "Pepsi Amphitheater"
-venue_url = ""
+venue = "Ak-Chin Pavilion"
+venue_url = "https://www.livenation.com/venue/KovZpZAEAkeA/ak-chin-pavilion-events"
 +++

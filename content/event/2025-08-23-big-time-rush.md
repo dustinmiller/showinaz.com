@@ -6,6 +6,6 @@ slug = "2025-08-23-big-time-rush"
 
 [extra]
 artist = "Big Time Rush"
-venue = "Talking Stick Amph"
-venue_url = ""
+venue = "Talking Stick Resort Amphitheatre"
+venue_url = "https://www.talkingstickresortamphitheatre.com/"
 +++

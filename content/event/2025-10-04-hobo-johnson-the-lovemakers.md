@@ -6,6 +6,6 @@ slug = "2025-10-04-hobo-johnson-the-lovemakers"
 
 [extra]
 artist = "Hobo Johnson & The Lovemakers"
-venue = "The Crescent Ballroom"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

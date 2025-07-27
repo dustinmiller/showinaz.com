@@ -6,6 +6,6 @@ slug = "2025-10-11-turnstile"
 
 [extra]
 artist = "Turnstile"
-venue = "Mesa Amphitheater"
-venue_url = ""
+venue = "Mesa Amphitheatre"
+venue_url = "https://www.mesaamp.com/"
 +++

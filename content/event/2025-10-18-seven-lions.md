@@ -6,6 +6,6 @@ slug = "2025-10-18-seven-lions"
 
 [extra]
 artist = "Seven Lions"
-venue = "Rawhide"
-venue_url = ""
+venue = "Rawhide Event Center"
+venue_url = "https://www.rawhide.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-08-22-phoenix-funkeros"
 
 [extra]
 artist = "Phoenix Funkeros"
-venue = "Crescent Ballrm"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

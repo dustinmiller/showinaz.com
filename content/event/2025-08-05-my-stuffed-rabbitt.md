@@ -7,5 +7,5 @@ slug = "2025-08-05-my-stuffed-rabbitt"
 [extra]
 artist = "My Stuffed Rabbitt"
 venue = "The Rebel Lounge"
-venue_url = ""
+venue_url = "https://www.rebelphx.com/"
 +++

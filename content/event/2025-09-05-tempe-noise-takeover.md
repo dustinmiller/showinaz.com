@@ -6,6 +6,6 @@ slug = "2025-09-05-tempe-noise-takeover"
 
 [extra]
 artist = "Tempe Noise Takeover"
-venue = "Yucca Tap Rm"
-venue_url = ""
+venue = "Yucca Tap Room"
+venue_url = "https://www.yuccatap.com/"
 +++

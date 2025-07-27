@@ -7,5 +7,5 @@ slug = "2025-10-26-big-richard"
 [extra]
 artist = "Big Richard"
 venue = "Club Congress"
-venue_url = ""
+venue_url = "https://www.hotelcongress.com/club-congress/"
 +++

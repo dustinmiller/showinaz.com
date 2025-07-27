@@ -7,5 +7,5 @@ slug = "2025-10-05-liam-st-john"
 [extra]
 artist = "Liam St John"
 venue = "Last Exit Live"
-venue_url = ""
+venue_url = "https://lastexitlive.com/"
 +++

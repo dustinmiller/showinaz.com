@@ -7,5 +7,5 @@ slug = "2025-09-05-samplifire"
 [extra]
 artist = "Samplifire"
 venue = "Sunbar"
-venue_url = ""
+venue_url = "https://www.sunbarscottsdale.com/"
 +++

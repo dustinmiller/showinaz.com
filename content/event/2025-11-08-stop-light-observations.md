@@ -6,6 +6,6 @@ slug = "2025-11-08-stop-light-observations"
 
 [extra]
 artist = "Stop Light Observations"
-venue = "Crescent"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

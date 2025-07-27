@@ -6,6 +6,6 @@ slug = "2025-09-27-the-format"
 
 [extra]
 artist = "The Format"
-venue = "AZ State Fair"
-venue_url = ""
+venue = "Arizona State Fair"
+venue_url = "https://azstatefair.com/"
 +++

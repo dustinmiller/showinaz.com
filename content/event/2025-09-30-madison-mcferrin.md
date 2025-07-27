@@ -6,6 +6,6 @@ slug = "2025-09-30-madison-mcferrin"
 
 [extra]
 artist = "Madison Mcferrin"
-venue = "Congress Plaza St"
-venue_url = ""
+venue = "Club Congress"
+venue_url = "https://www.hotelcongress.com/club-congress/"
 +++

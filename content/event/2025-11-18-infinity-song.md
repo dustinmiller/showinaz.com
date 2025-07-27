@@ -7,5 +7,5 @@ slug = "2025-11-18-infinity-song"
 [extra]
 artist = "Infinity Song"
 venue = "Crescent Ballroom"
-venue_url = ""
+venue_url = "https://www.crescentphx.com/"
 +++

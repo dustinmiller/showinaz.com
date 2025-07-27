@@ -7,5 +7,5 @@ slug = "2025-11-01-southern-culture-on-the-skids"
 [extra]
 artist = "Southern Culture on the Skids"
 venue = "191 Toole"
-venue_url = ""
+venue_url = "https://www.191toole.com/"
 +++

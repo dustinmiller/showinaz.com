@@ -7,5 +7,5 @@ slug = "2025-11-20-mark-william-lewis"
 [extra]
 artist = "Mark William Lewis"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

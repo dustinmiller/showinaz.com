@@ -6,6 +6,6 @@ slug = "2025-08-19-swollen-members"
 
 [extra]
 artist = "Swollen Members"
-venue = "Crescent Ballrm"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

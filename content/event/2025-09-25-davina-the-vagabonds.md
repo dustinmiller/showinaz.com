@@ -6,6 +6,6 @@ slug = "2025-09-25-davina-the-vagabonds"
 
 [extra]
 artist = "Davina & The Vagabonds"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

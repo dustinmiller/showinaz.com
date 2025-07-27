@@ -6,6 +6,6 @@ slug = "2025-09-14-sunny-day-real-estate"
 
 [extra]
 artist = "Sunny Day Real Estate"
-venue = "Van Buren"
-venue_url = ""
+venue = "The Van Buren"
+venue_url = "https://www.thevanburen.com/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-08-08-lamont-landers"
 [extra]
 artist = "Lamont Landers"
 venue = "Last Exit Live"
-venue_url = ""
+venue_url = "https://lastexitlive.com/"
 +++

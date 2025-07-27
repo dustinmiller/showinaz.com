@@ -7,5 +7,5 @@ slug = "2025-11-02-south-arcade"
 [extra]
 artist = "South Arcade"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

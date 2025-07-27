@@ -6,6 +6,6 @@ slug = "2025-10-10-the-story-so-far"
 
 [extra]
 artist = "The Story So Far"
-venue = "Mesa Amphithtr"
-venue_url = ""
+venue = "Mesa Amphitheatre"
+venue_url = "https://www.mesaamp.com/"
 +++

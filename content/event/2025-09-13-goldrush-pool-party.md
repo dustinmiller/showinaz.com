@@ -6,6 +6,6 @@ slug = "2025-09-13-goldrush-pool-party"
 
 [extra]
 artist = "Goldrush Pool Party"
-venue = "WHP Oasis Pool"
-venue_url = ""
+venue = "Wild Horse Pass Hotel & Casino"
+venue_url = "https://wingilariver.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-09-30-pup-jeff-rosenstock"
 
 [extra]
 artist = "Pup & Jeff Rosenstock"
-venue = "Van Buren"
-venue_url = ""
+venue = "The Van Buren"
+venue_url = "https://www.thevanburen.com/"
 +++

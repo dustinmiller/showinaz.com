@@ -7,5 +7,5 @@ slug = "2025-09-01-young-widows"
 [extra]
 artist = "Young Widows"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

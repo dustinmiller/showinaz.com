@@ -6,6 +6,6 @@ slug = "2025-09-12-sultan-shepard"
 
 [extra]
 artist = "Sultan & Shepard"
-venue = "Walter Wherehous"
-venue_url = ""
+venue = "Walter Studios"
+venue_url = "https://walterstudios.com/"
 +++

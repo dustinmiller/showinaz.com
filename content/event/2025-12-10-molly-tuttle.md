@@ -7,5 +7,5 @@ slug = "2025-12-10-molly-tuttle"
 [extra]
 artist = "Molly Tuttle"
 venue = "The Rialto Theater"
-venue_url = ""
+venue_url = "https://www.rialtotheatre.com/"
 +++

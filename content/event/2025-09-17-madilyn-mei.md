@@ -7,5 +7,5 @@ slug = "2025-09-17-madilyn-mei"
 [extra]
 artist = "Madilyn Mei"
 venue = "Club Congress"
-venue_url = ""
+venue_url = "https://www.hotelcongress.com/club-congress/"
 +++

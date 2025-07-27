@@ -7,5 +7,5 @@ slug = "2025-09-02-x-ambassadors"
 [extra]
 artist = "X Ambassadors"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

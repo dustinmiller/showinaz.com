@@ -6,6 +6,6 @@ slug = "2025-08-09-haiden-henderson"
 
 [extra]
 artist = "Haiden Henderson"
-venue = "Rebel Lounge"
-venue_url = ""
+venue = "The Rebel Lounge"
+venue_url = "https://www.rebelphx.com/"
 +++

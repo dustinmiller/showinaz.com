@@ -7,5 +7,5 @@ slug = "2025-09-17-jeremy-zucker"
 [extra]
 artist = "Jeremy Zucker"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

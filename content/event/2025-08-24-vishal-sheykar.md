@@ -6,6 +6,6 @@ slug = "2025-08-24-vishal-sheykar"
 
 [extra]
 artist = "Vishal & Sheykar"
-venue = "AZ Financial Thtr"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

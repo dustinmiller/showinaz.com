@@ -7,5 +7,5 @@ slug = "2025-09-13-kota-the-friend"
 [extra]
 artist = "Kota the Friend"
 venue = "The Nile Theater"
-venue_url = ""
+venue_url = "https://theniletheatre.com/"
 +++

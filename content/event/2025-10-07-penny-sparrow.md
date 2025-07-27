@@ -7,5 +7,5 @@ slug = "2025-10-07-penny-sparrow"
 [extra]
 artist = "Penny & Sparrow"
 venue = "Crescent Ballroom"
-venue_url = ""
+venue_url = "https://www.crescentphx.com/"
 +++

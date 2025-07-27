@@ -7,5 +7,5 @@ slug = "2025-11-10-blondshell"
 [extra]
 artist = "Blondshell"
 venue = "Crescent Ballroom"
-venue_url = ""
+venue_url = "https://www.crescentphx.com/"
 +++

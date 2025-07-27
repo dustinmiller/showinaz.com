@@ -7,5 +7,5 @@ slug = "2025-09-10-jimmy-webb"
 [extra]
 artist = "Jimmy Webb"
 venue = "Fox Theater"
-venue_url = ""
+venue_url = "https://www.foxtheatretucson.com/"
 +++

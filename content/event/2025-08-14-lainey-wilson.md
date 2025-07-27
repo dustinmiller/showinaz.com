@@ -6,6 +6,6 @@ slug = "2025-08-14-lainey-wilson"
 
 [extra]
 artist = "Lainey Wilson"
-venue = "PHX Arena"
-venue_url = ""
+venue = "Footprint Center"
+venue_url = "https://www.footprintcenter.com/"
 +++

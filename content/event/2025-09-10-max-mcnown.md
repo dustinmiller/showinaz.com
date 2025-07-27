@@ -7,5 +7,5 @@ slug = "2025-09-10-max-mcnown"
 [extra]
 artist = "Max McNown"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

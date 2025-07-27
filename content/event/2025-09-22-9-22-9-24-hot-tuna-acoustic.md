@@ -6,8 +6,8 @@ slug = "2025-09-22-9-22-9-24-hot-tuna-acoustic"
 
 [extra]
 artist = "9/22-9/24 Hot Tuna (acoustic)"
-venue = "MIM"
-venue_url = "https://mim.org"
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++
 
 9/22-9/24 Hot Tuna (acoustic) performs at The MIM.

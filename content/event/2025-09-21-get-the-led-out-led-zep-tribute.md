@@ -6,6 +6,6 @@ slug = "2025-09-21-get-the-led-out-led-zep-tribute"
 
 [extra]
 artist = "Get The Led Out (Led Zep Tribute)"
-venue = "Talking Stick Resort"
-venue_url = ""
+venue = "Talking Stick Resort Amphitheatre"
+venue_url = "https://www.talkingstickresortamphitheatre.com/"
 +++

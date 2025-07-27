@@ -7,5 +7,5 @@ slug = "2025-09-27-the-criticals"
 [extra]
 artist = "The Criticals"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

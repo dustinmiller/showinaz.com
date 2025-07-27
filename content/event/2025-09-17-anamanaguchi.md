@@ -7,5 +7,5 @@ slug = "2025-09-17-anamanaguchi"
 [extra]
 artist = "Anamanaguchi"
 venue = "The Nile Theater"
-venue_url = ""
+venue_url = "https://theniletheatre.com/"
 +++

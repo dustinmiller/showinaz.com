@@ -6,6 +6,6 @@ slug = "2025-08-29-kirk-whalum"
 
 [extra]
 artist = "Kirk Whalum"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-08-14-flatland-cavalry"
 [extra]
 artist = "Flatland Cavalry"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

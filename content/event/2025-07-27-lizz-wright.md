@@ -6,6 +6,6 @@ slug = "2025-07-27-lizz-wright"
 
 [extra]
 artist = "Lizz Wright"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

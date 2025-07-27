@@ -7,5 +7,5 @@ slug = "2025-11-13-the-buttertones"
 [extra]
 artist = "The Buttertones"
 venue = "191 Toole"
-venue_url = ""
+venue_url = "https://www.191toole.com/"
 +++

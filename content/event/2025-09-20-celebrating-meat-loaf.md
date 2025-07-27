@@ -7,5 +7,5 @@ slug = "2025-09-20-celebrating-meat-loaf"
 [extra]
 artist = "Celebrating Meat Loaf"
 venue = "Fox Theater"
-venue_url = ""
+venue_url = "https://www.foxtheatretucson.com/"
 +++

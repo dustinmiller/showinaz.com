@@ -7,5 +7,5 @@ slug = "2025-08-20-bit-brigade"
 [extra]
 artist = "Bit Brigade"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-07-27-crash-adams"
 [extra]
 artist = "Crash Adams"
 venue = "The Rebel Lounge"
-venue_url = ""
+venue_url = "https://www.rebelphx.com/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-08-02-heart-attack-man"
 [extra]
 artist = "Heart Attack Man"
 venue = "The Nile Theater"
-venue_url = ""
+venue_url = "https://theniletheatre.com/"
 +++

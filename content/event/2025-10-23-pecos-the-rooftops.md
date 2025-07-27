@@ -6,6 +6,6 @@ slug = "2025-10-23-pecos-the-rooftops"
 
 [extra]
 artist = "Pecos & The Rooftops"
-venue = "Orpheum Theater Flagstaff"
-venue_url = ""
+venue = "Orpheum Theater"
+venue_url = "https://www.orpheumflagstaff.com/"
 +++

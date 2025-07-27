@@ -6,6 +6,6 @@ slug = "2025-10-06-balu-brigada"
 
 [extra]
 artist = "Balu Brigada"
-venue = "The Crescent Ballroom"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

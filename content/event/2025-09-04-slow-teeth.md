@@ -6,6 +6,6 @@ slug = "2025-09-04-slow-teeth"
 
 [extra]
 artist = "Slow Teeth"
-venue = "The Nile Underground"
-venue_url = ""
+venue = "Nile Underground"
+venue_url = "https://theniletheatre.com/"
 +++

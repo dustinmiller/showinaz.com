@@ -6,6 +6,6 @@ slug = "2025-10-05-hobo-johnson-lovemakers"
 
 [extra]
 artist = "Hobo Johnson Lovemakers"
-venue = "191 Tool"
-venue_url = ""
+venue = "191 Toole"
+venue_url = "https://www.191toole.com/"
 +++

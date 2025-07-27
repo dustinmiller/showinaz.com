@@ -7,5 +7,5 @@ slug = "2025-08-01-king-cherry-rattlesnake-suitcase"
 [extra]
 artist = "King Cherry, Rattlesnake Suitcase"
 venue = "The Rebel Lounge"
-venue_url = ""
+venue_url = "https://www.rebelphx.com/"
 +++

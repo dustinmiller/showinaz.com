@@ -6,6 +6,6 @@ slug = "2025-10-18-bayker-blankenship"
 
 [extra]
 artist = "Bayker Blankenship"
-venue = "The Crescent"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

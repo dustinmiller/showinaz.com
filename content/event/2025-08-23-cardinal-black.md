@@ -7,5 +7,5 @@ slug = "2025-08-23-cardinal-black"
 [extra]
 artist = "Cardinal Black"
 venue = "The Rebel Lounge"
-venue_url = ""
+venue_url = "https://www.rebelphx.com/"
 +++

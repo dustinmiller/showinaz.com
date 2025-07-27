@@ -6,6 +6,6 @@ slug = "2025-08-23-tropidelic-shwayze"
 
 [extra]
 artist = "Tropidelic & Shwayze"
-venue = "Crescent B.r."
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

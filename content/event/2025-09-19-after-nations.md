@@ -7,5 +7,5 @@ slug = "2025-09-19-after-nations"
 [extra]
 artist = "After Nations"
 venue = "Yucca Tap Room"
-venue_url = ""
+venue_url = "https://www.yuccatap.com/"
 +++

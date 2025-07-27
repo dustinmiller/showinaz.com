@@ -7,5 +7,5 @@ slug = "2025-10-09-mavis-staples"
 [extra]
 artist = "Mavis Staples"
 venue = "Fox Theater"
-venue_url = ""
+venue_url = "https://www.foxtheatretucson.com/"
 +++

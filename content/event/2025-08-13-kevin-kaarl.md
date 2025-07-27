@@ -6,6 +6,6 @@ slug = "2025-08-13-kevin-kaarl"
 
 [extra]
 artist = "Kevin Kaarl"
-venue = "Arizona Financial Theatr"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

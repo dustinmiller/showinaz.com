@@ -7,5 +7,5 @@ slug = "2025-07-29-comfort-club-pretoria"
 [extra]
 artist = "Comfort Club & Pretoria"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

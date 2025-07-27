@@ -7,5 +7,5 @@ slug = "2025-11-05-bass-drum-of-death"
 [extra]
 artist = "Bass Drum of Death"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

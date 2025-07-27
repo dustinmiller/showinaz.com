@@ -6,6 +6,6 @@ slug = "2025-09-26-from-ashes-to-new"
 
 [extra]
 artist = "From Ashes to New"
-venue = "Van Buren"
-venue_url = ""
+venue = "The Van Buren"
+venue_url = "https://www.thevanburen.com/"
 +++

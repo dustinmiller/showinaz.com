@@ -6,6 +6,6 @@ slug = "2025-11-13-spencer-crandall"
 
 [extra]
 artist = "Spencer Crandall"
-venue = "Crescent Ballrm"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

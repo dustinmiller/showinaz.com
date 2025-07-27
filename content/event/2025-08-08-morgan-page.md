@@ -7,5 +7,5 @@ slug = "2025-08-08-morgan-page"
 [extra]
 artist = "Morgan Page"
 venue = "Sunbar"
-venue_url = ""
+venue_url = "https://www.sunbarscottsdale.com/"
 +++

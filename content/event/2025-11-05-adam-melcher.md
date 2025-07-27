@@ -7,5 +7,5 @@ slug = "2025-11-05-adam-melcher"
 [extra]
 artist = "Adam Melcher"
 venue = "The Rebel Lounge"
-venue_url = ""
+venue_url = "https://www.rebelphx.com/"
 +++

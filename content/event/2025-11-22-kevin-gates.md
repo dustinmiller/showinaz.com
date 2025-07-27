@@ -6,6 +6,6 @@ slug = "2025-11-22-kevin-gates"
 
 [extra]
 artist = "Kevin Gates"
-venue = "AZ Financial Theater"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

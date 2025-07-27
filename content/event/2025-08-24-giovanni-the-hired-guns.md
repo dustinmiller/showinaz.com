@@ -6,6 +6,6 @@ slug = "2025-08-24-giovanni-the-hired-guns"
 
 [extra]
 artist = "Giovanni & The Hired Guns"
-venue = "Crescent"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

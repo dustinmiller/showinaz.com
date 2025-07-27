@@ -6,6 +6,6 @@ slug = "2025-08-23-men-i-trust"
 
 [extra]
 artist = "Men I Trust"
-venue = "Arizona Financial Thtr"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-09-28-marilyn-manson"
 [extra]
 artist = "Marilyn Manson"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

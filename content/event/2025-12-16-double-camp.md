@@ -7,5 +7,5 @@ slug = "2025-12-16-double-camp"
 [extra]
 artist = "Double Camp"
 venue = "The Rebel Lounge"
-venue_url = ""
+venue_url = "https://www.rebelphx.com/"
 +++

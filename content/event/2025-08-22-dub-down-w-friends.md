@@ -6,6 +6,6 @@ slug = "2025-08-22-dub-down-w-friends"
 
 [extra]
 artist = "Dub & Down w/ friends"
-venue = "Orpheum Flg"
-venue_url = ""
+venue = "Orpheum Theater"
+venue_url = "https://www.orpheumflagstaff.com/"
 +++

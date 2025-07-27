@@ -7,5 +7,5 @@ slug = "2025-10-04-panzerfaust"
 [extra]
 artist = "Panzerfaust"
 venue = "Yucca Tap Room"
-venue_url = ""
+venue_url = "https://www.yuccatap.com/"
 +++

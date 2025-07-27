@@ -6,6 +6,6 @@ slug = "2025-09-20-john-scofield-s-combo-73"
 
 [extra]
 artist = "John Scofield's Combo 73"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-08-24-surfistas-del-sistema"
 [extra]
 artist = "Surfistas Del Sistema"
 venue = "Club Congress"
-venue_url = ""
+venue_url = "https://www.hotelcongress.com/club-congress/"
 +++

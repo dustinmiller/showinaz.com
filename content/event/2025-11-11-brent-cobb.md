@@ -6,6 +6,6 @@ slug = "2025-11-11-brent-cobb"
 
 [extra]
 artist = "Brent Cobb"
-venue = "Congress Plaza Stage"
-venue_url = ""
+venue = "Club Congress"
+venue_url = "https://www.hotelcongress.com/club-congress/"
 +++

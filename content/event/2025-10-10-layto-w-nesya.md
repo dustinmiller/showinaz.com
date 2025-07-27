@@ -7,5 +7,5 @@ slug = "2025-10-10-layto-w-nesya"
 [extra]
 artist = "Layto w/ Nesya"
 venue = "Last Exit Live"
-venue_url = ""
+venue_url = "https://lastexitlive.com/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-10-05-guerilla-toss"
 [extra]
 artist = "Guerilla Toss"
 venue = "Club Congress"
-venue_url = ""
+venue_url = "https://www.hotelcongress.com/club-congress/"
 +++

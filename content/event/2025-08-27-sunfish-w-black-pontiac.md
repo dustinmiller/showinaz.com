@@ -6,6 +6,6 @@ slug = "2025-08-27-sunfish-w-black-pontiac"
 
 [extra]
 artist = "Sunfish w/ Black Pontiac"
-venue = "Rebel Lge"
-venue_url = ""
+venue = "The Rebel Lounge"
+venue_url = "https://www.rebelphx.com/"
 +++

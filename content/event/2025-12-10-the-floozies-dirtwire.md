@@ -6,6 +6,6 @@ slug = "2025-12-10-the-floozies-dirtwire"
 
 [extra]
 artist = "The Floozies & Dirtwire"
-venue = "Orpheum Flagstaff"
-venue_url = ""
+venue = "Orpheum Theater"
+venue_url = "https://www.orpheumflagstaff.com/"
 +++

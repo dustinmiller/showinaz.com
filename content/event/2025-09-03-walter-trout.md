@@ -6,6 +6,6 @@ slug = "2025-09-03-walter-trout"
 
 [extra]
 artist = "Walter Trout"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

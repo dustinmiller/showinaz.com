@@ -7,5 +7,5 @@ slug = "2025-10-29-psychedelic-porn-crumpets"
 [extra]
 artist = "Psychedelic Porn Crumpets"
 venue = "Walter Studios"
-venue_url = ""
+venue_url = "https://walterstudios.com/"
 +++

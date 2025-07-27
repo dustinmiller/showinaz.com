@@ -7,5 +7,5 @@ slug = "2025-10-14-the-beaches"
 [extra]
 artist = "The Beaches"
 venue = "The Van Buren"
-venue_url = ""
+venue_url = "https://www.thevanburen.com/"
 +++

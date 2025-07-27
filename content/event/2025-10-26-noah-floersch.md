@@ -7,5 +7,5 @@ slug = "2025-10-26-noah-floersch"
 [extra]
 artist = "Noah Floersch"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

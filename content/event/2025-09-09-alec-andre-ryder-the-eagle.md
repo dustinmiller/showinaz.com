@@ -6,6 +6,6 @@ slug = "2025-09-09-alec-andre-ryder-the-eagle"
 
 [extra]
 artist = "Alec Andre, Ryder the Eagle"
-venue = "Congress"
-venue_url = ""
+venue = "Club Congress"
+venue_url = "https://www.hotelcongress.com/club-congress/"
 +++

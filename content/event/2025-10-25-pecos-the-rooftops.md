@@ -6,6 +6,6 @@ slug = "2025-10-25-pecos-the-rooftops"
 
 [extra]
 artist = "Pecos & The Rooftops"
-venue = "The Rialto"
-venue_url = ""
+venue = "The Rialto Theater"
+venue_url = "https://www.rialtotheatre.com/"
 +++

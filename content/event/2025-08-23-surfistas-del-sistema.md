@@ -7,5 +7,5 @@ slug = "2025-08-23-surfistas-del-sistema"
 [extra]
 artist = "Surfistas Del Sistema"
 venue = "Valley Bar"
-venue_url = ""
+venue_url = "https://www.valleybarphx.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-08-03-wonderlick"
 
 [extra]
 artist = "Wonderlick"
-venue = "Orpheum Flagstaff"
-venue_url = ""
+venue = "Orpheum Theater"
+venue_url = "https://www.orpheumflagstaff.com/"
 +++

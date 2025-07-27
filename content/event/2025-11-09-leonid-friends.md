@@ -6,6 +6,6 @@ slug = "2025-11-09-leonid-friends"
 
 [extra]
 artist = "Leonid & Friends"
-venue = "Celebrity Theater"
-venue_url = ""
+venue = "Celebrity Theatre"
+venue_url = "https://celebritytheatre.com/"
 +++

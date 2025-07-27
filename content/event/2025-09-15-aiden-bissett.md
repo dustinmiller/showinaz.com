@@ -7,5 +7,5 @@ slug = "2025-09-15-aiden-bissett"
 [extra]
 artist = "Aiden Bissett"
 venue = "Crescent Ballroom"
-venue_url = ""
+venue_url = "https://www.crescentphx.com/"
 +++

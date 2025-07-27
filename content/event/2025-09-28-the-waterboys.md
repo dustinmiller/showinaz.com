@@ -7,5 +7,5 @@ slug = "2025-09-28-the-waterboys"
 [extra]
 artist = "The Waterboys"
 venue = "Crescent Ballroom"
-venue_url = ""
+venue_url = "https://www.crescentphx.com/"
 +++

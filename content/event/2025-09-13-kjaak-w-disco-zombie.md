@@ -6,6 +6,6 @@ slug = "2025-09-13-kjaak-w-disco-zombie"
 
 [extra]
 artist = "KJaak w/ Disco Zombie"
-venue = "Walter W?H"
-venue_url = ""
+venue = "Walter Studios"
+venue_url = "https://walterstudios.com/"
 +++

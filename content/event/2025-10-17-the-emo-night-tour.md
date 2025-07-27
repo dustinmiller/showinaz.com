@@ -6,6 +6,6 @@ slug = "2025-10-17-the-emo-night-tour"
 
 [extra]
 artist = "The Emo Night Tour"
-venue = "The Nile"
-venue_url = ""
+venue = "The Nile Theater"
+venue_url = "https://theniletheatre.com/"
 +++

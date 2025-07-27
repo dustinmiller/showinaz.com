@@ -7,5 +7,5 @@ slug = "2025-10-21-pink-shift-lost-sick-puppy"
 [extra]
 artist = "Pink Shift, Lost Sick Puppy"
 venue = "The Rebel Lounge"
-venue_url = ""
+venue_url = "https://www.rebelphx.com/"
 +++

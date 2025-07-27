@@ -7,5 +7,5 @@ slug = "2025-11-28-chmura-duffrey"
 [extra]
 artist = "Chmura & Duffrey"
 venue = "Darkstar"
-venue_url = ""
+venue_url = "https://www.darkstarbar.com/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-08-16-the-ephemeral"
 [extra]
 artist = "The Ephemeral"
 venue = "Last Exit Live"
-venue_url = ""
+venue_url = "https://lastexitlive.com/"
 +++

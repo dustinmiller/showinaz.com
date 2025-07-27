@@ -7,5 +7,5 @@ slug = "2025-09-15-young-the-giant"
 [extra]
 artist = "Young the Giant"
 venue = "The Rialto Theater"
-venue_url = ""
+venue_url = "https://www.rialtotheatre.com/"
 +++

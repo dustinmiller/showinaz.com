@@ -7,5 +7,5 @@ slug = "2025-09-17-cash-cobain"
 [extra]
 artist = "Cash Cobain"
 venue = "Walter Studios"
-venue_url = ""
+venue_url = "https://walterstudios.com/"
 +++

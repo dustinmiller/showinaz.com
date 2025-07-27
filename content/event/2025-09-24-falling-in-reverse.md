@@ -6,6 +6,6 @@ slug = "2025-09-24-falling-in-reverse"
 
 [extra]
 artist = "Falling In Reverse"
-venue = "Talking Stick Amp"
-venue_url = ""
+venue = "Talking Stick Resort Amphitheatre"
+venue_url = "https://www.talkingstickresortamphitheatre.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-10-22-judas-priest-alice-cooper"
 
 [extra]
 artist = "Judas Priest & Alice Cooper"
-venue = "Talking Stick Amphitheater"
-venue_url = ""
+venue = "Talking Stick Resort Amphitheatre"
+venue_url = "https://www.talkingstickresortamphitheatre.com/"
 +++

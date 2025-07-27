@@ -6,6 +6,6 @@ slug = "2025-10-24-sons-of-habit-w-chase-saunders"
 
 [extra]
 artist = "Sons of Habit w/ Chase Saunders"
-venue = "Orpheum Flagstaff"
-venue_url = ""
+venue = "Orpheum Theater"
+venue_url = "https://www.orpheumflagstaff.com/"
 +++

@@ -6,6 +6,6 @@ slug = "2025-10-15-ca7riel-poco-amoroso"
 
 [extra]
 artist = "Ca7riel & Poco Amoroso"
-venue = "Walter Wherehouse"
-venue_url = ""
+venue = "Walter Studios"
+venue_url = "https://walterstudios.com/"
 +++

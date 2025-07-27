@@ -6,6 +6,6 @@ slug = "2025-08-10-laney-jones-the-spirits"
 
 [extra]
 artist = "Laney Jones & The Spirits"
-venue = "Last Exit"
-venue_url = ""
+venue = "Last Exit Live"
+venue_url = "https://lastexitlive.com/"
 +++

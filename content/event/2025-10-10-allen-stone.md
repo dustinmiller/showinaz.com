@@ -6,6 +6,6 @@ slug = "2025-10-10-allen-stone"
 
 [extra]
 artist = "Allen Stone"
-venue = "Orpheum Flagstaff"
-venue_url = ""
+venue = "Orpheum Theater"
+venue_url = "https://www.orpheumflagstaff.com/"
 +++

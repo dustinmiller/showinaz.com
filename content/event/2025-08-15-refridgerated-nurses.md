@@ -6,6 +6,6 @@ slug = "2025-08-15-refridgerated-nurses"
 
 [extra]
 artist = "Refridgerated Nurses"
-venue = "Yucca North"
-venue_url = ""
+venue = "Yucca Tap Room"
+venue_url = "https://www.yuccatap.com/"
 +++

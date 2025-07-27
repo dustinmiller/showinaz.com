@@ -6,6 +6,6 @@ slug = "2025-09-23-magdalena-bay"
 
 [extra]
 artist = "Magdalena Bay"
-venue = "Arizona Financial"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

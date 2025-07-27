@@ -6,6 +6,6 @@ slug = "2025-11-11-born-ruffians"
 
 [extra]
 artist = "Born Ruffians"
-venue = "Rebel Lounge"
-venue_url = ""
+venue = "The Rebel Lounge"
+venue_url = "https://www.rebelphx.com/"
 +++

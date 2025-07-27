@@ -6,6 +6,6 @@ slug = "2025-08-16-kurtis-conner"
 
 [extra]
 artist = "Kurtis Conner"
-venue = "Arizona Financial Thtr"
-venue_url = ""
+venue = "Arizona Financial Theatre"
+venue_url = "https://www.azfinancialtheatre.com/"
 +++

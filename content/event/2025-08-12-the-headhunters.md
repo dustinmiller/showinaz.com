@@ -6,6 +6,6 @@ slug = "2025-08-12-the-headhunters"
 
 [extra]
 artist = "The Headhunters"
-venue = "The MIM"
-venue_url = ""
+venue = "MIM Music & Instrument Museum"
+venue_url = "https://mim.org/"
 +++

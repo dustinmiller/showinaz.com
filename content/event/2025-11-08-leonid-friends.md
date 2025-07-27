@@ -7,5 +7,5 @@ slug = "2025-11-08-leonid-friends"
 [extra]
 artist = "Leonid & Friends"
 venue = "The Rialto Theater"
-venue_url = ""
+venue_url = "https://www.rialtotheatre.com/"
 +++

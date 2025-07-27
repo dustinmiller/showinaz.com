@@ -7,5 +7,5 @@ slug = "2025-08-08-dieselboy"
 [extra]
 artist = "Dieselboy"
 venue = "Darkstar"
-venue_url = ""
+venue_url = "https://www.darkstarbar.com/"
 +++

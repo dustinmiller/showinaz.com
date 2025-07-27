@@ -7,5 +7,5 @@ slug = "2025-08-01-the-polish-ambassador-late-night-radio"
 [extra]
 artist = "The Polish Ambassador & Late Night Radio"
 venue = "Walter Studios"
-venue_url = ""
+venue_url = "https://walterstudios.com/"
 +++

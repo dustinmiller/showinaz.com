@@ -6,6 +6,6 @@ slug = "2025-08-13-late-night-drive-home"
 
 [extra]
 artist = "Late Night Drive Home"
-venue = "Crescent BR"
-venue_url = ""
+venue = "Crescent Ballroom"
+venue_url = "https://www.crescentphx.com/"
 +++

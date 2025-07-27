@@ -7,5 +7,5 @@ slug = "2025-08-01-early-black"
 [extra]
 artist = "Early Black"
 venue = "Club Congress"
-venue_url = ""
+venue_url = "https://www.hotelcongress.com/club-congress/"
 +++

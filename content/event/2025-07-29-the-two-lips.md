@@ -7,5 +7,5 @@ slug = "2025-07-29-the-two-lips"
 [extra]
 artist = "The Two Lips"
 venue = "The Rebel Lounge"
-venue_url = ""
+venue_url = "https://www.rebelphx.com/"
 +++
