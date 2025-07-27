@@ -382,9 +382,10 @@ def update_event_file(file_path: str, dry_run: bool = False) -> bool:
         content = fix_toml_formatting(content)
         toml_fixed = content != original_content
         
-        # Extract current venue and venue_url (after TOML fixes)
+        # Extract current venue, venue_url, and title (after TOML fixes)
         venue_match = re.search(r'^venue = "([^"\\]*(?:\\.[^"\\]*)*)"', content, re.MULTILINE)
         venue_url_match = re.search(r'^venue_url = "([^"\\]*(?:\\.[^"\\]*)*)"', content, re.MULTILINE)
+        title_match = re.search(r'^title = "([^"\\]*(?:\\.[^"\\]*)*)"', content, re.MULTILINE)
         
         if not venue_match:
             print(f"Warning: No venue found in {file_path}")
@@ -392,9 +393,11 @@ def update_event_file(file_path: str, dry_run: bool = False) -> bool:
         
         current_venue = venue_match.group(1)
         current_url = venue_url_match.group(1) if venue_url_match else ""
+        current_title = title_match.group(1) if title_match else ""
         
         # Unescape for normalization processing
         current_venue_unescaped = current_venue.replace('\\"', '"').replace('\\\\', '\\')
+        current_title_unescaped = current_title.replace('\\"', '"').replace('\\\\', '\\')
         
         # Normalize venue
         normalized_venue, normalized_url = normalize_venue_name(current_venue_unescaped)
@@ -402,11 +405,26 @@ def update_event_file(file_path: str, dry_run: bool = False) -> bool:
         # Re-escape the normalized venue for TOML
         normalized_venue_escaped = escape_toml_string(normalized_venue)
         
+        # Check if title needs venue name update
+        title_changed = False
+        new_title = current_title_unescaped
+        if " at " in current_title_unescaped:
+            # Update venue name in title if it contains " at [venue]"
+            parts = current_title_unescaped.rsplit(" at ", 1)
+            if len(parts) == 2:
+                artist_part = parts[0]
+                venue_part = parts[1]
+                # Check if the venue part in title needs normalization
+                normalized_title_venue, _ = normalize_venue_name(venue_part)
+                if venue_part != normalized_title_venue:
+                    new_title = f"{artist_part} at {normalized_title_venue}"
+                    title_changed = True
+        
         # Check if changes are needed
         venue_changed = current_venue != normalized_venue_escaped
         url_changed = current_url != normalized_url
         
-        if not venue_changed and not url_changed and not toml_fixed:
+        if not venue_changed and not url_changed and not title_changed and not toml_fixed:
             return False
         
         if dry_run:
@@ -415,10 +433,23 @@ def update_event_file(file_path: str, dry_run: bool = False) -> bool:
                 print(f"  Venue: '{current_venue}' → '{normalized_venue}'")
             if url_changed:
                 print(f"  URL: '{current_url}' → '{normalized_url}'")
+            if title_changed:
+                print(f"  Title: '{current_title_unescaped}' → '{new_title}'")
             return True
         
         # Apply changes
         new_content = content
+        
+        if title_changed:
+            # Escape the new title for TOML
+            new_title_escaped = escape_toml_string(new_title)
+            new_content = re.sub(
+                r'^title = "([^"]*)"',
+                f'title = "{new_title_escaped}"',
+                new_content,
+                flags=re.MULTILINE
+            )
+        
         if venue_changed:
             new_content = re.sub(
                 r'^venue = "([^"]*)"',
@@ -448,6 +479,8 @@ def update_event_file(file_path: str, dry_run: bool = False) -> bool:
             f.write(new_content)
         
         print(f"Updated: {os.path.basename(file_path)}")
+        if title_changed:
+            print(f"  Title: '{current_title_unescaped}' → '{new_title}'")
         if venue_changed:
             print(f"  Venue: '{current_venue}' → '{normalized_venue}'")
         if url_changed:
