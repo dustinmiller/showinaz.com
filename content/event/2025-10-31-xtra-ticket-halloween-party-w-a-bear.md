@@ -7,5 +7,5 @@ slug = "2025-10-31-xtra-ticket-halloween-party-w-a-bear"
 [extra]
 artist = "Xtra Ticket Halloween Party w/ A'Bear"
 venue = "The Electric Pickle"
-venue_url = ""
+venue_url = "https://www.electricpickle.com/"
 +++
