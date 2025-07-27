@@ -1,5 +1,5 @@
 +++
-title = "Jimmy Webb at Fox Theater"
+title = "Jimmy Webb at Fox Theater "
 date = 2025-09-10
 template = "page.html"
 slug = "2025-09-10-jimmy-webb"

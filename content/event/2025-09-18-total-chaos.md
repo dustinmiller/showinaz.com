@@ -1,5 +1,5 @@
 +++
-title = "Total Chaos at Yucca Tap Room"
+title = "Total Chaos at Yucca Tap Room "
 date = 2025-09-18
 template = "page.html"
 slug = "2025-09-18-total-chaos"

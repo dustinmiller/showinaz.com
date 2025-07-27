@@ -1,5 +1,5 @@
 +++
-title = "The Autumn Effect at Club Congress"
+title = "The Autumn Effect at Club Congress "
 date = 2025-10-04
 template = "page.html"
 slug = "2025-10-04-the-autumn-effect"

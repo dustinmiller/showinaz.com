@@ -1,5 +1,5 @@
 +++
-title = "Lumasi w/ Lowcation at Darkstar"
+title = "Lumasi w/ Lowcation at Darkstar "
 date = 2025-09-27
 template = "page.html"
 slug = "2025-09-27-lumasi-w-lowcation"

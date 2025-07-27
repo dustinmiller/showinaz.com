@@ -1,5 +1,5 @@
 +++
-title = "Fit For A King at The Marquee Theater"
+title = "Fit For A King at The Marquee Theater "
 date = 2025-10-30
 template = "page.html"
 slug = "2025-10-30-fit-for-a-king"

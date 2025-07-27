@@ -1,5 +1,5 @@
 +++
-title = "Proxima Parada at Crescent Ballroom"
+title = "Proxima Parada at Crescent Ballroom "
 date = 2025-09-06
 template = "page.html"
 slug = "2025-09-06-proxima-parada"

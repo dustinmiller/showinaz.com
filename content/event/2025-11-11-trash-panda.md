@@ -1,5 +1,5 @@
 +++
-title = "Trash Panda at Valley Bar"
+title = "Trash Panda at Valley Bar "
 date = 2025-11-11
 template = "page.html"
 slug = "2025-11-11-trash-panda"

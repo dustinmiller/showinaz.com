@@ -1,5 +1,5 @@
 +++
-title = "Lily Fitts at The Rebel Lounge"
+title = "Lily Fitts at The Rebel Lounge "
 date = 2025-10-07
 template = "page.html"
 slug = "2025-10-07-lily-fitts"

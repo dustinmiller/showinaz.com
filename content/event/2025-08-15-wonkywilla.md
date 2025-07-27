@@ -9,5 +9,3 @@ artist = "Wonkywilla"
 venue = "Walter Studios"
 venue_url = "https://walterstudios.com/"
 +++
-
-Wonkywilla performs at Walter Studios.

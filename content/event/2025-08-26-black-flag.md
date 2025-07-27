@@ -1,5 +1,5 @@
 +++
-title = "Black Flag at The Marquee Theater"
+title = "Black Flag at The Marquee Theater "
 date = 2025-08-26
 template = "page.html"
 slug = "2025-08-26-black-flag"

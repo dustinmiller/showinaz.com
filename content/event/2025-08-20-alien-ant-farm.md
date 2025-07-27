@@ -1,5 +1,5 @@
 +++
-title = "Alien Ant Farm at The Nile Theater"
+title = "Alien Ant Farm at The Nile Theater "
 date = 2025-08-20
 template = "page.html"
 slug = "2025-08-20-alien-ant-farm"

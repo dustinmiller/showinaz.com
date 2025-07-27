@@ -1,11 +1,11 @@
 +++
-title = "The Altons & The Sinseers at Orpheum Theater Flagstaff"
+title = "The Altons & The Sinseers at Orpheum Theater Flagstaff "
 date = 2025-08-06
 template = "page.html"
 slug = "2025-08-06-the-altons-the-sinseers"
 
 [extra]
 artist = "The Altons & The Sinseers"
-venue = "Orpheum Theater Phoenix"
-venue_url = "https://www.orpheumtheatrephoenix.com/"
+venue = "Orpheum Theater Flagstaff"
+venue_url = "https://www.orpheumflagstaff.com/"
 +++

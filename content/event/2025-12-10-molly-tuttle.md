@@ -1,5 +1,5 @@
 +++
-title = "Molly Tuttle at The Rialto Theater"
+title = "Molly Tuttle at The Rialto Theater "
 date = 2025-12-10
 template = "page.html"
 slug = "2025-12-10-molly-tuttle"

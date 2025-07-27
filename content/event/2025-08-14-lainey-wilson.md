@@ -1,5 +1,5 @@
 +++
-title = "Lainey Wilson at PHX Arena"
+title = "Lainey Wilson at Footprint Center "
 date = 2025-08-14
 template = "page.html"
 slug = "2025-08-14-lainey-wilson"

@@ -1,5 +1,5 @@
 +++
-title = "Ca7riel & Poco Amoroso at Walter Wherehouse"
+title = "Ca7riel & Poco Amoroso at Walter Wherehouse "
 date = 2025-10-15
 template = "page.html"
 slug = "2025-10-15-ca7riel-poco-amoroso"

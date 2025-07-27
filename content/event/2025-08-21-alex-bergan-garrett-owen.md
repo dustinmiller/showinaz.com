@@ -1,5 +1,5 @@
 +++
-title = "Alex Bergan, Garrett Owen at Valley Bar"
+title = "Alex Bergan, Garrett Owen at Valley Bar "
 date = 2025-08-21
 template = "page.html"
 slug = "2025-08-21-alex-bergan-garrett-owen"

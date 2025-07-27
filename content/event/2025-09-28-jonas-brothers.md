@@ -1,5 +1,5 @@
 +++
-title = "Jonas Brothers at PHX Arena"
+title = "Jonas Brothers at PHX Arena "
 date = 2025-09-28
 template = "page.html"
 slug = "2025-09-28-jonas-brothers"

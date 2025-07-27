@@ -1,5 +1,5 @@
 +++
-title = "Julia Keefe Indigenous Jazz Ensemble at Fox Theater"
+title = "Julia Keefe Indigenous Jazz Ensemble at Fox Theater "
 date = 2025-10-10
 template = "page.html"
 slug = "2025-10-10-julia-keefe-indigenous-jazz-ensemble"

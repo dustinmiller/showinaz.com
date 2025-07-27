@@ -1,5 +1,5 @@
 +++
-title = "Durand Jones & The Indications at The Van Buren"
+title = "Durand Jones & The Indications at The Van Buren "
 date = 2025-09-11
 template = "page.html"
 slug = "2025-09-11-durand-jones-the-indications"

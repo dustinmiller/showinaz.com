@@ -1,5 +1,5 @@
 +++
-title = "John Pizzarelli at The MIM"
+title = "John Pizzarelli at The MIM "
 date = 2025-09-17
 template = "page.html"
 slug = "2025-09-17-john-pizzarelli"

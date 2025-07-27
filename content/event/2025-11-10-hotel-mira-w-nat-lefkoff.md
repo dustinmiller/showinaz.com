@@ -1,5 +1,5 @@
 +++
-title = "Hotel Mira w/ Nat Lefkoff at The Rebel Lounge"
+title = "Hotel Mira w/ Nat Lefkoff at The Rebel Lounge "
 date = 2025-11-10
 template = "page.html"
 slug = "2025-11-10-hotel-mira-w-nat-lefkoff"

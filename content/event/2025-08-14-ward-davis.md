@@ -1,5 +1,5 @@
 +++
-title = "Ward Davis at Crescent Ballroom"
+title = "Ward Davis at Crescent Ballroom "
 date = 2025-08-14
 template = "page.html"
 slug = "2025-08-14-ward-davis"

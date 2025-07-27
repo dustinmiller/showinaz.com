@@ -1,5 +1,5 @@
 +++
-title = "Taj Farrant at 191 Toole"
+title = "Taj Farrant at 191 Toole "
 date = 2025-08-22
 template = "page.html"
 slug = "2025-08-22-taj-farrant"

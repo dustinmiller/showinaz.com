@@ -1,11 +1,11 @@
 +++
-title = "Aaron Watson at Orpheum Flagstaff"
+title = "Aaron Watson at Orpheum Flagstaff "
 date = 2025-10-19
 template = "page.html"
 slug = "2025-10-19-aaron-watson"
 
 [extra]
 artist = "Aaron Watson"
-venue = "Orpheum Theater Phoenix"
-venue_url = "https://www.orpheumtheatrephoenix.com/"
+venue = "Orpheum Theater Flagstaff"
+venue_url = "https://www.orpheumflagstaff.com/"
 +++

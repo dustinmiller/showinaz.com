@@ -1,5 +1,5 @@
 +++
-title = "The Elton John Experience (Tribute) at Fox Theater"
+title = "The Elton John Experience (Tribute) at Fox Theater "
 date = 2025-08-15
 template = "page.html"
 slug = "2025-08-15-the-elton-john-experience-tribute"

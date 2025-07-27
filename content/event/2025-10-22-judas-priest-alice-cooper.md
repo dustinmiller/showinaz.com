@@ -1,5 +1,5 @@
 +++
-title = "Judas Priest & Alice Cooper at Talking Stick Amphitheater"
+title = "Judas Priest & Alice Cooper at Talking Stick Amphitheater "
 date = 2025-10-22
 template = "page.html"
 slug = "2025-10-22-judas-priest-alice-cooper"

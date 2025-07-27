@@ -1,5 +1,5 @@
 +++
-title = "Swmrs w/ New Misphoria at Rebel Lge"
+title = "Swmrs w/ New Misphoria at Rebel Lge "
 date = 2025-09-28
 template = "page.html"
 slug = "2025-09-28-swmrs-w-new-misphoria"

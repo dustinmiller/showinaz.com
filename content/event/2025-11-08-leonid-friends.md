@@ -1,5 +1,5 @@
 +++
-title = "Leonid & Friends at The Rialto Theater"
+title = "Leonid & Friends at The Rialto Theater "
 date = 2025-11-08
 template = "page.html"
 slug = "2025-11-08-leonid-friends"

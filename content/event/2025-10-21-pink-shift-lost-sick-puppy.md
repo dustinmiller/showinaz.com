@@ -1,5 +1,5 @@
 +++
-title = "Pink Shift, Lost Sick Puppy at The Rebel Lounge"
+title = "Pink Shift, Lost Sick Puppy at The Rebel Lounge "
 date = 2025-10-21
 template = "page.html"
 slug = "2025-10-21-pink-shift-lost-sick-puppy"

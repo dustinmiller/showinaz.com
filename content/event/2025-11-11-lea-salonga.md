@@ -1,5 +1,5 @@
 +++
-title = "Lea Salonga at Fox Theater"
+title = "Lea Salonga at Fox Theater "
 date = 2025-11-11
 template = "page.html"
 slug = "2025-11-11-lea-salonga"

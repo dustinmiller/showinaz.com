@@ -1,5 +1,5 @@
 +++
-title = "Clem Snide at The Rebel Lounge"
+title = "Clem Snide at The Rebel Lounge "
 date = 2025-09-24
 template = "page.html"
 slug = "2025-09-24-clem-snide"

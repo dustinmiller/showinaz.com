@@ -1,5 +1,5 @@
 +++
-title = "Lil Darkie at The  Marquee Theater"
+title = "Lil Darkie at The  Marquee Theater "
 date = 2025-11-14
 template = "page.html"
 slug = "2025-11-14-lil-darkie"

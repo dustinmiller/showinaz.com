@@ -1,5 +1,5 @@
 +++
-title = "Desert Music Project at Club Congress"
+title = "Desert Music Project at Club Congress "
 date = 2025-08-03
 template = "page.html"
 slug = "2025-08-03-desert-music-project"

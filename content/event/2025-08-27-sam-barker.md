@@ -1,5 +1,5 @@
 +++
-title = "Sam Barker at Pepsi Amphitheater"
+title = "Sam Barker at Pepsi Amphitheater "
 date = 2025-08-27
 template = "page.html"
 slug = "2025-08-27-sam-barker"

@@ -1,5 +1,5 @@
 +++
-title = "Bass Drum of Death at Valley Bar"
+title = "Bass Drum of Death at Valley Bar "
 date = 2025-11-05
 template = "page.html"
 slug = "2025-11-05-bass-drum-of-death"

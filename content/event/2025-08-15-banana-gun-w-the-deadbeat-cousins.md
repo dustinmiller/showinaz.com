@@ -1,5 +1,5 @@
 +++
-title = "Banana Gun w/ The Deadbeat Cousins at The Crescent Ballroom"
+title = "Banana Gun w/ The Deadbeat Cousins at The Crescent Ballroom "
 date = 2025-08-15
 template = "page.html"
 slug = "2025-08-15-banana-gun-w-the-deadbeat-cousins"

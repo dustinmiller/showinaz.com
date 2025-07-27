@@ -1,5 +1,5 @@
 +++
-title = "Linkin Park at PHX Arena"
+title = "Linkin Park at Footprint Center "
 date = 2025-09-06
 template = "page.html"
 slug = "2025-09-06-linkin-park"

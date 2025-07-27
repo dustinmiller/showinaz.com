@@ -1,5 +1,5 @@
 +++
-title = "Jessie Reyes at AZ Financial Theater"
+title = "Jessie Reyes at AZ Financial Theater "
 date = 2025-08-04
 template = "page.html"
 slug = "2025-08-04-jessie-reyes"
@@ -9,5 +9,3 @@ artist = "Jessie Reyes"
 venue = "Arizona Financial Theatre"
 venue_url = "https://www.azfinancialtheatre.com/"
 +++
-
-Jessie Reyes performs at AZ Financial Theater.

@@ -1,5 +1,5 @@
 +++
-title = "Mark William Lewis at Valley Bar"
+title = "Mark William Lewis at Valley Bar "
 date = 2025-11-20
 template = "page.html"
 slug = "2025-11-20-mark-william-lewis"

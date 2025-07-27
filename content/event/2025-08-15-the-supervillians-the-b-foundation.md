@@ -1,5 +1,5 @@
 +++
-title = "The Supervillians & The B Foundation at Valley Bar"
+title = "The Supervillians & The B Foundation at Valley Bar "
 date = 2025-08-15
 template = "page.html"
 slug = "2025-08-15-the-supervillians-the-b-foundation"

@@ -1,5 +1,5 @@
 +++
-title = "Melissa Etheridge & The Indigo Girls at Arizona Financial Theater"
+title = "Melissa Etheridge & The Indigo Girls at Arizona Financial Theater "
 date = 2025-10-12
 template = "page.html"
 slug = "2025-10-12-melissa-etheridge-the-indigo-girls"

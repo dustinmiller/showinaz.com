@@ -1,5 +1,5 @@
 +++
-title = "Michael Franti & Spearhead at Pepsi Amphitheater"
+title = "Michael Franti & Spearhead at Pepsi Amphitheater "
 date = 2025-08-21
 template = "page.html"
 slug = "2025-08-21-michael-franti-spearhead"

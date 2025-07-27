@@ -1,5 +1,5 @@
 +++
-title = "Nathaniel Rateliff & The Night Sweats at Arizona Financial Theater"
+title = "Nathaniel Rateliff & The Night Sweats at Arizona Financial Theater "
 date = 2025-09-29
 template = "page.html"
 slug = "2025-09-29-nathaniel-rateliff-the-night-sweats"

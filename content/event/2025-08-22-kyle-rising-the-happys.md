@@ -1,5 +1,5 @@
 +++
-title = "Kyle Rising & The Happys at Last Exit"
+title = "Kyle Rising & The Happys at Last Exit "
 date = 2025-08-22
 template = "page.html"
 slug = "2025-08-22-kyle-rising-the-happys"

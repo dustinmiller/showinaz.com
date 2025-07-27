@@ -1,5 +1,5 @@
 +++
-title = "Chris Travis at The Marquee Theater"
+title = "Chris Travis at The Marquee Theater "
 date = 2025-08-03
 template = "page.html"
 slug = "2025-08-03-chris-travis"

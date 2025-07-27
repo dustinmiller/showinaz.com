@@ -1,5 +1,5 @@
 +++
-title = "Motion City Sountrack & Say Anything at The Marquee Theater"
+title = "Motion City Sountrack & Say Anything at The Marquee Theater "
 date = 2025-12-09
 template = "page.html"
 slug = "2025-12-09-motion-city-sountrack-say-anything"

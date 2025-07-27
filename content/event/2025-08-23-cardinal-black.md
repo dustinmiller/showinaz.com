@@ -1,5 +1,5 @@
 +++
-title = "Cardinal Black at The Rebel Lounge"
+title = "Cardinal Black at The Rebel Lounge "
 date = 2025-08-23
 template = "page.html"
 slug = "2025-08-23-cardinal-black"

@@ -1,5 +1,5 @@
 +++
-title = "Mavis Staples at Fox Theater"
+title = "Mavis Staples at Fox Theater "
 date = 2025-10-09
 template = "page.html"
 slug = "2025-10-09-mavis-staples"

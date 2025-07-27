@@ -1,5 +1,5 @@
 +++
-title = "Hollow Coves at Crescent Ballroom"
+title = "Hollow Coves at Crescent Ballroom "
 date = 2025-08-31
 template = "page.html"
 slug = "2025-08-31-hollow-coves"

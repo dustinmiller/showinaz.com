@@ -1,5 +1,5 @@
 +++
-title = "Leon Thomas at The Van Buren"
+title = "Leon Thomas at The Van Buren "
 date = 2025-12-21
 template = "page.html"
 slug = "2025-12-21-leon-thomas"

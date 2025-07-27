@@ -1,5 +1,5 @@
 +++
-title = "Liam St John at Last Exit Live"
+title = "Liam St John at Last Exit Live "
 date = 2025-10-05
 template = "page.html"
 slug = "2025-10-05-liam-st-john"

@@ -1,5 +1,5 @@
 +++
-title = "Burton Cummings (of The Guess Who) at Fox Theater"
+title = "Burton Cummings (of The Guess Who) at Fox Theater "
 date = 2025-08-20
 template = "page.html"
 slug = "2025-08-20-burton-cummings-of-the-guess-who"

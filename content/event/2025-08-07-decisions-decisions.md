@@ -1,5 +1,5 @@
 +++
-title = "Decisions Decisions at The Van Buren"
+title = "Decisions Decisions at The Van Buren "
 date = 2025-08-07
 template = "page.html"
 slug = "2025-08-07-decisions-decisions"

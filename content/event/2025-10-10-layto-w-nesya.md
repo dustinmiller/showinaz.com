@@ -1,5 +1,5 @@
 +++
-title = "Layto w/ Nesya at Last Exit Live"
+title = "Layto w/ Nesya at Last Exit Live "
 date = 2025-10-10
 template = "page.html"
 slug = "2025-10-10-layto-w-nesya"

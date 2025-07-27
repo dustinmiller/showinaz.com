@@ -1,5 +1,5 @@
 +++
-title = "Tab Benoit at Fox Theater"
+title = "Tab Benoit at Fox Theater "
 date = 2025-08-26
 template = "page.html"
 slug = "2025-08-26-tab-benoit"

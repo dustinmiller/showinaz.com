@@ -1,5 +1,5 @@
 +++
-title = "Jason Bonham's Led Zeppelin Evening at The Rialto Theater"
+title = "Jason Bonham's Led Zeppelin Evening at The Rialto Theater "
 date = 2025-08-13
 template = "page.html"
 slug = "2025-08-13-jason-bonham-s-led-zeppelin-evening"

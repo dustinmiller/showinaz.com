@@ -1,5 +1,5 @@
 +++
-title = "Black Rebel Motorcycle Club at The Van Buren"
+title = "Black Rebel Motorcycle Club at The Van Buren "
 date = 2025-10-21
 template = "page.html"
 slug = "2025-10-21-black-rebel-motorcycle-club"

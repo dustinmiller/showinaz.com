@@ -1,5 +1,5 @@
 +++
-title = "The Bell rays at 191 Toole"
+title = "The Bell rays at 191 Toole  "
 date = 2025-09-11
 template = "page.html"
 slug = "2025-09-11-the-bell-rays"

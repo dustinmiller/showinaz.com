@@ -1,5 +1,5 @@
 +++
-title = "John Cleary & The Absolute Monster Gentlemen at The MIM"
+title = "John Cleary & The Absolute Monster Gentlemen at The MIM "
 date = 2025-09-08
 template = "page.html"
 slug = "2025-09-08-john-cleary-the-absolute-monster-gentlemen"

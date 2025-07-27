@@ -1,5 +1,5 @@
 +++
-title = "Dylan Gossett at The Van Buren"
+title = "Dylan Gossett at The Van Buren "
 date = 2025-11-16
 template = "page.html"
 slug = "2025-11-16-dylan-gossett"
