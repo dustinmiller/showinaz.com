@@ -165,6 +165,8 @@ VENUE_MAPPING = {
     "Cactus Jacks": ("Cactus Jacks", "https://cactusjacksbar.co/"),
 
     "The Darkside TFM": ("The Darkside", "https://www.facebook.com/thedarksideTFM/"),
+    "The Dark Side TFM": ("The Darkside", "https://www.facebook.com/thedarksideTFM/"),
+    "The Darkside": ("The Darkside", "https://www.facebook.com/thedarksideTFM/"),
     "Darkside": ("The Darkside", "https://www.facebook.com/thedarksideTFM/"),
 
     "Pho Cao": ("Pho Cao", "https://www.phocaoarizona.com/"),
@@ -251,7 +253,6 @@ VENUE_MAPPING = {
     "Wild Horse Pass Hotel & Casino": ("Wild Horse Pass Hotel & Casino", "https://wingilariver.com/"),
     "Fort Tuthill County Park": ("Fort Tuthill County Park", ""),
     "Arizona State Fair": ("Arizona State Fair", "https://azstatefair.com/"),
-    "The Darkside": ("The Darkside", ""),
 }
 
 def normalize_venue_name(venue_name: str) -> Tuple[str, str]:
