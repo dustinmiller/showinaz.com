@@ -2,18 +2,20 @@
 
 {% block content %}
 <div class="show-detail">
-    <div class="show-detail-header">
-        {% set event_timestamp = page.date | date(format="%s") | int %}
-        {% set today_timestamp = now() | date(format="%s") | int %}
-        {% set is_past = event_timestamp < today_timestamp %}
-        
+  <div class="show-detail-header">
+      {% set event_timestamp = page.date | date(format="%s") | int %}
+      {% set today_timestamp = now() | date(format="%s") | int %}
+      {% set seconds_in_a_day = 86400 %}
+      {% set yesterday_timestamp = today_timestamp - seconds_in_a_day %}
+      {% set is_past_yesterday = event_timestamp < yesterday_timestamp %}
+
         {% if is_past %}
         <div class="archive-notice">
             <span class="archive-badge-large">Past Event</span>
             <p>This event has already taken place. <a href="/shows/">View upcoming shows →</a></p>
         </div>
         {% endif %}
-        
+
         <div class="show-date-large">{{ page.date | date(format="%B %d, %Y") }}</div>
         <h1 class="show-artist-large">{{ page.extra.artist }}</h1>
         <div class="show-venue-large">
@@ -24,13 +26,13 @@
             {% endif %}
         </div>
     </div>
-    
+
     {% if page.content %}
     <div class="show-description">
         {{ page.content | safe }}
     </div>
     {% endif %}
-    
+
     <div class="show-actions">
         {% if is_past %}
         <a href="/archive/" class="btn-back">← Back to Archive</a>
