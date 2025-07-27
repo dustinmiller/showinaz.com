@@ -1,5 +1,5 @@
 +++
-title = "Kublai Khan TX at The Marquee"
+title = "Kublai Khan TX at The Marquee Theater"
 date = 2025-10-17
 template = "page.html"
 slug = "2025-10-17-kublai-khan-tx"

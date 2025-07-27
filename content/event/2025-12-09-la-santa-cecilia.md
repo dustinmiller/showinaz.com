@@ -1,5 +1,5 @@
 +++
-title = "La Santa Cecilia at The Ceescent BR"
+title = "La Santa Cecilia at Crescent Ballroom"
 date = 2025-12-09
 template = "page.html"
 slug = "2025-12-09-la-santa-cecilia"

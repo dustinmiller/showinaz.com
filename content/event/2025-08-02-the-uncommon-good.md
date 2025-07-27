@@ -1,5 +1,5 @@
 +++
-title = "The Uncommon Good at Wasted Grain (Jay Allan's Birthday show)"
+title = "The Uncommon Good at Wasted Grain"
 date = 2025-08-02
 template = "page.html"
 slug = "2025-08-02-the-uncommon-good"

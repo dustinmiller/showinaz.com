@@ -1,5 +1,5 @@
 +++
-title = "Sunny Day Real Estate at Van Buren"
+title = "Sunny Day Real Estate at The Van Buren"
 date = 2025-09-14
 template = "page.html"
 slug = "2025-09-14-sunny-day-real-estate"

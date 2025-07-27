@@ -1,5 +1,5 @@
 +++
-title = "Tee Grizzley at The Nile"
+title = "Tee Grizzley at The Nile Theater"
 date = 2025-09-26
 template = "page.html"
 slug = "2025-09-26-tee-grizzley"

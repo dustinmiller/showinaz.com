@@ -1,5 +1,5 @@
 +++
-title = "Giovanni & The Hired Guns at Crescent"
+title = "Giovanni & The Hired Guns at Crescent Ballroom"
 date = 2025-08-24
 template = "page.html"
 slug = "2025-08-24-giovanni-the-hired-guns"

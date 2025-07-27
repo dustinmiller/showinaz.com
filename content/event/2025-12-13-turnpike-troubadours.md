@@ -1,5 +1,5 @@
 +++
-title = "Turnpike Troubadours at Mesa Amp"
+title = "Turnpike Troubadours at Mesa Amphitheatre"
 date = 2025-12-13
 template = "page.html"
 slug = "2025-12-13-turnpike-troubadours"

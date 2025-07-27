@@ -1,5 +1,5 @@
 +++
-title = "The Offspring at Talking Stick Amph."
+title = "The Offspring at Talking Stick Resort Amphitheatre"
 date = 2025-08-27
 template = "page.html"
 slug = "2025-08-27-the-offspring"

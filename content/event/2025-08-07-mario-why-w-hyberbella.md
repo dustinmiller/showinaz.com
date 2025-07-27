@@ -1,5 +1,5 @@
 +++
-title = "Mario Why w/ Hyberbella at Crescent BR"
+title = "Mario Why w/ Hyberbella at Crescent Ballroom"
 date = 2025-08-07
 template = "page.html"
 slug = "2025-08-07-mario-why-w-hyberbella"

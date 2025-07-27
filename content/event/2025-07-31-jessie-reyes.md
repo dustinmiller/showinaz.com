@@ -1,5 +1,5 @@
 +++
-title = "Jessie Reyes at AZ Financial Theater"
+title = "Jessie Reyes at Arizona Financial Theatre"
 date = 2025-07-31
 template = "page.html"
 slug = "2025-07-31-jessie-reyes"

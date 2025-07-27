@@ -1,5 +1,5 @@
 +++
-title = "Magdalena Bay at Arizona Financial"
+title = "Magdalena Bay at Arizona Financial Theatre"
 date = 2025-09-23
 template = "page.html"
 slug = "2025-09-23-magdalena-bay"

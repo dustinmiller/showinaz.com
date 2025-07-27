@@ -1,5 +1,5 @@
 +++
-title = "SmallPools at The Crescent Ballrm"
+title = "SmallPools at Crescent Ballroom"
 date = 2025-11-17
 template = "page.html"
 slug = "2025-11-17-smallpools"

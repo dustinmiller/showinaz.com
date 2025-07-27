@@ -1,5 +1,5 @@
 +++
-title = "Femi Kuti & the Positive Force at MIM"
+title = "Femi Kuti & the Positive Force at MIM Music & Instrument Museum"
 date = 2025-08-06
 template = "page.html"
 slug = "2025-08-06-femi-kuti-the-positive-force"

@@ -1,5 +1,5 @@
 +++
-title = "Band Of Horses, Iron & Wine at Pepsi Amphitheater"
+title = "Band Of Horses, Iron & Wine at Ak-Chin Pavilion"
 date = 2025-09-30
 template = "page.html"
 slug = "2025-09-30-band-of-horses-iron-wine"

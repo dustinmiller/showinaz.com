@@ -1,5 +1,5 @@
 +++
-title = "Spanish Harlem Orchestra at The MIM"
+title = "Spanish Harlem Orchestra at MIM Music & Instrument Museum"
 date = 2025-08-17
 template = "page.html"
 slug = "2025-08-17-spanish-harlem-orchestra"

@@ -1,5 +1,5 @@
 +++
-title = "Keb' Mo' & Shawn Colvin at Celebrity"
+title = "Keb' Mo' & Shawn Colvin at Celebrity Theatre"
 date = 2025-08-13
 template = "page.html"
 slug = "2025-08-13-keb-mo-shawn-colvin"

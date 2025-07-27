@@ -1,5 +1,5 @@
 +++
-title = "Toto, Men At Work, Christopher Cross at Arizona Financial Theater"
+title = "Toto, Men At Work, Christopher Cross at Arizona Financial Theatre"
 date = 2025-08-21
 template = "page.html"
 slug = "2025-08-21-toto-men-at-work-christopher-cross"

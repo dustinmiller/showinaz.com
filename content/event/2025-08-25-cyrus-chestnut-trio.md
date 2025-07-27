@@ -1,5 +1,5 @@
 +++
-title = "Cyrus Chestnut Trio at The MIM"
+title = "Cyrus Chestnut Trio at MIM Music & Instrument Museum"
 date = 2025-08-25
 template = "page.html"
 slug = "2025-08-25-cyrus-chestnut-trio"

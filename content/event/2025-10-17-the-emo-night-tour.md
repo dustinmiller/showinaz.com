@@ -1,5 +1,5 @@
 +++
-title = "The Emo Night Tour at The Nile"
+title = "The Emo Night Tour at The Nile Theater"
 date = 2025-10-17
 template = "page.html"
 slug = "2025-10-17-the-emo-night-tour"

@@ -1,5 +1,5 @@
 +++
-title = "Ruthie Foster at The MIM"
+title = "Ruthie Foster at MIM Music & Instrument Museum"
 date = 2025-09-21
 template = "page.html"
 slug = "2025-09-21-ruthie-foster"

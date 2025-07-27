@@ -1,5 +1,5 @@
 +++
-title = "Walter Trout at The MIM"
+title = "Walter Trout at MIM Music & Instrument Museum"
 date = 2025-09-03
 template = "page.html"
 slug = "2025-09-03-walter-trout"

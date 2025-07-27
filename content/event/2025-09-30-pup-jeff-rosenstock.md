@@ -1,5 +1,5 @@
 +++
-title = "Pup & Jeff Rosenstock at Van Buren"
+title = "Pup & Jeff Rosenstock at The Van Buren"
 date = 2025-09-30
 template = "page.html"
 slug = "2025-09-30-pup-jeff-rosenstock"

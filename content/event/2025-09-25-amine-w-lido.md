@@ -1,5 +1,5 @@
 +++
-title = "Amine w/ Lido at AZ Financial Theater"
+title = "Amine w/ Lido at Arizona Financial Theatre"
 date = 2025-09-25
 template = "page.html"
 slug = "2025-09-25-amine-w-lido"

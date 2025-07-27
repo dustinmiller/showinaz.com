@@ -1,5 +1,5 @@
 +++
-title = "American Aquarium at The Crescent"
+title = "American Aquarium at Crescent Ballroom"
 date = 2025-08-26
 template = "page.html"
 slug = "2025-08-26-american-aquarium"

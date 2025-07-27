@@ -1,5 +1,5 @@
 +++
-title = "Sunfish w/ Black Pontiac at Rebel Lge"
+title = "Sunfish w/ Black Pontiac at The Rebel Lounge"
 date = 2025-08-27
 template = "page.html"
 slug = "2025-08-27-sunfish-w-black-pontiac"

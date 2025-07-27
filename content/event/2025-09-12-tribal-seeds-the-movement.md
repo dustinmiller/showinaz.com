@@ -1,5 +1,5 @@
 +++
-title = "Tribal Seeds & The Movement at Mesa  Amphitheater"
+title = "Tribal Seeds & The Movement at Mesa Amphitheatre"
 date = 2025-09-12
 template = "page.html"
 slug = "2025-09-12-tribal-seeds-the-movement"

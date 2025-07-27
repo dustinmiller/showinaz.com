@@ -1,5 +1,5 @@
 +++
-title = "Kolohe Kai at Arizona Financial Theater"
+title = "Kolohe Kai at Arizona Financial Theatre"
 date = 2025-09-10
 template = "page.html"
 slug = "2025-09-10-kolohe-kai"

@@ -1,5 +1,5 @@
 +++
-title = "Braxton Cook at The MIM"
+title = "Braxton Cook at MIM Music & Instrument Museum"
 date = 2025-09-05
 template = "page.html"
 slug = "2025-09-05-braxton-cook"

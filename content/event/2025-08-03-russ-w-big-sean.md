@@ -1,5 +1,5 @@
 +++
-title = "Russ w/ Big Sean at Talking Stick Amph"
+title = "Russ w/ Big Sean at Talking Stick Resort Amphitheatre"
 date = 2025-08-03
 template = "page.html"
 slug = "2025-08-03-russ-w-big-sean"

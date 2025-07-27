@@ -1,5 +1,5 @@
 +++
-title = "Turnstile at Mesa Amphitheater"
+title = "Turnstile at Mesa Amphitheatre"
 date = 2025-10-11
 template = "page.html"
 slug = "2025-10-11-turnstile"

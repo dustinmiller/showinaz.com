@@ -1,5 +1,5 @@
 +++
-title = "Rob Thomas at Arizona Financial Theatr"
+title = "Rob Thomas at Arizona Financial Theatre"
 date = 2025-09-04
 template = "page.html"
 slug = "2025-09-04-rob-thomas"

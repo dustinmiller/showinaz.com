@@ -1,5 +1,5 @@
 +++
-title = "Falling In Reverse at Talking Stick Amp"
+title = "Falling In Reverse at Talking Stick Resort Amphitheatre"
 date = 2025-09-24
 template = "page.html"
 slug = "2025-09-24-falling-in-reverse"

@@ -1,5 +1,5 @@
 +++
-title = "Bone Thugs & Harmony, Three 6 Mafia, Tech N9ne at Talking Stick Amphitheater"
+title = "Bone Thugs & Harmony, Three 6 Mafia, Tech N9ne at Talking Stick Resort Amphitheatre"
 date = 2025-10-02
 template = "page.html"
 slug = "2025-10-02-bone-thugs-harmony-three-6-mafia-tech-n9ne"

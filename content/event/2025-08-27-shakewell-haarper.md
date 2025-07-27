@@ -1,5 +1,5 @@
 +++
-title = "Shakewell, Haarper at The Nile"
+title = "Shakewell, Haarper at The Nile Theater"
 date = 2025-08-27
 template = "page.html"
 slug = "2025-08-27-shakewell-haarper"

@@ -1,5 +1,5 @@
 +++
-title = "The Hip Abduction at The Marquee"
+title = "The Hip Abduction at The Marquee Theater"
 date = 2025-10-16
 template = "page.html"
 slug = "2025-10-16-the-hip-abduction"

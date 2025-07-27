@@ -1,5 +1,5 @@
 +++
-title = "9/11-9/14 Picking In The Pines at Fort Tuthil"
+title = "9/11-9/14 Picking In The Pines at Fort Tuthill County Park"
 date = 2025-09-11
 template = "page.html"
 slug = "2025-09-11-9-11-9-14-picking-in-the-pines"

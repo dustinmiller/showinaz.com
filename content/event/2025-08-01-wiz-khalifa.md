@@ -1,5 +1,5 @@
 +++
-title = "Wiz Khalifa at Talking Stick Amphithtr"
+title = "Wiz Khalifa at Talking Stick Resort Amphitheatre"
 date = 2025-08-01
 template = "page.html"
 slug = "2025-08-01-wiz-khalifa"

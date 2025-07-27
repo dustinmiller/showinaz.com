@@ -1,5 +1,5 @@
 +++
-title = "9/22-9/24 Hot Tuna (acoustic) at The MIM"
+title = "9/22-9/24 Hot Tuna (acoustic) at MIM Music & Instrument Museum"
 date = 2025-09-22
 template = "page.html"
 slug = "2025-09-22-9-22-9-24-hot-tuna-acoustic"

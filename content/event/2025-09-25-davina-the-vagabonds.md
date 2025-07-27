@@ -1,5 +1,5 @@
 +++
-title = "Davina & The Vagabonds at The MIM"
+title = "Davina & The Vagabonds at MIM Music & Instrument Museum"
 date = 2025-09-25
 template = "page.html"
 slug = "2025-09-25-davina-the-vagabonds"

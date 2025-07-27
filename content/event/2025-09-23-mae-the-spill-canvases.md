@@ -1,5 +1,5 @@
 +++
-title = "Mae & The Spill Canvases at Crescent"
+title = "Mae & The Spill Canvases at Crescent Ballroom"
 date = 2025-09-23
 template = "page.html"
 slug = "2025-09-23-mae-the-spill-canvases"

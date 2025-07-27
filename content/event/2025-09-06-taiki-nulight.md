@@ -1,5 +1,5 @@
 +++
-title = "Taiki Nulight at X Phoenix (rooftop pool)"
+title = "Taiki Nulight at X Phoenix"
 date = 2025-09-06
 template = "page.html"
 slug = "2025-09-06-taiki-nulight"

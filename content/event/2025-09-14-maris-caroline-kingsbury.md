@@ -1,5 +1,5 @@
 +++
-title = "Maris & Caroline Kingsbury at Valley Br"
+title = "Maris & Caroline Kingsbury at Valley Bar"
 date = 2025-09-14
 template = "page.html"
 slug = "2025-09-14-maris-caroline-kingsbury"

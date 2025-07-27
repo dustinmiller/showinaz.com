@@ -1,5 +1,5 @@
 +++
-title = "Madison Mcferrin at Congress Plaza St"
+title = "Madison Mcferrin at Club Congress"
 date = 2025-09-30
 template = "page.html"
 slug = "2025-09-30-madison-mcferrin"

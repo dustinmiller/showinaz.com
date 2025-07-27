@@ -1,5 +1,5 @@
 +++
-title = "Igor & The Red Elvises at Rhythm Rm"
+title = "Igor & The Red Elvises at The Rhythm Room"
 date = 2025-09-24
 template = "page.html"
 slug = "2025-09-24-igor-the-red-elvises"

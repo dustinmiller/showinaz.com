@@ -1,5 +1,5 @@
 +++
-title = "Ethan Regan at The Crescent Ballrm"
+title = "Ethan Regan at Crescent Ballroom"
 date = 2025-11-12
 template = "page.html"
 slug = "2025-11-12-ethan-regan"

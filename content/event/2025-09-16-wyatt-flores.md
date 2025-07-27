@@ -1,5 +1,5 @@
 +++
-title = "Wyatt Flores at Pepsi Amphitheater"
+title = "Wyatt Flores at Ak-Chin Pavilion"
 date = 2025-09-16
 template = "page.html"
 slug = "2025-09-16-wyatt-flores"

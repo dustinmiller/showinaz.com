@@ -1,5 +1,5 @@
 +++
-title = "Hobo Johnson Lovemakers at 191 Tool"
+title = "Hobo Johnson Lovemakers at 191 Toole"
 date = 2025-10-05
 template = "page.html"
 slug = "2025-10-05-hobo-johnson-lovemakers"

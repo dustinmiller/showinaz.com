@@ -1,5 +1,5 @@
 +++
-title = "Phoenix Funkeros at Crescent Ballrm"
+title = "Phoenix Funkeros at Crescent Ballroom"
 date = 2025-08-22
 template = "page.html"
 slug = "2025-08-22-phoenix-funkeros"

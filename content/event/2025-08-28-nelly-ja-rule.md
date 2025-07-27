@@ -1,5 +1,5 @@
 +++
-title = "Nelly & Ja Rule at Talking Stick Amph"
+title = "Nelly & Ja Rule at Talking Stick Resort Amphitheatre"
 date = 2025-08-28
 template = "page.html"
 slug = "2025-08-28-nelly-ja-rule"

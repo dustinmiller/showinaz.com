@@ -1,5 +1,5 @@
 +++
-title = "Billy Bob Thornton & The Boxmasters at Yucca North"
+title = "Billy Bob Thornton & The Boxmasters at Yucca Tap Room"
 date = 2025-10-16
 template = "page.html"
 slug = "2025-10-16-billy-bob-thornton-the-boxmasters"

@@ -1,5 +1,5 @@
 +++
-title = "Sister Sadie at The MIM"
+title = "Sister Sadie at MIM Music & Instrument Museum"
 date = 2025-09-07
 template = "page.html"
 slug = "2025-09-07-sister-sadie"

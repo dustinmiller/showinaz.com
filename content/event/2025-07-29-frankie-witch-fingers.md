@@ -1,5 +1,5 @@
 +++
-title = "Frankie & Witch Fingers at Club Congrs"
+title = "Frankie & Witch Fingers at Club Congress"
 date = 2025-07-29
 template = "page.html"
 slug = "2025-07-29-frankie-witch-fingers"

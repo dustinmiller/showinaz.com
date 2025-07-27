@@ -1,5 +1,5 @@
 +++
-title = "Kevin Kaarl at Arizona Financial Theatr"
+title = "Kevin Kaarl at Arizona Financial Theatre"
 date = 2025-08-13
 template = "page.html"
 slug = "2025-08-13-kevin-kaarl"

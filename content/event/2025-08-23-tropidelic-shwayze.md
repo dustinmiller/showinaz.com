@@ -1,5 +1,5 @@
 +++
-title = "Tropidelic & Shwayze at Crescent B.r."
+title = "Tropidelic & Shwayze at Crescent Ballroom"
 date = 2025-08-23
 template = "page.html"
 slug = "2025-08-23-tropidelic-shwayze"

@@ -1,5 +1,5 @@
 +++
-title = "IamX w/ Club Drugs at Rebel Lounge"
+title = "IamX w/ Club Drugs at The Rebel Lounge"
 date = 2025-11-19
 template = "page.html"
 slug = "2025-11-19-iamx-w-club-drugs"

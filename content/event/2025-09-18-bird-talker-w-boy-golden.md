@@ -1,5 +1,5 @@
 +++
-title = "Bird Talker w/ Boy Golden at Rebel Lg"
+title = "Bird Talker w/ Boy Golden at The Rebel Lounge"
 date = 2025-09-18
 template = "page.html"
 slug = "2025-09-18-bird-talker-w-boy-golden"

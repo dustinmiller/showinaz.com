@@ -1,5 +1,5 @@
 +++
-title = "Air Play Moon Safari at AZ Financial Th"
+title = "Air Play Moon Safari at Arizona Financial Theatre"
 date = 2025-09-26
 template = "page.html"
 slug = "2025-09-26-air-play-moon-safari"

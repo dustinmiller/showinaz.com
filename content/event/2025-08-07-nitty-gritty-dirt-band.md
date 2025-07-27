@@ -1,5 +1,5 @@
 +++
-title = "Nitty Gritty Dirt Band at Pepsi Amphithtr"
+title = "Nitty Gritty Dirt Band at Ak-Chin Pavilion"
 date = 2025-08-07
 template = "page.html"
 slug = "2025-08-07-nitty-gritty-dirt-band"

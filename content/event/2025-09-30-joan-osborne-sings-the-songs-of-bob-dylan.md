@@ -1,5 +1,5 @@
 +++
-title = "Joan Osborne sings the songs of Bob Dylan at The MIM"
+title = "Joan Osborne sings the songs of Bob Dylan at MIM Music & Instrument Museum"
 date = 2025-09-30
 template = "page.html"
 slug = "2025-09-30-joan-osborne-sings-the-songs-of-bob-dylan"

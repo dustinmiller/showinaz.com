@@ -1,5 +1,5 @@
 +++
-title = "Bad Cactus Brass Band at Crescent BR"
+title = "Bad Cactus Brass Band at Crescent Ballroom"
 date = 2025-08-16
 template = "page.html"
 slug = "2025-08-16-bad-cactus-brass-band"

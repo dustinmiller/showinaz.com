@@ -1,5 +1,5 @@
 +++
-title = "Shakey Graves at Pepsi Amphitheater"
+title = "Shakey Graves at Ak-Chin Pavilion"
 date = 2025-08-25
 template = "page.html"
 slug = "2025-08-25-shakey-graves"

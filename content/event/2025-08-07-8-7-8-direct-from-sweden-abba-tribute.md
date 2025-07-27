@@ -1,5 +1,5 @@
 +++
-title = "8/7-8 Direct From Sweden (Abba Tribute) at The MIM"
+title = "8/7-8 Direct From Sweden (Abba Tribute) at MIM Music & Instrument Museum"
 date = 2025-08-07
 template = "page.html"
 slug = "2025-08-07-8-7-8-direct-from-sweden-abba-tribute"

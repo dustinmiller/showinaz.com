@@ -1,5 +1,5 @@
 +++
-title = "Wonderlick at Orpheum Flagstaff"
+title = "Wonderlick at Orpheum Theater Flagstaff"
 date = 2025-08-03
 template = "page.html"
 slug = "2025-08-03-wonderlick"

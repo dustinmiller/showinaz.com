@@ -1,5 +1,5 @@
 +++
-title = "Vishal & Sheykar at AZ Financial Thtr"
+title = "Vishal & Sheykar at Arizona Financial Theatre"
 date = 2025-08-24
 template = "page.html"
 slug = "2025-08-24-vishal-sheykar"

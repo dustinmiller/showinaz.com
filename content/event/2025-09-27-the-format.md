@@ -1,5 +1,5 @@
 +++
-title = "The Format at AZ State Fair"
+title = "The Format at Arizona State Fair"
 date = 2025-09-27
 template = "page.html"
 slug = "2025-09-27-the-format"

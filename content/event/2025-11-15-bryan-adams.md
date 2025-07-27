@@ -1,5 +1,5 @@
 +++
-title = "Bryan Adams at PHX Arena"
+title = "Bryan Adams at Footprint Center"
 date = 2025-11-15
 template = "page.html"
 slug = "2025-11-15-bryan-adams"

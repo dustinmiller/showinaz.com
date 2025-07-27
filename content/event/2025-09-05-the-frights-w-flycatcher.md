@@ -1,5 +1,5 @@
 +++
-title = "The Frights w/ Flycatcher at Crescent Br"
+title = "The Frights w/ Flycatcher at Crescent Ballroom"
 date = 2025-09-05
 template = "page.html"
 slug = "2025-09-05-the-frights-w-flycatcher"
