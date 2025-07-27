@@ -3,8 +3,8 @@
 # Simple show generator that creates basic markdown files
 # Usage: ./generate_shows_simple.sh
 
-# Change to script directory
-cd "$(dirname "$0")"
+# Change to project root directory (one level up from script directory)
+cd "$(dirname "$0")/.."
 
 # Check if list.txt exists
 if [ ! -f "list.txt" ]; then
