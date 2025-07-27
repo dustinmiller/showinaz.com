@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <h2>Past Events Archive</h2>
+    <p>Browse past live music events in Arizona. <a href="/shows/">View upcoming shows →</a></p>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search past artists, venues, or dates..." class="search-input" aria-label="Search archived shows">
+        <button id="clearSearch" class="clear-btn" aria-label="Clear search">&times;</button>
+    </div>
+    <div class="date-filter">
+        <button class="filter-btn active" data-filter="all" aria-pressed="true">All Archive</button>
+        <button class="filter-btn" data-filter="recent" aria-pressed="false">Last 30 Days</button>
+        <button class="filter-btn" data-filter="year" aria-pressed="false">This Year</button>
+        <button class="filter-btn" data-filter="older" aria-pressed="false">Older</button>
+    </div>
+</section>
+
+<section class="shows-list" id="showsList">
+    {% set archived_shows = section.pages | sort(attribute="date", reverse=true) %}
+    
+    <div class="results-count">{{ archived_shows | length }} archived event{{ archived_shows | length | pluralize }}</div>
+    
+    {% for page in archived_shows %}
+    <div class="show-item archive-item" data-date="{{ page.date | date(format='%m/%d') }}" data-full-date="{{ page.date | date(format='%Y-%m-%d') }}" data-artist="{{ page.extra.artist | lower }}" data-venue="{{ page.extra.venue | lower }}">
+        <div class="show-date">{{ page.date | date(format="%m/%d") }}</div>
+        <div class="show-artist">
+            <a href="{{ page.permalink }}" class="show-link">{{ page.extra.artist }}</a>
+            <span class="archive-badge">archived</span>
+        </div>
+        <div class="show-venue">
+            {% if page.extra.venue_url %}
+                <a href="{{ page.extra.venue_url }}" class="show-venue" target="_blank" rel="noopener">{{ page.extra.venue }}</a>
+            {% else %}
+                {{ page.extra.venue }}
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</section>
+
+<script>
+let currentFilter = 'all';
+let currentSearch = '';
+
+function getDateObj(dateStr) {
+    const [month, day] = dateStr.split('/').map(Number);
+    const currentYear = new Date().getFullYear();
+    return new Date(currentYear, month - 1, day);
+}
+
+function getDateObjFromFull(dateStr) {
+    return new Date(dateStr);
+}
+
+function isRecent(dateStr) {
+    const eventDate = getDateObjFromFull(dateStr);
+    const thirtyDaysAgo = new Date();
+    thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+    return eventDate >= thirtyDaysAgo;
+}
+
+function isThisYear(dateStr) {
+    const eventDate = getDateObjFromFull(dateStr);
+    const currentYear = new Date().getFullYear();
+    return eventDate.getFullYear() === currentYear;
+}
+
+function isOlder(dateStr) {
+    const eventDate = getDateObjFromFull(dateStr);
+    const currentYear = new Date().getFullYear();
+    return eventDate.getFullYear() < currentYear;
+}
+
+function filterShows() {
+    const showItems = document.querySelectorAll('.show-item');
+    let visibleCount = 0;
+
+    showItems.forEach(item => {
+        const artistText = item.getAttribute('data-artist');
+        const venueText = item.getAttribute('data-venue');
+        const dateText = item.getAttribute('data-date');
+        const fullDate = item.getAttribute('data-full-date');
+        
+        const searchText = `${artistText} ${venueText} ${dateText}`;
+        
+        const matchesSearch = currentSearch === '' || searchText.includes(currentSearch.toLowerCase());
+        
+        let matchesFilter = true;
+        if (currentFilter === 'recent') {
+            matchesFilter = isRecent(fullDate);
+        } else if (currentFilter === 'year') {
+            matchesFilter = isThisYear(fullDate);
+        } else if (currentFilter === 'older') {
+            matchesFilter = isOlder(fullDate);
+        }
+        
+        if (matchesSearch && matchesFilter) {
+            item.style.display = 'grid';
+            visibleCount++;
+        } else {
+            item.style.display = 'none';
+        }
+    });
+    
+    const resultsCount = document.querySelector('.results-count');
+    resultsCount.textContent = `Showing ${visibleCount} archived event${visibleCount !== 1 ? 's' : ''}`;
+}
+
+// Search functionality
+document.getElementById('searchInput').addEventListener('input', function(e) {
+    currentSearch = e.target.value;
+    filterShows();
+    
+    const clearBtn = document.getElementById('clearSearch');
+    clearBtn.style.display = currentSearch ? 'block' : 'none';
+});
+
+document.getElementById('clearSearch').addEventListener('click', function() {
+    document.getElementById('searchInput').value = '';
+    currentSearch = '';
+    this.style.display = 'none';
+    filterShows();
+});
+
+// Filter functionality
+document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+        document.querySelectorAll('.filter-btn').forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-pressed', 'false');
+        });
+        
+        this.classList.add('active');
+        this.setAttribute('aria-pressed', 'true');
+        currentFilter = this.getAttribute('data-filter');
+        filterShows();
+    });
+});
+
+// Initialize
+filterShows();
+</script>
+
+<style>
+.archive-badge {
+    background: #6c757d;
+    color: white;
+    font-size: 0.7em;
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.archive-item {
+    opacity: 0.85;
+}
+
+.archive-item:hover {
+    opacity: 1;
+}
+</style>
+{% endblock %}

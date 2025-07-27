@@ -31,10 +31,16 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="logo">
-                <a href="{{ get_url(path='/') }}">
-                    <img src="{{ get_url(path='logo.png') }}" alt="{{ config.title }}" class="logo-img">
-                </a>
+            <div class="header-content">
+                <div class="logo">
+                    <a href="{{ get_url(path='/') }}">
+                        <img src="{{ get_url(path='logo.png') }}" alt="{{ config.title }}" class="logo-img">
+                    </a>
+                </div>
+                <nav class="nav">
+                    <a href="{{ get_url(path='/shows/') }}" class="nav-link">Shows</a>
+                    <a href="{{ get_url(path='/archive/') }}" class="nav-link">Archive</a>
+                </nav>
             </div>
             <!-- <p class="tagline">{{ config.extra.tagline }}</p> -->
         </div>

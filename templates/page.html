@@ -3,6 +3,17 @@
 {% block content %}
 <div class="show-detail">
     <div class="show-detail-header">
+        {% set event_timestamp = page.date | date(format="%s") | int %}
+        {% set today_timestamp = now() | date(format="%s") | int %}
+        {% set is_past = event_timestamp < today_timestamp %}
+        
+        {% if is_past %}
+        <div class="archive-notice">
+            <span class="archive-badge-large">Past Event</span>
+            <p>This event has already taken place. <a href="/shows/">View upcoming shows →</a></p>
+        </div>
+        {% endif %}
+        
         <div class="show-date-large">{{ page.date | date(format="%B %d, %Y") }}</div>
         <h1 class="show-artist-large">{{ page.extra.artist }}</h1>
         <div class="show-venue-large">
@@ -21,7 +32,12 @@
     {% endif %}
     
     <div class="show-actions">
-        <a href="/" class="btn-back">← Back to All Shows</a>
+        {% if is_past %}
+        <a href="/archive/" class="btn-back">← Back to Archive</a>
+        <a href="/shows/" class="btn-secondary">View Upcoming Shows</a>
+        {% else %}
+        <a href="/shows/" class="btn-back">← Back to All Shows</a>
+        {% endif %}
     </div>
 </div>
 {% endblock content %}
