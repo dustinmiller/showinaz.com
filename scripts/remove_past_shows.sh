@@ -3,8 +3,8 @@
 # Get today's date in YYYY-MM-DD format
 today=$(date +%Y-%m-%d)
 
-# Change to script directory
-cd "$(dirname "$0")"
+# Change to project root directory (one level up from script directory)
+cd "$(dirname "$0")/.."
 
 # Check if content/event directory exists
 if [ ! -d "content/event" ]; then
@@ -12,9 +12,15 @@ if [ ! -d "content/event" ]; then
     exit 1
 fi
 
-echo "Removing past show files..."
+# Create archive directory if it doesn't exist
+if [ ! -d "content/archive" ]; then
+    mkdir -p "content/archive"
+    echo "Created archive directory"
+fi
 
-removed_count=0
+echo "Archiving past show files..."
+
+archived_count=0
 kept_count=0
 
 # Process each markdown file in the event directory
@@ -30,9 +36,9 @@ for file in content/event/*.md; do
         
         # Compare dates (string comparison works for YYYY-MM-DD format)
         if [[ "$file_date" < "$today" ]]; then
-            echo "Removing: $filename ($file_date)"
-            rm "$file"
-            ((removed_count++))
+            echo "Archiving: $filename ($file_date)"
+            mv "$file" "content/archive/"
+            ((archived_count++))
         else
             ((kept_count++))
         fi
@@ -44,6 +50,6 @@ done
 
 echo
 echo "Summary:"
-echo "Removed $removed_count past show files"
-echo "Kept $kept_count upcoming show files"
+echo "Archived $archived_count past show files to content/archive/"
+echo "Kept $kept_count upcoming show files in content/event/"
 echo "Done!"
