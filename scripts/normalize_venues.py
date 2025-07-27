@@ -176,6 +176,64 @@ VENUE_MAPPING = {
     "Birdcage Saloon": ("Birdcage Saloon", ""),
     
     "Tempe Center For The Arts": ("Tempe Center for the Arts", "https://tempecenterforthearts.com/"),
+    "Tempe Center for the Arts": ("Tempe Center for the Arts", "https://tempecenterforthearts.com/"),
+    
+    # Major unmapped venues (high frequency)
+    "Arizona Financial Theatre": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
+    "Arizona Financial Theater": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
+    "AZ Financial Theater": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
+    "AZ Financial Theatre": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
+    "AZ Financial Th": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
+    "AZ Financial Tr": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
+    "Arizona Federal Theater": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
+    
+    "MIM Music & Instrument Museum": ("MIM Music & Instrument Museum", "https://mim.org/"),
+    "The MIM Music & Instrument Museum": ("MIM Music & Instrument Museum", "https://mim.org/"),
+    
+    # Orpheum variations (Phoenix vs Flagstaff)
+    "Orpheum Theater": ("Orpheum Theater Phoenix", "https://www.orpheumtheatrephoenix.com/"),
+    "The Orpheum Theater": ("Orpheum Theater Phoenix", "https://www.orpheumtheatrephoenix.com/"),
+    "Orpheum Theatre": ("Orpheum Theater Phoenix", "https://www.orpheumtheatrephoenix.com/"),
+    "The Orpheum Theatre": ("Orpheum Theater Phoenix", "https://www.orpheumtheatrephoenix.com/"),
+    
+    "The Orpheum Flagstaff": ("Orpheum Theater Flagstaff", "https://www.orpheumflagstaff.com/"),
+    "The Orpheum Theater Flagstaff": ("Orpheum Theater Flagstaff", "https://www.orpheumflagstaff.com/"),
+    "The Orpheum Theatre Flagstaff": ("Orpheum Theater Flagstaff", "https://www.orpheumflagstaff.com/"),
+    "Orpheum Theater Flagstaff": ("Orpheum Theater Flagstaff", "https://www.orpheumflagstaff.com/"),
+    "Orpheum Theater Flagstff": ("Orpheum Theater Flagstaff", "https://www.orpheumflagstaff.com/"),
+    "Orpheum Flagstaff": ("Orpheum Theater Flagstaff", "https://www.orpheumflagstaff.com/"),
+    
+    # Rawhide
+    "Rawhide Event Center": ("Rawhide Event Center", "https://www.rawhide.com/"),
+    
+    # Typo fixes - map to existing venues
+    "The Crescent Ballrm": ("Crescent Ballroom", "https://www.crescentphx.com/"),
+    "Crescent Ballrm": ("Crescent Ballroom", "https://www.crescentphx.com/"),
+    "The Ceescent BR": ("Crescent Ballroom", "https://www.crescentphx.com/"),
+    "Ceescent BR": ("Crescent Ballroom", "https://www.crescentphx.com/"),
+    "Crescent br": ("Crescent Ballroom", "https://www.crescentphx.com/"),
+    "Crescent Br": ("Crescent Ballroom", "https://www.crescentphx.com/"),
+    
+    "Valley B": ("Valley Bar", "https://www.valleybarphx.com/"),
+    "Valley Br": ("Valley Bar", "https://www.valleybarphx.com/"),
+    
+    "The  Marquee Theater": ("The Marquee Theater", "https://www.luckymanonline.com/venue/marquee-theatre/"),
+    
+    "Celebrity Thtr": ("Celebrity Theatre", "https://celebritytheatre.com/"),
+    
+    "The Nile Thtr": ("The Nile Theater", "https://theniletheatre.com/"),
+    "Nile Thtr": ("The Nile Theater", "https://theniletheatre.com/"),
+    
+    "The Rebel Loung": ("The Rebel Lounge", "https://www.rebelphx.com/"),
+    "Rebel Loung": ("The Rebel Lounge", "https://www.rebelphx.com/"),
+    
+    "Maya Day C": ("Maya Day Club", "https://mayadayclub.com/"),
+    
+    "Mesa  Amphitheater": ("Mesa Amphitheatre", "https://www.mesaamp.com/"),
+    "Mesa Amphitheater": ("Mesa Amphitheatre", "https://www.mesaamp.com/"),
+    
+    "Talking Stick Amph.": ("Talking Stick Resort Amphitheatre", "https://www.talkingstickresortamphitheatre.com/"),
+    "Talking Stick Amphith": ("Talking Stick Resort Amphitheatre", "https://www.talkingstickresortamphitheatre.com/"),
     
     # Special case venues with no normalization needed
     "TBD": ("TBD", ""),
@@ -185,6 +243,15 @@ VENUE_MAPPING = {
     "The Barn at Fort Tuthill Fairgrounds": ("Fort Tuthill County Park", ""),
     "Electric Pickle": ("The Electric Pickle", ""),
     "The Electric Pickle": ("The Electric Pickle", ""),
+    
+    # Remaining major venues
+    "Talking Stick Resort Amphitheatre": ("Talking Stick Resort Amphitheatre", "https://www.talkingstickresortamphitheatre.com/"),
+    "Mesa Amphitheatre": ("Mesa Amphitheatre", "https://www.mesaamp.com/"),
+    "Orpheum Theater Phoenix": ("Orpheum Theater Phoenix", "https://www.orpheumtheatrephoenix.com/"),
+    "Wild Horse Pass Hotel & Casino": ("Wild Horse Pass Hotel & Casino", "https://wingilariver.com/"),
+    "Fort Tuthill County Park": ("Fort Tuthill County Park", ""),
+    "Arizona State Fair": ("Arizona State Fair", "https://azstatefair.com/"),
+    "The Darkside": ("The Darkside", ""),
 }
 
 def normalize_venue_name(venue_name: str) -> Tuple[str, str]:
@@ -215,9 +282,86 @@ def normalize_venue_name(venue_name: str) -> Tuple[str, str]:
     # If no mapping found, return as-is with empty URL
     return clean_name, ""
 
+def escape_toml_string(text: str) -> str:
+    """
+    Escape special characters in TOML strings
+    
+    Args:
+        text: The string to escape
+        
+    Returns:
+        Escaped string safe for TOML
+    """
+    # Escape backslashes first
+    text = text.replace('\\', '\\\\')
+    # Escape quotes
+    text = text.replace('"', '\\"')
+    # Handle newlines
+    text = text.replace('\n', '\\n')
+    text = text.replace('\r', '\\r')
+    text = text.replace('\t', '\\t')
+    return text
+
+def fix_toml_formatting(content: str) -> str:
+    """
+    Fix common TOML formatting issues in event files
+    
+    Args:
+        content: File content
+        
+    Returns:
+        Fixed content
+    """
+    lines = content.split('\n')
+    fixed_lines = []
+    
+    for line in lines:
+        # Fix title field with unescaped quotes
+        if line.strip().startswith('title = "'):
+            title_match = re.match(r'^(\s*title = ")(.*)(")\s*$', line)
+            if title_match:
+                prefix = title_match.group(1)
+                title_content = title_match.group(2)
+                suffix = title_match.group(3)
+                
+                # Check if quotes are properly escaped
+                if '"' in title_content and '\\"' not in title_content:
+                    title_content = escape_toml_string(title_content)
+                    line = f"{prefix}{title_content}{suffix}"
+        
+        # Fix artist field with unescaped quotes
+        elif line.strip().startswith('artist = "'):
+            artist_match = re.match(r'^(\s*artist = ")(.*)(")\s*$', line)
+            if artist_match:
+                prefix = artist_match.group(1)
+                artist_content = artist_match.group(2)
+                suffix = artist_match.group(3)
+                
+                # Check if quotes are properly escaped
+                if '"' in artist_content and '\\"' not in artist_content:
+                    artist_content = escape_toml_string(artist_content)
+                    line = f"{prefix}{artist_content}{suffix}"
+        
+        # Fix venue field with unescaped quotes (this will be handled by normalization too)
+        elif line.strip().startswith('venue = "'):
+            venue_match = re.match(r'^(\s*venue = ")(.*)(")\s*$', line)
+            if venue_match:
+                prefix = venue_match.group(1)
+                venue_content = venue_match.group(2)
+                suffix = venue_match.group(3)
+                
+                # Check if quotes are properly escaped
+                if '"' in venue_content and '\\"' not in venue_content:
+                    venue_content = escape_toml_string(venue_content)
+                    line = f"{prefix}{venue_content}{suffix}"
+        
+        fixed_lines.append(line)
+    
+    return '\n'.join(fixed_lines)
+
 def update_event_file(file_path: str, dry_run: bool = False) -> bool:
     """
-    Update a single event file with normalized venue data
+    Update a single event file with normalized venue data and fix TOML formatting
     
     Args:
         file_path: Path to the event markdown file
@@ -230,25 +374,36 @@ def update_event_file(file_path: str, dry_run: bool = False) -> bool:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        # Extract current venue and venue_url
-        venue_match = re.search(r'^venue = "([^"]*)"', content, re.MULTILINE)
-        venue_url_match = re.search(r'^venue_url = "([^"]*)"', content, re.MULTILINE)
+        # First fix any TOML formatting issues
+        original_content = content
+        content = fix_toml_formatting(content)
+        toml_fixed = content != original_content
+        
+        # Extract current venue and venue_url (after TOML fixes)
+        venue_match = re.search(r'^venue = "([^"\\]*(?:\\.[^"\\]*)*)"', content, re.MULTILINE)
+        venue_url_match = re.search(r'^venue_url = "([^"\\]*(?:\\.[^"\\]*)*)"', content, re.MULTILINE)
         
         if not venue_match:
             print(f"Warning: No venue found in {file_path}")
-            return False
+            return toml_fixed
         
         current_venue = venue_match.group(1)
         current_url = venue_url_match.group(1) if venue_url_match else ""
         
+        # Unescape for normalization processing
+        current_venue_unescaped = current_venue.replace('\\"', '"').replace('\\\\', '\\')
+        
         # Normalize venue
-        normalized_venue, normalized_url = normalize_venue_name(current_venue)
+        normalized_venue, normalized_url = normalize_venue_name(current_venue_unescaped)
+        
+        # Re-escape the normalized venue for TOML
+        normalized_venue_escaped = escape_toml_string(normalized_venue)
         
         # Check if changes are needed
-        venue_changed = current_venue != normalized_venue
+        venue_changed = current_venue != normalized_venue_escaped
         url_changed = current_url != normalized_url
         
-        if not venue_changed and not url_changed:
+        if not venue_changed and not url_changed and not toml_fixed:
             return False
         
         if dry_run:

@@ -1,0 +1,53 @@
+# VENUE REFERENCE FILE
+# Use this file to research and add missing venue URLs
+# Format: Venue Name | Current URL | Suggested URL | Notes
+
+## VENUES MISSING URLs
+# These venues are mapped but need official website URLs
+
+Birdcage Saloon | | | 
+Cactus Jacks | | | 
+Dynamite Beer Co | | | 
+Fort Tuthill County Park | | | 
+Pho Cao | | | 
+San Tan Gardens | | | 
+TBD | | | 
+The Darkside | | | 
+The Electric Pickle | | | 
+Wasted Grain | | | 
+X Phoenix | | | 
+
+## UNMAPPED VENUES
+# These venues need to be added to the mapping
+
+Arizona Financial Theatre (35 events) | | | 
+MIM Music & Instrument Museum (35 events) | | | 
+Orpheum Theater (15 events) | | | 
+Talking Stick Resort Amphitheatre (14 events) | | | 
+Mesa Amphitheatre (7 events) | | | 
+The Crescent Ballrm (5 events) | | | 
+Rawhide Event Center (4 events) | | | 
+Wild Horse Pass Hotel & Casino (2 events) | | | 
+Valley B (1 events) | | | 
+Talking Stick Amph. (1 events) | | | 
+The Orpheum Flagstaff (1 events) | | | 
+The  Marquee Theater (1 events) | | | 
+Celebrity Thtr (1 events) | | | 
+AZ Financial Th (1 events) | | | 
+Fort Tuthill County Park (1 events) | | | 
+The Orpheum Theater Flagstaff (1 events) | | | 
+The Ceescent BR (1 events) | | | 
+AZ Financial Tr (1 events) | | | 
+The Darkside (1 events) | | | 
+The Nile Thtr (1 events) | | | 
+Valley Br (1 events) | | | 
+Arizona Federal Theater (1 events) | | | 
+Tempe Center for the Arts (1 events) | | | 
+Mesa  Amphitheater (1 events) | | | 
+Maya Day C (1 events) | | | 
+Crescent br (1 events) | | | 
+Orpheum Theater Flagstff (1 events) | | | 
+Arizona State Fair (1 events) | | | 
+Talking Stick Amphith (1 events) | | | 
+Crescent Br (1 events) | | | 
+The Rebel Loung (1 events) | | | 
