@@ -13,14 +13,14 @@ check: ## @@ Validate site structure and links
 	zola check
 
 generate: ## @@ Generate event files from list.txt
-	./generate_shows.sh
+	./scripts/generate_shows.sh
 
 clean: ## @@ Remove build artifacts and generated files
 	rm -rf public/
 	@echo "Cleaned build artifacts"
 
 remove-past: ## @@ Remove past event files (automated cleanup)
-	./remove_past_shows.sh
+	./scripts/remove_past_shows.sh
 
 lint: ## @@ Check code formatting and style
 	@echo "No specific linting configured for Zola sites"
@@ -73,5 +73,14 @@ push: ## @@ Push commits to remote repository
 
 full-deploy: all commit push ## @@ Complete deployment: build, commit, and push
 
+normalize-venues: ## @@ Normalize venue names and add URLs
+	python3 scripts/normalize_venues.py
+
+normalize-venues-dry: ## @@ Preview venue normalization changes (dry run)
+	python3 scripts/normalize_venues.py --dry-run
+
 update-events: generate remove-past ## @@ Update events: generate new ones and remove past ones
 	@echo "Events updated successfully!"
+
+setup-events: generate normalize-venues ## @@ Complete event setup: generate and normalize venues
+	@echo "Events generated and venues normalized!"
