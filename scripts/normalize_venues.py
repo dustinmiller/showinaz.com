@@ -237,22 +237,24 @@ VENUE_MAPPING = {
     "Talking Stick Amph.": ("Talking Stick Resort Amphitheatre", "https://www.talkingstickresortamphitheatre.com/"),
     "Talking Stick Amphith": ("Talking Stick Resort Amphitheatre", "https://www.talkingstickresortamphitheatre.com/"),
 
-    # Special case venues with no normalization needed
     "TBD": ("TBD", ""),
+
+    "Arizona State Fair": ("Arizona State Fair", "https://azstatefair.com/"),
     "AZ State Fair": ("Arizona State Fair", "https://azstatefair.com/"),
-    "Fort Tuthil": ("Fort Tuthill County Park", ""),
-    "Fort Tuthill Fairgrounds": ("Fort Tuthill County Park", ""),
-    "The Barn at Fort Tuthill Fairgrounds": ("Fort Tuthill County Park", ""),
-    "Electric Pickle": ("The Electric Pickle", ""),
-    "The Electric Pickle": ("The Electric Pickle", ""),
+
+    "Fort Tuthil": ("Fort Tuthill County Park", "https://pepsiamp.com/"),
+    "Fort Tuthill Fairgrounds": ("Fort Tuthill County Park", "https://pepsiamp.com/"),
+    "The Barn at Fort Tuthill Fairgrounds": ("Fort Tuthill County Park", "https://pepsiamp.com/"),
+    "Fort Tuthill County Park": ("Fort Tuthill County Park", "https://pepsiamp.com/"),
+
+    "Electric Pickle": ("The Electric Pickle", "https://www.electricpickle.com/"),
+    "The Electric Pickle": ("The Electric Pickle", "https://www.electricpickle.com/"),
 
     # Remaining major venues
     "Talking Stick Resort Amphitheatre": ("Talking Stick Resort Amphitheatre", "https://www.talkingstickresortamphitheatre.com/"),
     "Mesa Amphitheatre": ("Mesa Amphitheatre", "https://www.mesaamp.com/"),
     "Orpheum Theater Phoenix": ("Orpheum Theater Phoenix", "https://www.orpheumtheatrephoenix.com/"),
     "Wild Horse Pass Hotel & Casino": ("Wild Horse Pass Hotel & Casino", "https://wingilariver.com/"),
-    "Fort Tuthill County Park": ("Fort Tuthill County Park", ""),
-    "Arizona State Fair": ("Arizona State Fair", "https://azstatefair.com/"),
 }
 
 def normalize_venue_name(venue_name: str) -> Tuple[str, str]:
