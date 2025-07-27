@@ -18,9 +18,9 @@
 
 <section class="shows-list" id="showsList">
     {% set archived_shows = section.pages | sort(attribute="date", reverse=true) %}
-    
+
     <div class="results-count">{{ archived_shows | length }} archived event{{ archived_shows | length | pluralize }}</div>
-    
+
     {% for page in archived_shows %}
     <div class="show-item archive-item" data-date="{{ page.date | date(format='%m/%d') }}" data-full-date="{{ page.date | date(format='%Y-%m-%d') }}" data-artist="{{ page.extra.artist | lower }}" data-venue="{{ page.extra.venue | lower }}">
         <div class="show-date">{{ page.date | date(format="%m/%d") }}</div>
@@ -81,11 +81,11 @@ function filterShows() {
         const venueText = item.getAttribute('data-venue');
         const dateText = item.getAttribute('data-date');
         const fullDate = item.getAttribute('data-full-date');
-        
+
         const searchText = `${artistText} ${venueText} ${dateText}`;
-        
+
         const matchesSearch = currentSearch === '' || searchText.includes(currentSearch.toLowerCase());
-        
+
         let matchesFilter = true;
         if (currentFilter === 'recent') {
             matchesFilter = isRecent(fullDate);
@@ -94,7 +94,7 @@ function filterShows() {
         } else if (currentFilter === 'older') {
             matchesFilter = isOlder(fullDate);
         }
-        
+
         if (matchesSearch && matchesFilter) {
             item.style.display = 'grid';
             visibleCount++;
@@ -102,7 +102,7 @@ function filterShows() {
             item.style.display = 'none';
         }
     });
-    
+
     const resultsCount = document.querySelector('.results-count');
     resultsCount.textContent = `Showing ${visibleCount} archived event${visibleCount !== 1 ? 's' : ''}`;
 }
@@ -111,7 +111,7 @@ function filterShows() {
 document.getElementById('searchInput').addEventListener('input', function(e) {
     currentSearch = e.target.value;
     filterShows();
-    
+
     const clearBtn = document.getElementById('clearSearch');
     clearBtn.style.display = currentSearch ? 'block' : 'none';
 });
@@ -130,7 +130,7 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
             b.classList.remove('active');
             b.setAttribute('aria-pressed', 'false');
         });
-        
+
         this.classList.add('active');
         this.setAttribute('aria-pressed', 'true');
         currentFilter = this.getAttribute('data-filter');
@@ -141,25 +141,4 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 // Initialize
 filterShows();
 </script>
-
-<style>
-.archive-badge {
-    background: #6c757d;
-    color: white;
-    font-size: 0.7em;
-    padding: 2px 6px;
-    border-radius: 10px;
-    margin-left: 8px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.archive-item {
-    opacity: 0.85;
-}
-
-.archive-item:hover {
-    opacity: 1;
-}
-</style>
 {% endblock %}
