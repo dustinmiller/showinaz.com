@@ -2,35 +2,31 @@
 
 {% block content %}
 <section class="hero">
-    <h2>Past Events Archive</h2>
-    <p>Browse past live music events in Arizona. <a href="/shows/">View upcoming shows →</a></p>
+    <!-- <h2>Past Events Archive</h2> -->
     <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search past artists, venues, or dates..." class="search-input" aria-label="Search archived shows">
+        <input type="text" id="searchInput" placeholder="Search artists, venues, or dates..." class="search-input" aria-label="Search shows">
         <button id="clearSearch" class="clear-btn" aria-label="Clear search">&times;</button>
     </div>
     <div class="date-filter">
-        <button class="filter-btn active" data-filter="all" aria-pressed="true">All Archive</button>
-        <button class="filter-btn" data-filter="recent" aria-pressed="false">Last 30 Days</button>
-        <button class="filter-btn" data-filter="year" aria-pressed="false">This Year</button>
-        <button class="filter-btn" data-filter="older" aria-pressed="false">Older</button>
+        <button class="filter-btn active" data-filter="all" aria-pressed="true">All Events</button>
+        <button class="filter-btn" data-filter="today" aria-pressed="false">Today</button>
+        <button class="filter-btn" data-filter="weekend" aria-pressed="false">This Weekend</button>
+        <button class="filter-btn" data-filter="upcoming" aria-pressed="false">Next 7 Days</button>
     </div>
 </section>
 
 <section class="shows-list" id="showsList">
     {% set archived_shows = section.pages | sort(attribute="date", reverse=true) %}
 
-    <div class="results-count">{{ archived_shows | length }} archived event{{ archived_shows | length | pluralize }}</div>
+    <div class="results-count">Showing {{ archived_shows | length }} event{{ archived_shows | length | pluralize }}</div>
 
     {% for page in archived_shows %}
-    <div class="show-item archive-item" data-date="{{ page.date | date(format='%m/%d') }}" data-full-date="{{ page.date | date(format='%Y-%m-%d') }}" data-artist="{{ page.extra.artist | lower }}" data-venue="{{ page.extra.venue | lower }}">
+    <div class="show-item clickable-card" data-date="{{ page.date | date(format='%m/%d') }}" data-artist="{{ page.extra.artist | lower }}" data-venue="{{ page.extra.venue | lower }}" data-href="{{ page.permalink }}">
         <div class="show-date">{{ page.date | date(format="%m/%d") }}</div>
-        <div class="show-artist">
-            <a href="{{ page.permalink }}" class="show-link">{{ page.extra.artist }}</a>
-            <span class="archive-badge">archived</span>
-        </div>
+        <div class="show-artist">{{ page.extra.artist }}</div>
         <div class="show-venue">
             {% if page.extra.venue_url %}
-                <a href="{{ page.extra.venue_url }}" class="show-venue" target="_blank" rel="noopener">{{ page.extra.venue }}</a>
+                <a href="{{ page.extra.venue_url }}" class="venue-link" target="_blank" rel="noopener">{{ page.extra.venue }}</a> 🎟️
             {% else %}
                 {{ page.extra.venue }}
             {% endif %}
@@ -49,96 +45,162 @@ function getDateObj(dateStr) {
     return new Date(currentYear, month - 1, day);
 }
 
-function getDateObjFromFull(dateStr) {
-    return new Date(dateStr);
+function getWeekendDates() {
+    const today = new Date();
+    const currentDay = today.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+    const weekendDates = [];
+
+    // Calculate the upcoming Saturday and Sunday
+    let daysUntilSaturday;
+    if (currentDay === 0) { // Sunday
+        daysUntilSaturday = 6; // Next Saturday
+    } else if (currentDay === 6) { // Saturday
+        daysUntilSaturday = 0; // Today is Saturday
+    } else { // Monday through Friday
+        daysUntilSaturday = 6 - currentDay; // Days until Saturday
+    }
+
+    const saturday = new Date(today);
+    saturday.setDate(today.getDate() + daysUntilSaturday);
+
+    const sunday = new Date(saturday);
+    sunday.setDate(saturday.getDate() + 1);
+
+    weekendDates.push(
+        `${String(saturday.getMonth() + 1).padStart(2, '0')}/${String(saturday.getDate()).padStart(2, '0')}`,
+        `${String(sunday.getMonth() + 1).padStart(2, '0')}/${String(sunday.getDate()).padStart(2, '0')}`
+    );
+
+    return weekendDates;
 }
 
-function isRecent(dateStr) {
-    const eventDate = getDateObjFromFull(dateStr);
-    const thirtyDaysAgo = new Date();
-    thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-    return eventDate >= thirtyDaysAgo;
-}
+function filterShows(filter) {
+    currentFilter = filter;
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    const todayStr = `${month}/${day}`;
 
-function isThisYear(dateStr) {
-    const eventDate = getDateObjFromFull(dateStr);
-    const currentYear = new Date().getFullYear();
-    return eventDate.getFullYear() === currentYear;
-}
-
-function isOlder(dateStr) {
-    const eventDate = getDateObjFromFull(dateStr);
-    const currentYear = new Date().getFullYear();
-    return eventDate.getFullYear() < currentYear;
-}
-
-function filterShows() {
-    const showItems = document.querySelectorAll('.show-item');
+    const allItems = document.querySelectorAll('.show-item');
     let visibleCount = 0;
 
-    showItems.forEach(item => {
-        const artistText = item.getAttribute('data-artist');
-        const venueText = item.getAttribute('data-venue');
-        const dateText = item.getAttribute('data-date');
-        const fullDate = item.getAttribute('data-full-date');
+    allItems.forEach(item => {
+        const itemDate = item.getAttribute('data-date');
+        let shouldShow = true;
 
-        const searchText = `${artistText} ${venueText} ${dateText}`;
-
-        const matchesSearch = currentSearch === '' || searchText.includes(currentSearch.toLowerCase());
-
-        let matchesFilter = true;
-        if (currentFilter === 'recent') {
-            matchesFilter = isRecent(fullDate);
-        } else if (currentFilter === 'year') {
-            matchesFilter = isThisYear(fullDate);
-        } else if (currentFilter === 'older') {
-            matchesFilter = isOlder(fullDate);
+        switch(filter) {
+            case 'today':
+                shouldShow = itemDate === todayStr;
+                break;
+            case 'weekend':
+                const weekendDates = getWeekendDates();
+                shouldShow = weekendDates.includes(itemDate);
+                break;
+            case 'upcoming':
+                const nextWeek = new Date(today);
+                nextWeek.setDate(today.getDate() + 7);
+                const showDate = getDateObj(itemDate);
+                shouldShow = showDate <= nextWeek;
+                break;
+            default:
+                shouldShow = true;
         }
 
-        if (matchesSearch && matchesFilter) {
-            item.style.display = 'grid';
+        if (currentSearch) {
+            const artist = item.getAttribute('data-artist') || '';
+            const venue = item.getAttribute('data-venue') || '';
+            const searchMatch = artist.includes(currentSearch.toLowerCase()) ||
+                              venue.includes(currentSearch.toLowerCase()) ||
+                              itemDate.includes(currentSearch);
+            shouldShow = shouldShow && searchMatch;
+        }
+
+        if (shouldShow) {
+            item.style.display = 'flex';
             visibleCount++;
         } else {
             item.style.display = 'none';
         }
     });
 
-    const resultsCount = document.querySelector('.results-count');
-    resultsCount.textContent = `Showing ${visibleCount} archived event${visibleCount !== 1 ? 's' : ''}`;
+    updateResultsCount(visibleCount);
 }
 
-// Search functionality
-document.getElementById('searchInput').addEventListener('input', function(e) {
-    currentSearch = e.target.value;
-    filterShows();
+function updateResultsCount(count) {
+    const resultsCount = document.querySelector('.results-count');
+    if (resultsCount) {
+        resultsCount.textContent = `Showing ${count} event${count !== 1 ? 's' : ''}`;
+    }
+}
 
+function initializeSearch() {
+    const searchInput = document.getElementById('searchInput');
     const clearBtn = document.getElementById('clearSearch');
-    clearBtn.style.display = currentSearch ? 'block' : 'none';
-});
 
-document.getElementById('clearSearch').addEventListener('click', function() {
-    document.getElementById('searchInput').value = '';
-    currentSearch = '';
-    this.style.display = 'none';
-    filterShows();
-});
+    searchInput.addEventListener('input', (e) => {
+        currentSearch = e.target.value;
+        clearBtn.classList.toggle('visible', currentSearch.length > 0);
+        filterShows(currentFilter);
+    });
 
-// Filter functionality
-document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', function() {
-        document.querySelectorAll('.filter-btn').forEach(b => {
-            b.classList.remove('active');
-            b.setAttribute('aria-pressed', 'false');
+    clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        currentSearch = '';
+        clearBtn.classList.remove('visible');
+        filterShows(currentFilter);
+    });
+
+    searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            searchInput.blur();
+        }
+    });
+}
+
+function initializeFilters() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+
+    filterButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            filterButtons.forEach(btn => {
+                btn.classList.remove('active');
+                btn.setAttribute('aria-pressed', 'false');
+            });
+            e.target.classList.add('active');
+            e.target.setAttribute('aria-pressed', 'true');
+
+            const filter = e.target.getAttribute('data-filter');
+            filterShows(filter);
+        });
+    });
+}
+
+function initializeClickableCards() {
+    document.querySelectorAll('.clickable-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+            // Don't navigate if clicking on a link
+            if (e.target.tagName === 'A' || e.target.closest('a')) {
+                return;
+            }
+
+            const href = card.getAttribute('data-href');
+            if (href) {
+                window.location.href = href;
+            }
         });
 
-        this.classList.add('active');
-        this.setAttribute('aria-pressed', 'true');
-        currentFilter = this.getAttribute('data-filter');
-        filterShows();
+        // Add cursor pointer style
+        card.style.cursor = 'pointer';
     });
-});
+}
 
-// Initialize
-filterShows();
+document.addEventListener('DOMContentLoaded', function() {
+    initializeFilters();
+    initializeSearch();
+    initializeClickableCards();
+    // Show all events for archive page
+    filterShows('all');
+});
 </script>
 {% endblock %}
