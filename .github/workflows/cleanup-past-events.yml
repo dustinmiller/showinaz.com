@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@v4
       
     - name: Remove past events
-      run: ./remove_past_shows.sh
+      run: ./scripts/remove_past_shows.sh
       
     - name: Commit changes
       run: |
