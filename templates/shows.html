@@ -53,22 +53,30 @@ function getWeekendDates() {
     const weekendDates = [];
     
     if (currentDay <= 1) {
+        // If today is Sunday (0) or Monday (1), show this weekend (Fri-Sun)
+        const friday = new Date(today);
+        friday.setDate(today.getDate() + (5 - currentDay));
         const saturday = new Date(today);
         saturday.setDate(today.getDate() + (6 - currentDay));
         const sunday = new Date(saturday);
         sunday.setDate(saturday.getDate() + 1);
         
         weekendDates.push(
+            `${friday.getMonth() + 1}/${friday.getDate()}`,
             `${saturday.getMonth() + 1}/${saturday.getDate()}`,
             `${sunday.getMonth() + 1}/${sunday.getDate()}`
         );
     } else {
+        // Otherwise show next weekend (Fri-Sun)
+        const nextFriday = new Date(today);
+        nextFriday.setDate(today.getDate() + (5 - currentDay + 7));
         const nextSaturday = new Date(today);
         nextSaturday.setDate(today.getDate() + (6 - currentDay + 7));
         const nextSunday = new Date(nextSaturday);
         nextSunday.setDate(nextSaturday.getDate() + 1);
         
         weekendDates.push(
+            `${nextFriday.getMonth() + 1}/${nextFriday.getDate()}`,
             `${nextSaturday.getMonth() + 1}/${nextSaturday.getDate()}`,
             `${nextSunday.getMonth() + 1}/${nextSunday.getDate()}`
         );

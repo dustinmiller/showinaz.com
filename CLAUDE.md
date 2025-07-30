@@ -107,7 +107,7 @@ Zola automatically compiles Sass files from `sass/` to `static/` when `compile_s
 
 ### Frontend Functionality (`templates/shows.html`)
 - **Live Search**: Filters events by artist, venue, or date with inline JavaScript
-- **Date Filters**: "All Events", "Today", "This Weekend", "Next 7 Days" 
+- **Date Filters**: "All Events", "Today", "This Weekend" (Fri-Sun), "Next 7 Days" 
 - **Responsive Design**: CSS Grid layout adapting to screen size
 - **Venue Links**: Clickable venue names linking to venue websites
 - **Auto-hide Past Events**: JavaScript automatically hides past shows
