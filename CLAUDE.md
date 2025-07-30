@@ -59,6 +59,15 @@ venue_url = "https://venue-website.com"
   - Processes both `content/event/` and `content/archive/` directories
   - Supports dry-run mode for preview
   - Handles special cases like venue @ location format
+- `audit_venues.py` - Audits venue mappings and finds missing URLs
+  - Shows mapped vs unmapped venues with usage frequency
+  - Identifies venues needing URL mappings
+  - Creates reference files for venue research
+- `check_links.py` - Validates venue URLs and content links
+  - Concurrent checking with configurable workers and timeout
+  - Handles 405 errors with HEAD/GET fallback
+  - Groups results to avoid duplicate reporting
+- `extract_artists.py` - Extracts unique artists from event files
 
 #### Input Files
 - `list.txt` - Plain text file with show listings in M/D format
@@ -70,6 +79,8 @@ venue_url = "https://venue-website.com"
 - `make serve` - Start development server at http://127.0.0.1:1111
 - `make build` - Build the static site to `public/` directory
 - `make check` - Validate site structure and links
+- `make lint` - Validate HTML using W3C validator via Docker
+- `make test` - Run venue URL checks (connection errors are normal)
 - `make generate` - Generate event files from list.txt
 - `make normalize-venues` - Normalize venue names and add URLs (events + archive)
 - `make normalize-venues-dry` - Preview venue normalization changes
@@ -78,6 +89,8 @@ venue_url = "https://venue-website.com"
 - `make update-events` - Update events (generate new + remove past)
 - `make social-logo` - Create optimized social media logo
 - `make status` - Show git status and event counts
+- `make audit-venues` - Show venue mapping status and missing URLs
+- `make audit-venues-reference` - Create venue reference file for URL research
 
 ### Direct Commands
 - `zola build` - Build the static site to `public/` directory
@@ -119,11 +132,14 @@ The `scripts/generate_shows.sh` script processes show data with:
 - **Logo Optimization**: 1200x630 social media logo for proper aspect ratios
 - **Dynamic Metadata**: Page-specific titles and descriptions
 
-### Automated Cleanup
-GitHub Actions workflow runs daily at 6 AM EST to automatically remove past events:
-- Triggered by cron schedule: `0 11 * * *` (UTC)
-- Can be manually triggered via GitHub web interface
-- Uses `scripts/remove_past_shows.sh` for cleanup logic
+### GitHub Actions Automation
+- **Daily Cleanup**: Runs at 6 AM EST (`0 11 * * *` UTC) to automatically archive past events
+  - Uses `scripts/remove_past_shows.sh` for cleanup logic
+  - Can be manually triggered via GitHub web interface
+- **Weekly Link Checking**: Runs Mondays at 9 AM EST (`0 14 * * 1` UTC)
+  - Checks venue URLs and content links for broken links
+  - Creates GitHub issues automatically when broken links are detected
+  - Uses `scripts/check_links.py` with controlled concurrency
 
 ### HTML Validation
 The repository includes a pre-commit hook that automatically validates HTML using the W3C validator:
