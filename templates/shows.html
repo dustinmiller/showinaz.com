@@ -3,6 +3,7 @@
 {% block content %}
 <section class="hero">
     <h2>Upcoming Events</h2>
+    <!-- Note: Search and filtering enhanced by JavaScript, but site works without it -->
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Search artists, venues, or dates..." class="search-input" aria-label="Search shows">
         <button id="clearSearch" class="clear-btn" aria-label="Clear search">&times;</button>
@@ -36,200 +37,59 @@
     </div>
     {% endfor %}
 </div>
+{% endblock content %}
 
+{% block scripts %}
 <script>
-let currentFilter = 'all';
-let currentSearch = '';
-
-function getDateObj(dateStr) {
-    const [month, day] = dateStr.split('/').map(Number);
-    const currentYear = new Date().getFullYear();
-    return new Date(currentYear, month - 1, day);
-}
-
-function getWeekendDates() {
-    const today = new Date();
-    const currentDay = today.getDay(); // 0=Sunday, 1=Monday, ..., 6=Saturday
-    const weekendDates = [];
-    
-    // Calculate days until next Friday (5), Saturday (6), and Sunday (0)
-    let daysToFriday, daysToSaturday, daysToSunday;
-    
-    if (currentDay === 0) { // Sunday
-        daysToFriday = 5;
-        daysToSaturday = 6;
-        daysToSunday = 7;
-    } else if (currentDay === 1) { // Monday
-        daysToFriday = 4;
-        daysToSaturday = 5;
-        daysToSunday = 6;
-    } else if (currentDay === 2) { // Tuesday
-        daysToFriday = 3;
-        daysToSaturday = 4;
-        daysToSunday = 5;
-    } else if (currentDay === 3) { // Wednesday
-        daysToFriday = 2;
-        daysToSaturday = 3;
-        daysToSunday = 4;
-    } else if (currentDay === 4) { // Thursday
-        daysToFriday = 1;
-        daysToSaturday = 2;
-        daysToSunday = 3;
-    } else if (currentDay === 5) { // Friday
-        daysToFriday = 0;
-        daysToSaturday = 1;
-        daysToSunday = 2;
-    } else { // Saturday (6)
-        daysToFriday = 6;
-        daysToSaturday = 0;
-        daysToSunday = 1;
-    }
-    
-    const friday = new Date(today);
-    friday.setDate(today.getDate() + daysToFriday);
-    
-    const saturday = new Date(today);
-    saturday.setDate(today.getDate() + daysToSaturday);
-    
-    const sunday = new Date(today);
-    sunday.setDate(today.getDate() + daysToSunday);
-    
-    weekendDates.push(
-        `${friday.getMonth() + 1}/${friday.getDate()}`,
-        `${saturday.getMonth() + 1}/${saturday.getDate()}`,
-        `${sunday.getMonth() + 1}/${sunday.getDate()}`
-    );
-    
-    return weekendDates;
-}
-
-function filterShows(filter) {
-    currentFilter = filter;
+// Minimal JavaScript for progressive enhancement
+document.addEventListener('DOMContentLoaded', function() {
+    // Hide past shows
     const today = new Date();
     today.setHours(0, 0, 0, 0);
-    const todayStr = `${today.getMonth() + 1}/${today.getDate()}`;
-    
-    const allItems = document.querySelectorAll('.show-item');
     let visibleCount = 0;
     
-    allItems.forEach(item => {
-        const itemDate = item.getAttribute('data-date');
-        let shouldShow = true;
-        
-        switch(filter) {
-            case 'today':
-                shouldShow = itemDate === todayStr;
-                break;
-            case 'weekend':
-                const weekendDates = getWeekendDates();
-                shouldShow = weekendDates.includes(itemDate);
-                break;
-            case 'upcoming':
-                const nextWeek = new Date(today);
-                nextWeek.setDate(today.getDate() + 7);
-                const showDate = getDateObj(itemDate);
-                shouldShow = showDate <= nextWeek;
-                break;
-            default:
-                shouldShow = true;
-        }
-        
-        if (currentSearch) {
-            const artist = item.getAttribute('data-artist') || '';
-            const venue = item.getAttribute('data-venue') || '';
-            const searchMatch = artist.includes(currentSearch.toLowerCase()) || 
-                              venue.includes(currentSearch.toLowerCase()) || 
-                              itemDate.includes(currentSearch);
-            shouldShow = shouldShow && searchMatch;
-        }
-        
-        if (shouldShow) {
-            item.style.display = 'flex';
-            visibleCount++;
-        } else {
-            item.style.display = 'none';
-        }
-    });
-    
-    updateResultsCount(visibleCount);
-}
-
-function updateResultsCount(count) {
-    const resultsCount = document.querySelector('.results-count');
-    if (resultsCount) {
-        resultsCount.textContent = `Showing ${count} event${count !== 1 ? 's' : ''}`;
-    }
-}
-
-function initializeSearch() {
-    const searchInput = document.getElementById('searchInput');
-    const clearBtn = document.getElementById('clearSearch');
-    
-    searchInput.addEventListener('input', (e) => {
-        currentSearch = e.target.value;
-        clearBtn.classList.toggle('visible', currentSearch.length > 0);
-        filterShows(currentFilter);
-    });
-    
-    clearBtn.addEventListener('click', () => {
-        searchInput.value = '';
-        currentSearch = '';
-        clearBtn.classList.remove('visible');
-        filterShows(currentFilter);
-    });
-    
-    searchInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-            searchInput.blur();
-        }
-    });
-}
-
-function initializeFilters() {
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    
-    filterButtons.forEach(button => {
-        button.addEventListener('click', (e) => {
-            filterButtons.forEach(btn => {
-                btn.classList.remove('active');
-                btn.setAttribute('aria-pressed', 'false');
-            });
-            e.target.classList.add('active');
-            e.target.setAttribute('aria-pressed', 'true');
-            
-            const filter = e.target.getAttribute('data-filter');
-            filterShows(filter);
-        });
-    });
-}
-
-function hidePastShows() {
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    const todayStr = `${today.getMonth() + 1}/${today.getDate()}`;
-    
-    const allItems = document.querySelectorAll('.show-item');
-    let visibleCount = 0;
-    
-    allItems.forEach(item => {
-        const itemDate = item.getAttribute('data-date');
-        const showDate = getDateObj(itemDate);
+    document.querySelectorAll('.show-item').forEach(item => {
+        const [month, day] = item.dataset.date.split('/').map(Number);
+        const showDate = new Date(today.getFullYear(), month - 1, day);
         
         if (showDate >= today) {
-            item.style.display = 'flex';
             visibleCount++;
         } else {
             item.style.display = 'none';
         }
     });
     
-    updateResultsCount(visibleCount);
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-    initializeFilters();
-    initializeSearch();
-    hidePastShows();
+    // Update count
+    const resultsCount = document.querySelector('.results-count');
+    if (resultsCount) {
+        resultsCount.textContent = `Showing ${visibleCount} event${visibleCount !== 1 ? 's' : ''}`;
+    }
+    
+    // Basic search functionality
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            const query = this.value.toLowerCase();
+            let matchCount = 0;
+            
+            document.querySelectorAll('.show-item').forEach(item => {
+                const artist = item.dataset.artist || '';
+                const venue = item.dataset.venue || '';
+                const date = item.dataset.date || '';
+                
+                if (artist.includes(query) || venue.includes(query) || date.includes(query)) {
+                    item.style.display = 'flex';
+                    matchCount++;
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+            
+            if (resultsCount) {
+                resultsCount.textContent = `Showing ${matchCount} event${matchCount !== 1 ? 's' : ''}`;
+            }
+        });
+    }
 });
 </script>
-{% endblock content %}
+{% endblock scripts %}
