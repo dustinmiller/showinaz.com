@@ -124,6 +124,18 @@ GitHub Actions workflow runs daily at 6 AM EST to automatically remove past even
 - Can be manually triggered via GitHub web interface
 - Uses `scripts/remove_past_shows.sh` for cleanup logic
 
+### HTML Validation
+The repository includes a pre-commit hook that automatically validates HTML using the W3C validator:
+- **Location**: `.git/hooks/pre-commit`
+- **Trigger**: Runs when HTML or Markdown files are staged for commit
+- **Process**: 
+  1. Builds the site with `make build`
+  2. Validates all HTML files in `public/` directory using Docker
+  3. Blocks commit if validation fails
+- **Requirements**: Docker must be installed
+- **Bypass**: Use `git commit --no-verify` to skip validation if needed
+- **Docker Command**: Uses `ghcr.io/validator/validator:latest` image
+
 ## File Organization
 
 Events are organized with date-prefixed filenames: `YYYY-MM-DD-artist-name.md`
