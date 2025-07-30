@@ -15,7 +15,7 @@
     </div>
 </section>
 
-<section class="shows-list" id="showsList">
+<div class="shows-list" id="showsList">
     {% set event_section = get_section(path="event/_index.md") %}
     {% set upcoming_shows = event_section.pages | sort(attribute="date") %}
 
@@ -34,7 +34,7 @@
         </div>
     </div>
     {% endfor %}
-</section>
+</div>
 
 <script>
 let currentFilter = 'all';
