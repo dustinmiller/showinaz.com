@@ -33,6 +33,7 @@ VENUE_MAPPING = {
     "Crescent Ballrm": ("Crescent Ballroom", "https://www.crescentphx.com/"),
     "Crescent": ("Crescent Ballroom", "https://www.crescentphx.com/"),
     "Crescent B.r.": ("Crescent Ballroom", "https://www.crescentphx.com/"),
+    "Crescent B.R.": ("Crescent Ballroom", "https://www.crescentphx.com/"),
     "The Crescent BR": ("Crescent Ballroom", "https://www.crescentphx.com/"),
     "Crescent (2:30)": ("Crescent Ballroom", "https://www.crescentphx.com/"),
     "Crescent Ballroom (7:00)": ("Crescent Ballroom", "https://www.crescentphx.com/"),
@@ -77,17 +78,22 @@ VENUE_MAPPING = {
     "Rialto": ("The Rialto Theater", "https://www.rialtotheatre.com/"),
     "The Rialto": ("The Rialto Theater", "https://www.rialtotheatre.com/"),
     "Rialto Theater": ("The Rialto Theater", "https://www.rialtotheatre.com/"),
+    "The Rialto Theatr": ("The Rialto Theater", "https://www.rialtotheatre.com/"),
 
     "Last Exit Live": ("Last Exit Live", "https://lastexitlive.com/"),
     "Last Exit": ("Last Exit Live", "https://lastexitlive.com/"),
     "Last Exit L": ("Last Exit Live", "https://lastexitlive.com/"),
     "@ast Exit Live": ("Last Exit Live", "https://lastexitlive.com/"),
 
+    "Let It Roll Bowling": ("Let It Roll Bowling", "https://www.letitrollbowl.com/"),
+
     "Walter Studios": ("Walter Studios", "https://walterstudios.com/"),
     "Walter Wherehouse": ("Walter Studios", "https://walterstudios.com/"),
     "Walter Wherehous": ("Walter Studios", "https://walterstudios.com/"),
     "Walter W?H": ("Walter Studios", "https://walterstudios.com/"),
     "Walter WH": ("Walter Studios", "https://walterstudios.com/"),
+    "Walter St": ("Walter Studios", "https://walterstudios.com/"),
+    "Walter Stdio": ("Walter Studios", "https://walterstudios.com/"),
 
     "Fox Theater": ("Fox Theater", "https://www.foxtheatretucson.com/"),
     "The Fox Theater": ("Fox Theater", "https://www.foxtheatretucson.com/"),
