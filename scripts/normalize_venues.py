@@ -14,8 +14,8 @@ from typing import Dict, Tuple
 # Venue normalization mapping: {variation: (canonical_name, url)}
 VENUE_MAPPING = {
     # Major Venues
-    "The Van Buren": ("The Van Buren", "https://www.thevanburen.com/"),
-    "Van Buren": ("The Van Buren", "https://www.thevanburen.com/"),
+    "The Van Buren": ("The Van Buren", "https://www.thevanburenphx.com/shows"),
+    "Van Buren": ("The Van Buren", "https://www.thevanburenphx.com/shows"),
 
     "Valley Bar": ("Valley Bar", "https://www.valleybarphx.com/"),
 
@@ -42,18 +42,18 @@ VENUE_MAPPING = {
     "MIM": ("MIM Music & Instrument Museum", "https://mim.org/"),
     "The MIM": ("MIM Music & Instrument Museum", "https://mim.org/"),
 
-    "The Nile Theater": ("The Nile Theater", "https://theniletheatre.com/"),
-    "The Nile": ("The Nile Theater", "https://theniletheatre.com/"),
-    "Nile": ("The Nile Theater", "https://theniletheatre.com/"),
-    "The Nile Theatre": ("The Nile Theater", "https://theniletheatre.com/"),
-    "Nile Theater": ("The Nile Theater", "https://theniletheatre.com/"),
+    "The Nile Theater": ("The Nile Theater", "https://www.theniletheater.com/"),
+    "The Nile": ("The Nile Theater", "https://www.theniletheater.com/"),
+    "Nile": ("The Nile Theater", "https://www.theniletheater.com/"),
+    "The Nile Theatre": ("The Nile Theater", "https://www.theniletheater.com/"),
+    "Nile Theater": ("The Nile Theater", "https://www.theniletheater.com/"),
 
-    "Nile Underground": ("Nile Underground", "https://theniletheatre.com/"),
-    "The Nile Underground": ("Nile Underground", "https://theniletheatre.com/"),
-    "Nile UG": ("Nile Underground", "https://theniletheatre.com/"),
-    "The Nile Undergrnd": ("Nile Underground", "https://theniletheatre.com/"),
-    "Nile Undergrnd": ("Nile Underground", "https://theniletheatre.com/"),
-    "Nile Thtr": ("The Nile Theater", "https://theniletheatre.com/"),
+    "Nile Underground": ("Nile Underground", "https://www.theniletheater.com/"),
+    "The Nile Underground": ("Nile Underground", "https://www.theniletheater.com/"),
+    "Nile UG": ("Nile Underground", "https://www.theniletheater.com/"),
+    "The Nile Undergrnd": ("Nile Underground", "https://www.theniletheater.com/"),
+    "Nile Undergrnd": ("Nile Underground", "https://www.theniletheater.com/"),
+    "Nile Thtr": ("The Nile Theater", "https://www.theniletheater.com/"),
 
     "Club Congress": ("Club Congress", "https://www.hotelcongress.com/club-congress/"),
     "Congress": ("Club Congress", "https://www.hotelcongress.com/club-congress/"),
@@ -62,10 +62,9 @@ VENUE_MAPPING = {
     "Congress Plaza Stage": ("Club Congress", "https://www.hotelcongress.com/club-congress/"),
     "Congress Plaza St": ("Club Congress", "https://www.hotelcongress.com/club-congress/"),
 
-    "191 Toole": ("191 Toole", "https://www.191toole.com/"),
-    "191 Tool": ("191 Toole", "https://www.191toole.com/"),
-    "191Tool": ("191 Toole", "https://www.191toole.com/"),
-    "191 Tool": ("191 Toole", "https://www.191toole.com/"),
+    "191 Toole": ("191 Toole", "https://www.rialtotheatre.com/tm-venue/191-toole/"),
+    "191 Tool": ("191 Toole", "https://www.rialtotheatre.com/tm-venue/191-toole/"),
+    "191Tool": ("191 Toole", "https://www.rialtotheatre.com/tm-venue/191-toole/"),
 
     "The Marquee Theater": ("The Marquee Theater", "https://www.luckymanonline.com/venue/marquee-theatre/"),
     "The Marquee": ("The Marquee Theater", "https://www.luckymanonline.com/venue/marquee-theatre/"),
@@ -103,7 +102,7 @@ VENUE_MAPPING = {
 
     # Smaller/Alternative Venues
     "Darkstar": ("Darkstar", "https://www.darkstarbar.com/"),
-    "Sunbar": ("Sunbar", "https://www.sunbarscottsdale.com/"),
+    "Sunbar": ("Sunbar", "https://www.sunbaraz.com/"),
 
     "Yucca Tap Room": ("Yucca Tap Room", "https://www.yuccatap.com/"),
     "Yucca North": ("Yucca Tap Room", "https://www.yuccatap.com/"),
@@ -134,12 +133,12 @@ VENUE_MAPPING = {
     "Mesa Amphithtr": ("Mesa Amphitheatre", "https://www.mesaamp.com/"),
     "Mesa Amp": ("Mesa Amphitheatre", "https://www.mesaamp.com/"),
 
-    "Arizona Financial Theater": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
-    "AZ Financial Theater": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
-    "Arizona Financial Theatr": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
-    "AZ Financial Thtr": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
-    "Arizona Financial": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
-    "Arizona Financial Thtr": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
+    "Arizona Financial Theater": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
+    "AZ Financial Theater": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
+    "Arizona Financial Theatr": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
+    "AZ Financial Thtr": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
+    "Arizona Financial": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
+    "Arizona Financial Thtr": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
 
     "Celebrity Theater": ("Celebrity Theatre", "https://celebritytheatre.com/"),
     "Celebrity Theatre": ("Celebrity Theatre", "https://celebritytheatre.com/"),
@@ -153,7 +152,7 @@ VENUE_MAPPING = {
     "Orpheum Flg": ("Orpheum Theater", "https://www.orpheumflagstaff.com/"),
     "Orpheum Flagstff": ("Orpheum Theater", "https://www.orpheumflagstaff.com/"),
 
-    "Rawhide": ("Rawhide Event Center", "https://www.rawhide.com/"),
+    "Rawhide": ("Rawhide Event Center", "https://rawhide.com/concerts-festivals/"),
     "Wild Horse Pass Oasis Pool": ("Wild Horse Pass Hotel & Casino", "https://wingilariver.com/"),
     "WHP Oasis Pool": ("Wild Horse Pass Hotel & Casino", "https://wingilariver.com/"),
 
@@ -183,17 +182,17 @@ VENUE_MAPPING = {
     "Birdcage Saln": ("Birdcage Saloon", "https://thebirdcagesaloon.com/"),
     "Birdcage Saloon": ("Birdcage Saloon", "https://thebirdcagesaloon.com/"),
 
-    "Tempe Center For The Arts": ("Tempe Center for the Arts", "https://tempecenterforthearts.com/"),
-    "Tempe Center for the Arts": ("Tempe Center for the Arts", "https://tempecenterforthearts.com/"),
+    "Tempe Center For The Arts": ("Tempe Center for the Arts", "https://www.tempecenterforthearts.com/"),
+    "Tempe Center for the Arts": ("Tempe Center for the Arts", "https://www.tempecenterforthearts.com/"),
 
     # Major unmapped venues (high frequency)
-    "Arizona Financial Theatre": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
-    "Arizona Financial Theater": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
-    "AZ Financial Theater": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
-    "AZ Financial Theatre": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
-    "AZ Financial Th": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
-    "AZ Financial Tr": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
-    "Arizona Federal Theater": ("Arizona Financial Theatre", "https://www.azfinancialtheatre.com/"),
+    "Arizona Financial Theatre": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
+    "Arizona Financial Theater": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
+    "AZ Financial Theater": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
+    "AZ Financial Theatre": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
+    "AZ Financial Th": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
+    "AZ Financial Tr": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
+    "Arizona Federal Theater": ("Arizona Financial Theatre", "https://www.arizonafinancialtheatre.com/"),
 
     "MIM Music & Instrument Museum": ("MIM Music & Instrument Museum", "https://mim.org/"),
     "The MIM Music & Instrument Museum": ("MIM Music & Instrument Museum", "https://mim.org/"),
@@ -212,7 +211,7 @@ VENUE_MAPPING = {
     "Orpheum Flagstaff": ("Orpheum Theater Flagstaff", "https://www.orpheumflagstaff.com/"),
 
     # Rawhide
-    "Rawhide Event Center": ("Rawhide Event Center", "https://www.rawhide.com/"),
+    "Rawhide Event Center": ("Rawhide Event Center", "https://rawhide.com/concerts-festivals/"),
 
     # Typo fixes - map to existing venues
     "The Crescent Ballrm": ("Crescent Ballroom", "https://www.crescentphx.com/"),
@@ -229,8 +228,8 @@ VENUE_MAPPING = {
 
     "Celebrity Thtr": ("Celebrity Theatre", "https://celebritytheatre.com/"),
 
-    "The Nile Thtr": ("The Nile Theater", "https://theniletheatre.com/"),
-    "Nile Thtr": ("The Nile Theater", "https://theniletheatre.com/"),
+    "The Nile Thtr": ("The Nile Theater", "https://www.theniletheater.com/"),
+    "Nile Thtr": ("The Nile Theater", "https://www.theniletheater.com/"),
 
     "The Rebel Loung": ("The Rebel Lounge", "https://www.rebelphx.com/"),
     "Rebel Loung": ("The Rebel Lounge", "https://www.rebelphx.com/"),
