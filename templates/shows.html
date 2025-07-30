@@ -49,38 +49,56 @@ function getDateObj(dateStr) {
 
 function getWeekendDates() {
     const today = new Date();
-    const currentDay = today.getDay();
+    const currentDay = today.getDay(); // 0=Sunday, 1=Monday, ..., 6=Saturday
     const weekendDates = [];
     
-    if (currentDay <= 1) {
-        // If today is Sunday (0) or Monday (1), show this weekend (Fri-Sun)
-        const friday = new Date(today);
-        friday.setDate(today.getDate() + (5 - currentDay));
-        const saturday = new Date(today);
-        saturday.setDate(today.getDate() + (6 - currentDay));
-        const sunday = new Date(saturday);
-        sunday.setDate(saturday.getDate() + 1);
-        
-        weekendDates.push(
-            `${friday.getMonth() + 1}/${friday.getDate()}`,
-            `${saturday.getMonth() + 1}/${saturday.getDate()}`,
-            `${sunday.getMonth() + 1}/${sunday.getDate()}`
-        );
-    } else {
-        // Otherwise show next weekend (Fri-Sun)
-        const nextFriday = new Date(today);
-        nextFriday.setDate(today.getDate() + (5 - currentDay + 7));
-        const nextSaturday = new Date(today);
-        nextSaturday.setDate(today.getDate() + (6 - currentDay + 7));
-        const nextSunday = new Date(nextSaturday);
-        nextSunday.setDate(nextSaturday.getDate() + 1);
-        
-        weekendDates.push(
-            `${nextFriday.getMonth() + 1}/${nextFriday.getDate()}`,
-            `${nextSaturday.getMonth() + 1}/${nextSaturday.getDate()}`,
-            `${nextSunday.getMonth() + 1}/${nextSunday.getDate()}`
-        );
+    // Calculate days until next Friday (5), Saturday (6), and Sunday (0)
+    let daysToFriday, daysToSaturday, daysToSunday;
+    
+    if (currentDay === 0) { // Sunday
+        daysToFriday = 5;
+        daysToSaturday = 6;
+        daysToSunday = 7;
+    } else if (currentDay === 1) { // Monday
+        daysToFriday = 4;
+        daysToSaturday = 5;
+        daysToSunday = 6;
+    } else if (currentDay === 2) { // Tuesday
+        daysToFriday = 3;
+        daysToSaturday = 4;
+        daysToSunday = 5;
+    } else if (currentDay === 3) { // Wednesday
+        daysToFriday = 2;
+        daysToSaturday = 3;
+        daysToSunday = 4;
+    } else if (currentDay === 4) { // Thursday
+        daysToFriday = 1;
+        daysToSaturday = 2;
+        daysToSunday = 3;
+    } else if (currentDay === 5) { // Friday
+        daysToFriday = 0;
+        daysToSaturday = 1;
+        daysToSunday = 2;
+    } else { // Saturday (6)
+        daysToFriday = 6;
+        daysToSaturday = 0;
+        daysToSunday = 1;
     }
+    
+    const friday = new Date(today);
+    friday.setDate(today.getDate() + daysToFriday);
+    
+    const saturday = new Date(today);
+    saturday.setDate(today.getDate() + daysToSaturday);
+    
+    const sunday = new Date(today);
+    sunday.setDate(today.getDate() + daysToSunday);
+    
+    weekendDates.push(
+        `${friday.getMonth() + 1}/${friday.getDate()}`,
+        `${saturday.getMonth() + 1}/${saturday.getDate()}`,
+        `${sunday.getMonth() + 1}/${sunday.getDate()}`
+    );
     
     return weekendDates;
 }
