@@ -1,5 +1,5 @@
 +++
-title = "Street Light Manifesto at The Marquee"
+title = "Street Light Manifesto at The Marquee Theater"
 date = 2025-07-20
 template = "page.html"
 slug = "2025-07-20-street-light-manifesto"

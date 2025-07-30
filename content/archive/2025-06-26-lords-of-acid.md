@@ -1,5 +1,5 @@
 +++
-title = "Lords Of Acid at The Nile Theater "
+title = "Lords Of Acid at The Nile Theater"
 date = 2025-06-26
 template = "page.html"
 slug = "2025-06-26-lords-of-acid"

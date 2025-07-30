@@ -1,5 +1,5 @@
 +++
-title = "Parkway Drive, Kill Switch Engage at Talking Stick Amphitheater "
+title = "Parkway Drive, Kill Switch Engage at Talking Stick Resort Amphitheatre"
 date = 2025-07-01
 template = "page.html"
 slug = "2025-07-01-parkway-drive-kill-switch-engage"

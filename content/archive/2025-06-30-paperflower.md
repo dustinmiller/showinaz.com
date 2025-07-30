@@ -1,5 +1,5 @@
 +++
-title = "Paperflower at Rebel Lounge "
+title = "Paperflower at The Rebel Lounge"
 date = 2025-06-30
 template = "page.html"
 slug = "2025-06-30-paperflower"

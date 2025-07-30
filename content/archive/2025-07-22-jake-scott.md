@@ -1,5 +1,5 @@
 +++
-title = "Jake Scott at Crescent Ballroom "
+title = "Jake Scott at Crescent Ballroom"
 date = 2025-07-22
 template = "page.html"
 slug = "2025-07-22-jake-scott"

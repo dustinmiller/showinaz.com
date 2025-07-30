@@ -1,5 +1,5 @@
 +++
-title = "Dean Lewis at The Marquee Theater "
+title = "Dean Lewis at The Marquee Theater"
 date = 2025-01-09
 template = "page.html"
 slug = "2025-01-09-dean-lewis"

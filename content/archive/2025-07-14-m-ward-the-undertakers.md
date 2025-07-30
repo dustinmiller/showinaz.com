@@ -1,5 +1,5 @@
 +++
-title = "M. Ward & The Undertakers at Rialto"
+title = "M. Ward & The Undertakers at The Rialto Theater"
 date = 2025-07-14
 template = "page.html"
 slug = "2025-07-14-m-ward-the-undertakers"

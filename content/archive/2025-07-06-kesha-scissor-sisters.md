@@ -1,5 +1,5 @@
 +++
-title = "Kesha & Scissor Sisters at Talking Stick Amphitheater "
+title = "Kesha & Scissor Sisters at Talking Stick Resort Amphitheatre"
 date = 2025-07-06
 template = "page.html"
 slug = "2025-07-06-kesha-scissor-sisters"

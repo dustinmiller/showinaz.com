@@ -7,5 +7,5 @@ slug = "2025-07-26-petty-party"
 [extra]
 artist = "Petty Party"
 venue = "San Tan Gardens"
-venue_url = ""
+venue_url = "https://santanbrewing.com/santan-gardens/"
 +++

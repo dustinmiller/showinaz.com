@@ -1,5 +1,5 @@
 +++
-title = "Scrunge, Side Project, West Thumb at Yucca North "
+title = "Scrunge, Side Project, West Thumb at Yucca Tap Room"
 date = 2025-07-19
 template = "page.html"
 slug = "2025-07-19-scrunge-side-project-west-thumb"

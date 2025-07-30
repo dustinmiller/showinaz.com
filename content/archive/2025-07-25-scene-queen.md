@@ -1,5 +1,5 @@
 +++
-title = "Scene Queen at The Nile Theater "
+title = "Scene Queen at The Nile Theater"
 date = 2025-07-25
 template = "page.html"
 slug = "2025-07-25-scene-queen"

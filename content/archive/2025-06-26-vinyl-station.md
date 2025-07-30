@@ -1,5 +1,5 @@
 +++
-title = "Vinyl Station at The MIM "
+title = "Vinyl Station at MIM Music & Instrument Museum"
 date = 2025-06-26
 template = "page.html"
 slug = "2025-06-26-vinyl-station"

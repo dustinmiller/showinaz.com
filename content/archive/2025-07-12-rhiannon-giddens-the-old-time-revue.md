@@ -1,5 +1,5 @@
 +++
-title = "Rhiannon Giddens & The Old-Time Revue at Pepsi Amphitheater "
+title = "Rhiannon Giddens & The Old-Time Revue at Ak-Chin Pavilion"
 date = 2025-07-12
 template = "page.html"
 slug = "2025-07-12-rhiannon-giddens-the-old-time-revue"

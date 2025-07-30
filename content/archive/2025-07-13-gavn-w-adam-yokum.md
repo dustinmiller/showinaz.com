@@ -1,5 +1,5 @@
 +++
-title = "Gavn! w, Adam Yokum at Rebel Lounge"
+title = "Gavn! w, Adam Yokum at The Rebel Lounge"
 date = 2025-07-13
 template = "page.html"
 slug = "2025-07-13-gavn-w-adam-yokum"

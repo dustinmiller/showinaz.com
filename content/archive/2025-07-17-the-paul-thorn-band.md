@@ -1,5 +1,5 @@
 +++
-title = "The Paul Thorn Band at The MIM "
+title = "The Paul Thorn Band at MIM Music & Instrument Museum"
 date = 2025-07-17
 template = "page.html"
 slug = "2025-07-17-the-paul-thorn-band"

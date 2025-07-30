@@ -1,5 +1,5 @@
 +++
-title = "BabyMetal at Arizona Financial Theater"
+title = "BabyMetal at Arizona Financial Theatre"
 date = 2025-07-23
 template = "page.html"
 slug = "2025-07-23-babymetal"

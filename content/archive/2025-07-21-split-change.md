@@ -1,5 +1,5 @@
 +++
-title = "Split Change at The Nile Underground "
+title = "Split Change at Nile Underground"
 date = 2025-07-21
 template = "page.html"
 slug = "2025-07-21-split-change"

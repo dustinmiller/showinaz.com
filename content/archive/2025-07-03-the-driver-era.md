@@ -1,5 +1,5 @@
 +++
-title = "The Driver Era at AZ Financial Theater "
+title = "The Driver Era at Arizona Financial Theatre"
 date = 2025-07-03
 template = "page.html"
 slug = "2025-07-03-the-driver-era"

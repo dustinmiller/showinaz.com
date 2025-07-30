@@ -1,5 +1,5 @@
 +++
-title = "Dexter & The Moonrocks at Marquee"
+title = "Dexter & The Moonrocks at The Marquee Theater"
 date = 2025-07-18
 template = "page.html"
 slug = "2025-07-18-dexter-the-moonrocks"

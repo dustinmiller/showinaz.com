@@ -1,5 +1,5 @@
 +++
-title = "Tropical Fuck Storm at Club Congress "
+title = "Tropical Fuck Storm at Club Congress"
 date = 2025-07-01
 template = "page.html"
 slug = "2025-07-01-tropical-fuck-storm"

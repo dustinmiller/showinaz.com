@@ -1,5 +1,5 @@
 +++
-title = "Planning For Burial at Rebel Lounge "
+title = "Planning For Burial at The Rebel Lounge"
 date = 2025-07-01
 template = "page.html"
 slug = "2025-07-01-planning-for-burial"

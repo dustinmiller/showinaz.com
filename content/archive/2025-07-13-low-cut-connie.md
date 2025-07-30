@@ -1,5 +1,5 @@
 +++
-title = "Low Cut Connie at Crescent Ballroom "
+title = "Low Cut Connie at Crescent Ballroom"
 date = 2025-07-13
 template = "page.html"
 slug = "2025-07-13-low-cut-connie"

@@ -1,5 +1,5 @@
 +++
-title = "Aiden Hilton at Nile Underground "
+title = "Aiden Hilton at Nile Underground"
 date = 2025-07-19
 template = "page.html"
 slug = "2025-07-19-aiden-hilton"

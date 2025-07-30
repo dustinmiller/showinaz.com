@@ -1,5 +1,5 @@
 +++
-title = "Death Lens at Rebel Lounge "
+title = "Death Lens at The Rebel Lounge"
 date = 2025-07-10
 template = "page.html"
 slug = "2025-07-10-death-lens"

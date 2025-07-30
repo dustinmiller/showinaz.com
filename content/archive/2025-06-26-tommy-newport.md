@@ -1,5 +1,5 @@
 +++
-title = "Tommy Newport at Orpheum Flagstaff"
+title = "Tommy Newport at Orpheum Theater Flagstaff"
 date = 2025-06-26
 template = "page.html"
 slug = "2025-06-26-tommy-newport"

@@ -1,5 +1,5 @@
 +++
-title = "King Lil G & Young Drummer Boy at The Van Buren "
+title = "King Lil G & Young Drummer Boy at The Van Buren"
 date = 2025-07-12
 template = "page.html"
 slug = "2025-07-12-king-lil-g-young-drummer-boy"

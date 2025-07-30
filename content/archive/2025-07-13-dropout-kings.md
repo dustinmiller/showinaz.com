@@ -1,5 +1,5 @@
 +++
-title = "Dropout Kings at The Nile "
+title = "Dropout Kings at The Nile Theater"
 date = 2025-07-13
 template = "page.html"
 slug = "2025-07-13-dropout-kings"

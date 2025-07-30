@@ -1,5 +1,5 @@
 +++
-title = "Duane Betts & Palmetto Hotel at MIM "
+title = "Duane Betts & Palmetto Hotel at MIM Music & Instrument Museum"
 date = 2025-07-13
 template = "page.html"
 slug = "2025-07-13-duane-betts-palmetto-hotel"

@@ -1,5 +1,5 @@
 +++
-title = "Improvement Movement at Last Exit L"
+title = "Improvement Movement at Last Exit Live"
 date = 2025-07-19
 template = "page.html"
 slug = "2025-07-19-improvement-movement"

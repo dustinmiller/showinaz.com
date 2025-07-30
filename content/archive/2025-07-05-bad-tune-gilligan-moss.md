@@ -1,5 +1,5 @@
 +++
-title = "bad tune & Gilligan Moss at Darkstar "
+title = "bad tune & Gilligan Moss at Darkstar"
 date = 2025-07-05
 template = "page.html"
 slug = "2025-07-05-bad-tune-gilligan-moss"

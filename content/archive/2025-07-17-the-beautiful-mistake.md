@@ -1,5 +1,5 @@
 +++
-title = "The Beautiful Mistake at Rebel Lounge"
+title = "The Beautiful Mistake at The Rebel Lounge"
 date = 2025-07-17
 template = "page.html"
 slug = "2025-07-17-the-beautiful-mistake"

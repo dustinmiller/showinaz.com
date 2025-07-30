@@ -1,5 +1,5 @@
 +++
-title = "Missouri Executive Order 88 at Nile UG"
+title = "Missouri Executive Order 88 at Nile Underground"
 date = 2025-07-15
 template = "page.html"
 slug = "2025-07-15-missouri-executive-order-88"

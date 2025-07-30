@@ -1,5 +1,5 @@
 +++
-title = "Hotel California (Eagles Tribute) at Pepsi Amphitheater "
+title = "Hotel California (Eagles Tribute) at Ak-Chin Pavilion"
 date = 2025-07-03
 template = "page.html"
 slug = "2025-07-03-hotel-california-eagles-tribute"

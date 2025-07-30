@@ -1,5 +1,5 @@
 +++
-title = "Weston Smith & Honey Lee at Valley Br"
+title = "Weston Smith & Honey Lee at Valley Bar"
 date = 2025-06-27
 template = "page.html"
 slug = "2025-06-27-weston-smith-honey-lee"

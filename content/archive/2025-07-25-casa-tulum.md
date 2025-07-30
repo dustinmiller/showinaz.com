@@ -1,5 +1,5 @@
 +++
-title = "Casa Tulum at The Rebel Lounge "
+title = "Casa Tulum at The Rebel Lounge"
 date = 2025-07-25
 template = "page.html"
 slug = "2025-07-25-casa-tulum"

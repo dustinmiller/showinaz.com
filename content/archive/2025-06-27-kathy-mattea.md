@@ -1,5 +1,5 @@
 +++
-title = "Kathy Mattea at The MIM "
+title = "Kathy Mattea at MIM Music & Instrument Museum"
 date = 2025-06-27
 template = "page.html"
 slug = "2025-06-27-kathy-mattea"

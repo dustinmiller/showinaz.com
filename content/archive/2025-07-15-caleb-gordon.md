@@ -1,5 +1,5 @@
 +++
-title = "Caleb Gordon at The Crescent Ballrm"
+title = "Caleb Gordon at Crescent Ballroom"
 date = 2025-07-15
 template = "page.html"
 slug = "2025-07-15-caleb-gordon"

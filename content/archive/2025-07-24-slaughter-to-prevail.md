@@ -1,5 +1,5 @@
 +++
-title = "Slaughter To Prevail at The Rialto"
+title = "Slaughter To Prevail at The Rialto Theater"
 date = 2025-07-24
 template = "page.html"
 slug = "2025-07-24-slaughter-to-prevail"

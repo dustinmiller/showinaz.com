@@ -1,5 +1,5 @@
 +++
-title = "Giovani Kiyingi & Friends at The MIM "
+title = "Giovani Kiyingi & Friends at MIM Music & Instrument Museum"
 date = 2025-06-28
 template = "page.html"
 slug = "2025-06-28-giovani-kiyingi-friends"

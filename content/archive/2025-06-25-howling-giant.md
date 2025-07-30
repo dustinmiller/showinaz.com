@@ -1,5 +1,5 @@
 +++
-title = "Howling Giant at Rebel Lounge "
+title = "Howling Giant at The Rebel Lounge"
 date = 2025-06-25
 template = "page.html"
 slug = "2025-06-25-howling-giant"

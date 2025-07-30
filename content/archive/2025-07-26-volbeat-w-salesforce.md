@@ -1,5 +1,5 @@
 +++
-title = "Volbeat w/ Salesforce at Talking Stick Amphitheater "
+title = "Volbeat w/ Salesforce at Talking Stick Resort Amphitheatre"
 date = 2025-07-26
 template = "page.html"
 slug = "2025-07-26-volbeat-w-salesforce"

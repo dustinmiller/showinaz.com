@@ -1,5 +1,5 @@
 +++
-title = "Ian Munsick at Pepsi Amphitheater "
+title = "Ian Munsick at Ak-Chin Pavilion"
 date = 2025-06-27
 template = "page.html"
 slug = "2025-06-27-ian-munsick"

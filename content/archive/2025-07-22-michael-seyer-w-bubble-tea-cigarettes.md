@@ -1,5 +1,5 @@
 +++
-title = "Michael Seyer w/ Bubble Tea & Cigarettes at The Rebel Lounge "
+title = "Michael Seyer w/ Bubble Tea & Cigarettes at The Rebel Lounge"
 date = 2025-07-22
 template = "page.html"
 slug = "2025-07-22-michael-seyer-w-bubble-tea-cigarettes"

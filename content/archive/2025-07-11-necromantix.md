@@ -1,5 +1,5 @@
 +++
-title = "Necromantix at Club Congress "
+title = "Necromantix at Club Congress"
 date = 2025-07-11
 template = "page.html"
 slug = "2025-07-11-necromantix"

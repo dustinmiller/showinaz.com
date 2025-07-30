@@ -1,5 +1,5 @@
 +++
-title = "The Soap Girls at Club Congress "
+title = "The Soap Girls at Club Congress"
 date = 2025-07-23
 template = "page.html"
 slug = "2025-07-23-the-soap-girls"

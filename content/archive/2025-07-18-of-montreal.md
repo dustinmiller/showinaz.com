@@ -1,5 +1,5 @@
 +++
-title = "Of Montreal at 191 Toole "
+title = "Of Montreal at 191 Toole"
 date = 2025-07-18
 template = "page.html"
 slug = "2025-07-18-of-montreal"

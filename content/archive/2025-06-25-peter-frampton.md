@@ -1,5 +1,5 @@
 +++
-title = "Peter Frampton at AZ Financial Thtr "
+title = "Peter Frampton at Arizona Financial Theatre"
 date = 2025-06-25
 template = "page.html"
 slug = "2025-06-25-peter-frampton"

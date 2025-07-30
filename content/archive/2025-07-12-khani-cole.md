@@ -1,5 +1,5 @@
 +++
-title = "Khani Cole at The MIM "
+title = "Khani Cole at MIM Music & Instrument Museum"
 date = 2025-07-12
 template = "page.html"
 slug = "2025-07-12-khani-cole"

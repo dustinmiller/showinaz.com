@@ -1,5 +1,5 @@
 +++
-title = "Ally Venable at The MIM "
+title = "Ally Venable at MIM Music & Instrument Museum"
 date = 2025-07-18
 template = "page.html"
 slug = "2025-07-18-ally-venable"

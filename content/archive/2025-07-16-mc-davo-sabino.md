@@ -1,5 +1,5 @@
 +++
-title = "MC Davo & Sabino at Crescent Ballrm"
+title = "MC Davo & Sabino at Crescent Ballroom"
 date = 2025-07-16
 template = "page.html"
 slug = "2025-07-16-mc-davo-sabino"
