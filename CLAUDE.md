@@ -56,6 +56,7 @@ venue_url = "https://venue-website.com"
   - Maps 80+ Arizona venue variations to canonical names
   - Adds official venue websites for ticket links
   - Automatically fixes TOML formatting issues (quote escaping)
+  - Processes both `content/event/` and `content/archive/` directories
   - Supports dry-run mode for preview
   - Handles special cases like venue @ location format
 
@@ -70,7 +71,7 @@ venue_url = "https://venue-website.com"
 - `make build` - Build the static site to `public/` directory
 - `make check` - Validate site structure and links
 - `make generate` - Generate event files from list.txt
-- `make normalize-venues` - Normalize venue names and add URLs
+- `make normalize-venues` - Normalize venue names and add URLs (events + archive)
 - `make normalize-venues-dry` - Preview venue normalization changes
 - `make remove-past` - Clean up past events
 - `make setup-events` - Complete event setup (generate + normalize)
