@@ -1,0 +1,20 @@
+{
+  "artists": {
+    "Crash Adams": {
+      "name": "Crash Adams",
+      "youtube": "https://www.youtube.com/@crashadams",
+      "genre": ["Pop", "Electronic"],
+      "website": "https://crashadams.com",
+      "spotify": "https://open.spotify.com/artist/...",
+      "instagram": "@crashadams"
+    },
+    "Jessie Murph": {
+      "name": "Jessie Murph", 
+      "youtube": "https://www.youtube.com/@jessiemurph",
+      "genre": ["Pop", "Country"],
+      "website": "https://jessiemurph.com",
+      "spotify": "https://open.spotify.com/artist/...",
+      "instagram": "@jessiemurph"
+    }
+  }
+}
