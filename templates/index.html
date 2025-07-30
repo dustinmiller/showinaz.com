@@ -2,7 +2,7 @@
 
 {% block content %}
 <section class="hero">
-    <!-- <h2>Upcoming Events</h2> -->
+    <h2>Upcoming Events</h2>
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Search artists, venues, or dates..." class="search-input" aria-label="Search shows">
         <button id="clearSearch" class="clear-btn" aria-label="Clear search">&times;</button>
@@ -19,7 +19,7 @@
     {% set event_section = get_section(path="event/_index.md") %}
     {% set upcoming_shows = event_section.pages | sort(attribute="date") %}
 
-    <div class="results-count">Showing {{ upcoming_shows | length }} event{{ upcoming_shows | length | pluralize }}</div>
+    <div class="results-count">Showing {{ upcoming_shows | length }} event{{ upcoming_shows | length | pluralize }} • <a href="/archive/">View Archive</a></div>
 
     {% for page in upcoming_shows %}
     <div class="show-item clickable-card" data-date="{{ page.date | date(format='%m/%d') }}" data-artist="{{ page.extra.artist | lower }}" data-venue="{{ page.extra.venue | lower }}" data-href="{{ page.permalink }}">
