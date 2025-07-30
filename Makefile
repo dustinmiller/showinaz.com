@@ -75,7 +75,7 @@ push: ## @@ Push commits to remote repository
 
 full-deploy: all commit push ## @@ Complete deployment: build, commit, and push
 
-normalize-venues: ## @@ Normalize venue names and add URLs
+normalize-venues: ## @@ Normalize venue names and add URLs (events + archive)
 	python3 scripts/normalize_venues.py
 
 normalize-venues-dry: ## @@ Preview venue normalization changes (dry run)
