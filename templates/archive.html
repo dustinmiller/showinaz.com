@@ -15,7 +15,7 @@
     </div>
 </section>
 
-<section class="shows-list" id="showsList">
+<div class="shows-list" id="showsList">
     {% set archived_shows = section.pages | sort(attribute="date") | reverse %}
 
     <div class="results-count">Showing {{ archived_shows | length }} event{{ archived_shows | length | pluralize }}</div>
@@ -33,7 +33,7 @@
         </div>
     </div>
     {% endfor %}
-</section>
+</div>
 
 <script>
 let currentFilter = 'all';
