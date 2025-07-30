@@ -1,5 +1,27 @@
 {% extends "base.html" %}
 
+{% block structured_data %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MusicEvent",
+  "name": "{{ page.extra.artist }} at {{ page.extra.venue }}",
+  "startDate": "{{ page.date | date(format='%Y-%m-%d') }}",
+  "performer": {
+    "@type": "MusicGroup",
+    "name": "{{ page.extra.artist }}"
+  },
+  "location": {
+    "@type": "Place",
+    "name": "{{ page.extra.venue }}"{% if page.extra.venue_url %},
+    "url": "{{ page.extra.venue_url }}"{% endif %}
+  },
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+}
+</script>
+{% endblock structured_data %}
+
 {% block content %}
 <div class="show-detail">
   <div class="show-detail-header">
