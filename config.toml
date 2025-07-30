@@ -3,7 +3,7 @@ description = "Your guide to live music in Arizona"
 base_url = "https://showsinaz.com"
 
 compile_sass = true
-minify_html = true
+minify_html = false
 generate_feeds = true
 
 [markdown]
