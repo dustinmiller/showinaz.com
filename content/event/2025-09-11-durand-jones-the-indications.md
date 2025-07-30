@@ -7,5 +7,5 @@ slug = "2025-09-11-durand-jones-the-indications"
 [extra]
 artist = "Durand Jones & The Indications"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

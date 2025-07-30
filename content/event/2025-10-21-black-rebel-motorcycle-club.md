@@ -7,5 +7,5 @@ slug = "2025-10-21-black-rebel-motorcycle-club"
 [extra]
 artist = "Black Rebel Motorcycle Club"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

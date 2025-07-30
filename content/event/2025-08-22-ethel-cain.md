@@ -7,5 +7,5 @@ slug = "2025-08-22-ethel-cain"
 [extra]
 artist = "Ethel Cain"
 venue = "Arizona Financial Theatre"
-venue_url = "https://www.azfinancialtheatre.com/"
+venue_url = "https://www.arizonafinancialtheatre.com/"
 +++

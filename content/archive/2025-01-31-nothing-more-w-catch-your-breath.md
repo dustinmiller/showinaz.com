@@ -7,5 +7,5 @@ slug = "2025-01-31-nothing-more-w-catch-your-breath"
 [extra]
 artist = "Nothing More w/ Catch Your Breath"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

@@ -7,5 +7,5 @@ slug = "2025-07-19-aiden-hilton"
 [extra]
 artist = "Aiden Hilton"
 venue = "Nile Underground"
-venue_url = "https://theniletheatre.com/"
+venue_url = "https://www.theniletheater.com/"
 +++

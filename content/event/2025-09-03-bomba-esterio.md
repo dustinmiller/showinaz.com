@@ -7,5 +7,5 @@ slug = "2025-09-03-bomba-esterio"
 [extra]
 artist = "Bomba Esterio"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

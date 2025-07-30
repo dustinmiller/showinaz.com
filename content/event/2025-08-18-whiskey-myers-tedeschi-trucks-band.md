@@ -7,5 +7,5 @@ slug = "2025-08-18-whiskey-myers-tedeschi-trucks-band"
 [extra]
 artist = "Whiskey Myers & Tedeschi Trucks Band"
 venue = "Arizona Financial Theatre"
-venue_url = "https://www.azfinancialtheatre.com/"
+venue_url = "https://www.arizonafinancialtheatre.com/"
 +++

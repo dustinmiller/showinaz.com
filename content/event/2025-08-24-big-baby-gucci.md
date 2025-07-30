@@ -7,5 +7,5 @@ slug = "2025-08-24-big-baby-gucci"
 [extra]
 artist = "Big Baby Gucci"
 venue = "Nile Underground"
-venue_url = "https://theniletheatre.com/"
+venue_url = "https://www.theniletheater.com/"
 +++

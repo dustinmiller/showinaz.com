@@ -7,5 +7,5 @@ slug = "2025-09-29-nathaniel-rateliff-the-night-sweats"
 [extra]
 artist = "Nathaniel Rateliff & The Night Sweats"
 venue = "Arizona Financial Theatre"
-venue_url = "https://www.azfinancialtheatre.com/"
+venue_url = "https://www.arizonafinancialtheatre.com/"
 +++

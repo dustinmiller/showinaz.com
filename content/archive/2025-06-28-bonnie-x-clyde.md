@@ -7,5 +7,5 @@ slug = "2025-06-28-bonnie-x-clyde"
 [extra]
 artist = "Bonnie X Clyde"
 venue = "Sunbar"
-venue_url = "https://www.sunbarscottsdale.com/"
+venue_url = "https://www.sunbaraz.com/"
 +++

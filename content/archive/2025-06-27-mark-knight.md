@@ -7,5 +7,5 @@ slug = "2025-06-27-mark-knight"
 [extra]
 artist = "Mark Knight"
 venue = "Sunbar"
-venue_url = "https://www.sunbarscottsdale.com/"
+venue_url = "https://www.sunbaraz.com/"
 +++

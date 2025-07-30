@@ -7,5 +7,5 @@ slug = "2025-08-16-shaq-s-bass-all-stars"
 [extra]
 artist = "Shaq's Bass All Stars"
 venue = "Rawhide Event Center"
-venue_url = "https://www.rawhide.com/"
+venue_url = "https://rawhide.com/concerts-festivals/"
 +++

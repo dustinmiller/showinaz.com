@@ -7,5 +7,5 @@ slug = "2025-06-25-peter-frampton"
 [extra]
 artist = "Peter Frampton"
 venue = "Arizona Financial Theatre"
-venue_url = "https://www.azfinancialtheatre.com/"
+venue_url = "https://www.arizonafinancialtheatre.com/"
 +++

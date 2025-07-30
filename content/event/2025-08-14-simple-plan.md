@@ -7,5 +7,5 @@ slug = "2025-08-14-simple-plan"
 [extra]
 artist = "Simple Plan"
 venue = "Arizona Financial Theatre"
-venue_url = "https://www.azfinancialtheatre.com/"
+venue_url = "https://www.arizonafinancialtheatre.com/"
 +++

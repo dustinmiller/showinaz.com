@@ -7,5 +7,5 @@ slug = "2025-06-26-lords-of-acid"
 [extra]
 artist = "Lords Of Acid"
 venue = "The Nile Theater"
-venue_url = "https://theniletheatre.com/"
+venue_url = "https://www.theniletheater.com/"
 +++

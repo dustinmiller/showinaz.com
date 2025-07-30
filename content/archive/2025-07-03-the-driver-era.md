@@ -7,5 +7,5 @@ slug = "2025-07-03-the-driver-era"
 [extra]
 artist = "The Driver Era"
 venue = "Arizona Financial Theatre"
-venue_url = "https://www.azfinancialtheatre.com/"
+venue_url = "https://www.arizonafinancialtheatre.com/"
 +++

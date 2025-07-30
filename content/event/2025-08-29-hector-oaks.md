@@ -7,5 +7,5 @@ slug = "2025-08-29-hector-oaks"
 [extra]
 artist = "Hector Oaks"
 venue = "Sunbar"
-venue_url = "https://www.sunbarscottsdale.com/"
+venue_url = "https://www.sunbaraz.com/"
 +++

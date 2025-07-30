@@ -7,5 +7,5 @@ slug = "2025-08-07-decisions-decisions"
 [extra]
 artist = "Decisions Decisions"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

@@ -7,5 +7,5 @@ slug = "2025-11-07-the-brian-jonestown-massacre"
 [extra]
 artist = "The Brian Jonestown Massacre"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

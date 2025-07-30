@@ -7,5 +7,5 @@ slug = "2025-10-08-cameron-whitcomb"
 [extra]
 artist = "Cameron Whitcomb"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

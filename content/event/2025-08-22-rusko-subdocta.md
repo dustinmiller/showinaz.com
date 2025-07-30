@@ -7,5 +7,5 @@ slug = "2025-08-22-rusko-subdocta"
 [extra]
 artist = "Rusko & SubDocta"
 venue = "Sunbar"
-venue_url = "https://www.sunbarscottsdale.com/"
+venue_url = "https://www.sunbaraz.com/"
 +++

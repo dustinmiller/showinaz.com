@@ -7,5 +7,5 @@ slug = "2025-11-06-the-beths-w-phoebe-rings"
 [extra]
 artist = "The Beths w/ Phoebe Rings"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

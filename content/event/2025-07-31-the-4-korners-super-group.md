@@ -7,5 +7,5 @@ slug = "2025-07-31-the-4-korners-super-group"
 [extra]
 artist = "The 4 Korners Super Group"
 venue = "Tempe Center for the Arts"
-venue_url = "https://tempecenterforthearts.com/"
+venue_url = "https://www.tempecenterforthearts.com/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-07-02-tropical-fuck-storm"
 [extra]
 artist = "Tropical Fuck Storm"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

@@ -7,5 +7,5 @@ slug = "2025-07-22-wavves-w-beach-cherry"
 [extra]
 artist = "Wavves w/ Beach Cherry"
 venue = "191 Toole"
-venue_url = "https://www.191toole.com/"
+venue_url = "https://www.rialtotheatre.com/tm-venue/191-toole/"
 +++

@@ -7,5 +7,5 @@ slug = "2025-09-10-kolohe-kai"
 [extra]
 artist = "Kolohe Kai"
 venue = "Arizona Financial Theatre"
-venue_url = "https://www.azfinancialtheatre.com/"
+venue_url = "https://www.arizonafinancialtheatre.com/"
 +++

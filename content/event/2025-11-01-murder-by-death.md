@@ -7,5 +7,5 @@ slug = "2025-11-01-murder-by-death"
 [extra]
 artist = "Murder By Death"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

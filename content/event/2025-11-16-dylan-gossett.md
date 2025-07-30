@@ -7,5 +7,5 @@ slug = "2025-11-16-dylan-gossett"
 [extra]
 artist = "Dylan Gossett"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

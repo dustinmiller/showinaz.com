@@ -7,5 +7,5 @@ slug = "2025-10-06-ru-paul-s-drag-race"
 [extra]
 artist = "Ru Paul's Drag Race"
 venue = "Arizona Financial Theatre"
-venue_url = "https://www.azfinancialtheatre.com/"
+venue_url = "https://www.arizonafinancialtheatre.com/"
 +++

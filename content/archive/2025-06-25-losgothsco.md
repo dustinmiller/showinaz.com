@@ -7,5 +7,5 @@ slug = "2025-06-25-losgothsco"
 [extra]
 artist = "LosGothsCo."
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

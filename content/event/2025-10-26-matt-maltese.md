@@ -7,5 +7,5 @@ slug = "2025-10-26-matt-maltese"
 [extra]
 artist = "Matt Maltese"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

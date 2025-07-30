@@ -7,5 +7,5 @@ slug = "2025-10-02-cannibal-corpse"
 [extra]
 artist = "Cannibal Corpse"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++

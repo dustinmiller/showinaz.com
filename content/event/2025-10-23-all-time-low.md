@@ -7,5 +7,5 @@ slug = "2025-10-23-all-time-low"
 [extra]
 artist = "All Time Low"
 venue = "Arizona Financial Theatre"
-venue_url = "https://www.azfinancialtheatre.com/"
+venue_url = "https://www.arizonafinancialtheatre.com/"
 +++

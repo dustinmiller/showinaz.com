@@ -7,5 +7,5 @@ slug = "2025-09-30-the-head-the-heart"
 [extra]
 artist = "The Head & The Heart"
 venue = "Arizona Financial Theatre"
-venue_url = "https://www.azfinancialtheatre.com/"
+venue_url = "https://www.arizonafinancialtheatre.com/"
 +++

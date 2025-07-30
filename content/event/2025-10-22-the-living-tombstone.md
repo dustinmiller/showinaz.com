@@ -7,5 +7,5 @@ slug = "2025-10-22-the-living-tombstone"
 [extra]
 artist = "The Living Tombstone"
 venue = "The Van Buren"
-venue_url = "https://www.thevanburen.com/"
+venue_url = "https://www.thevanburenphx.com/shows"
 +++
