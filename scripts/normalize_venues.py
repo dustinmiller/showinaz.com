@@ -508,7 +508,7 @@ def main():
     if args.file:
         files = [args.file]
     else:
-        files = glob.glob('content/event/*.md')
+        files = glob.glob('content/event/*.md') + glob.glob('content/archive/*.md')
 
     if not files:
         print("No event files found")
