@@ -1,4 +1,4 @@
-.PHONY: help build serve check generate clean remove-past lint test deploy
+.PHONY: help build serve check generate clean remove-past lint test deploy normalize-venues normalize-venues-dry update-events setup-events audit-venues audit-venues-reference check-links check-venue-links check-content-links
 
 help: ## @@ Show this help message
 	@grep -E '^[a-zA-Z_-]+:.*?## @@.*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## @@"}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
@@ -24,13 +24,14 @@ remove-past: ## @@ Archive past event files (preserves URLs)
 
 archive-past: remove-past ## @@ Alias for remove-past - archive old events
 
-lint: ## @@ Check code formatting and style
-	@echo "No specific linting configured for Zola sites"
-	@echo "Consider adding HTML/CSS validators if needed"
+lint: build ## @@ Check code formatting and validate HTML
+	@echo "Validating HTML..."
+	docker run --rm -v "$$(pwd)/public:/public:ro" ghcr.io/validator/validator:latest vnu --skip-non-html /public/
 
-test: ## @@ Run tests (placeholder for future testing)
-	@echo "No tests configured yet"
-	@echo "Consider adding link checking or content validation"
+test: ## @@ Run tests and validation checks
+	@echo "Running link checks..."
+	-python3 scripts/check_links.py --venue-urls-only --max-workers 5
+	@echo "Note: Connection errors are normal as many venues block automated requests"
 
 deploy: build ## @@ Build and prepare for deployment
 	@echo "Site built successfully in public/"
@@ -92,3 +93,12 @@ audit-venues: ## @@ Audit venue mappings and show missing URLs
 
 audit-venues-reference: ## @@ Create venue reference file for URL research
 	python3 scripts/audit_venues.py --create-reference
+
+check-links: ## @@ Check for broken venue URLs and content links
+	python3 scripts/check_links.py
+
+check-venue-links: ## @@ Check only venue URLs for broken links
+	python3 scripts/check_links.py --venue-urls-only
+
+check-content-links: ## @@ Check only content links for broken links
+	python3 scripts/check_links.py --content-links-only

@@ -137,6 +137,20 @@ The repository includes a pre-commit hook that automatically validates HTML usin
 - **Bypass**: Use `git commit --no-verify` to skip validation if needed
 - **Docker Command**: Uses `ghcr.io/validator/validator:latest` image
 
+### Link Checking
+The repository includes a broken link checker to maintain URL quality:
+- **Script**: `scripts/check_links.py` - Python script to check venue URLs and content links
+- **Makefile Commands**:
+  - `make check-links` - Check all links (venue URLs + content links)
+  - `make check-venue-links` - Check only venue URLs from event frontmatter
+  - `make check-content-links` - Check only links in markdown content
+- **Features**: 
+  - Concurrent checking with configurable timeout and worker limits
+  - Caches results to avoid duplicate requests
+  - Handles 405 errors by falling back from HEAD to GET requests
+  - Groups results by URL to avoid duplicate reporting
+  - Returns appropriate exit codes for CI/CD integration
+
 ## File Organization
 
 Events are organized with date-prefixed filenames: `YYYY-MM-DD-artist-name.md`
