@@ -13,12 +13,40 @@
 <div class="shows-list" id="showsList">
     {% set event_section = get_section(path="event/_index.md") %}
     {% set_global weekend_shows = [] %}
+    {# Simple date-based filtering for the current/next weekend #}
+    {% set today = now() | date(format="%Y-%m-%d") %}
+    {% set today_weekday = now() | date(format="%w") | int %}
     
-    {# Simple approach: check each event date's weekday #}
+    {# Use timestamp arithmetic to calculate weekend dates #}
+    {% if today_weekday <= 5 %}
+        {# Sunday-Friday: show upcoming weekend #}
+        {% set days_until_friday = 5 - today_weekday %}
+        {% if today_weekday == 5 %}
+            {% set weekend_friday_ts = now() | date(format="%s") | int %}
+        {% else %}
+            {% set weekend_friday_ts = now() | date(format="%s") | int %}
+            {% set weekend_friday_ts = weekend_friday_ts + (days_until_friday * 86400) %}
+        {% endif %}
+    {% else %}
+        {# Saturday/Sunday: show next weekend #}
+        {% set days_until_next_friday = 7 - today_weekday + 5 %}
+        {% set weekend_friday_ts = now() | date(format="%s") | int %}
+        {% set weekend_friday_ts = weekend_friday_ts + (days_until_next_friday * 86400) %}
+    {% endif %}
+    
+    {# Calculate Saturday and Sunday timestamps #}
+    {% set weekend_saturday_ts = weekend_friday_ts + 86400 %}
+    {% set weekend_sunday_ts = weekend_saturday_ts + 86400 %}
+    
+    {# Convert timestamps back to date strings #}
+    {% set weekend_friday_date = weekend_friday_ts | date(format="%Y-%m-%d") %}
+    {% set weekend_saturday_date = weekend_saturday_ts | date(format="%Y-%m-%d") %}
+    {% set weekend_sunday_date = weekend_sunday_ts | date(format="%Y-%m-%d") %}
+    
+    {# Include events that match Friday, Saturday, or Sunday dates #}
     {% for page in event_section.pages | sort(attribute="date") %}
-        {% set page_weekday = page.date | date(format="%w") | int %}
-        {# Include Friday (5), Saturday (6), and Sunday (0) #}
-        {% if page_weekday == 5 or page_weekday == 6 or page_weekday == 0 %}
+        {% set page_date = page.date | date(format="%Y-%m-%d") %}
+        {% if page_date == weekend_friday_date or page_date == weekend_saturday_date or page_date == weekend_sunday_date %}
             {% set_global weekend_shows = weekend_shows | concat(with=page) %}
         {% endif %}
     {% endfor %}
