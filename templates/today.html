@@ -18,12 +18,11 @@
 <div class="shows-list" id="showsList">
     {% set event_section = get_section(path="event/_index.md") %}
     {% set_global today_shows = [] %}
-    {% set today_timestamp = now() | date(format="%s") | int %}
-    {% set tomorrow_timestamp = today_timestamp + 86400 %}
+    {% set today_date = now() | date(format="%Y-%m-%d") %}
     
     {% for page in event_section.pages | sort(attribute="date") %}
-        {% set page_timestamp = page.date | date(format="%s") | int %}
-        {% if page_timestamp >= today_timestamp and page_timestamp < tomorrow_timestamp %}
+        {% set page_date = page.date | date(format="%Y-%m-%d") %}
+        {% if page_date == today_date %}
             {% set_global today_shows = today_shows | concat(with=page) %}
         {% endif %}
     {% endfor %}
