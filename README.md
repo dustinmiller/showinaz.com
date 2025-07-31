@@ -18,6 +18,7 @@ A sleek, fast, and responsive website showcasing upcoming concerts and live musi
 ## 🏗️ Tech Stack
 
 - **[Zola](https://www.getzola.org/)** - Blazing fast static site generator
+- **Inline CSS** - All styles embedded in templates for maximum performance
 - **Vanilla JavaScript** - No frameworks, just pure performance
 - **CSS Grid & Flexbox** - Modern responsive layouts
 - **GitHub Actions** - Automated content management
@@ -93,7 +94,7 @@ make setup-events
 │   ├── base.html         # Main layout with social media tags
 │   ├── shows.html        # Event listing page with filtering
 │   └── index.html        # Homepage
-├── static/               # CSS, images, assets
+├── static/               # Images and assets
 │   ├── logo.png          # Main logo
 │   └── logo-social.png   # Social media optimized logo
 ├── scripts/              # Automation scripts
@@ -116,10 +117,11 @@ make setup-events
 
 ## 🎨 Design Philosophy
 
-- **Performance First** - Static generation means lightning-fast loads
+- **Performance First** - Static generation with inline CSS for lightning-fast loads
+- **Zero External Dependencies** - All styles and scripts embedded for maximum speed
 - **Mobile-Centric** - Designed for on-the-go music discovery
 - **Accessibility** - Semantic HTML and keyboard navigation
-- **Simplicity** - Clean, distraction-free interface focused on the music
+- **Minimalist Design** - Clean, distraction-free interface with tight spacing
 
 ## 🤝 Contributing
 
