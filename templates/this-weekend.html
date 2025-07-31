@@ -2,11 +2,10 @@
 
 {% block content %}
 <section class="hero">
-    <h2>This Weekend's Events</h2>
     <div class="date-filter">
         <a href="/" class="filter-btn">All Events</a>
         <a href="/today/" class="filter-btn">Today</a>
-        <button class="filter-btn active" data-filter="weekend" aria-pressed="true">This Weekend</button>
+        <a href="/this-weekend/" class="filter-btn active">This Weekend</a>
         <a href="/next-seven-days/" class="filter-btn">Next 7 Days</a>
     </div>
 </section>
@@ -14,29 +13,12 @@
 <div class="shows-list" id="showsList">
     {% set event_section = get_section(path="event/_index.md") %}
     {% set_global weekend_shows = [] %}
-    {% set today_timestamp = now() | date(format="%s") | int %}
-    {% set today_weekday = now() | date(format="%w") | int %}
     
-    {# Calculate this weekend's Friday to Sunday range #}
-    {% if today_weekday == 0 %}
-        {# Today is Sunday, this weekend is today only #}
-        {% set weekend_start = today_timestamp %}
-        {% set weekend_end = today_timestamp + 86400 %}
-    {% elif today_weekday <= 5 %}
-        {# Monday-Friday, weekend is upcoming Friday-Sunday #}
-        {% set days_until_friday = 5 - today_weekday %}
-        {% set weekend_start = today_timestamp + (days_until_friday * 86400) %}
-        {% set weekend_end = weekend_start + (3 * 86400) %}
-    {% else %}
-        {# Saturday, this weekend is yesterday-tomorrow #}
-        {% set weekend_start = today_timestamp - 86400 %}
-        {% set weekend_end = today_timestamp + (2 * 86400) %}
-    {% endif %}
-    
+    {# Simple approach: check each event date's weekday #}
     {% for page in event_section.pages | sort(attribute="date") %}
-        {% set page_timestamp = page.date | date(format="%s") | int %}
-        
-        {% if page_timestamp >= weekend_start and page_timestamp < weekend_end %}
+        {% set page_weekday = page.date | date(format="%w") | int %}
+        {# Include Friday (5), Saturday (6), and Sunday (0) #}
+        {% if page_weekday == 5 or page_weekday == 6 or page_weekday == 0 %}
             {% set_global weekend_shows = weekend_shows | concat(with=page) %}
         {% endif %}
     {% endfor %}
@@ -50,14 +32,12 @@
     </div>
     {% else %}
         {% for page in weekend_shows %}
-        <div class="show-item">
+        <div class="show-item clickable-card" data-date="{{ page.date | date(format='%m/%d') }}" data-artist="{{ page.extra.artist | lower }}" data-venue="{{ page.extra.venue | lower }}" data-href="{{ page.permalink }}">
             <div class="show-date">{{ page.date | date(format="%m/%d") }}</div>
-            <div class="show-artist">
-                <a href="{{ page.permalink }}" class="show-link">{{ page.extra.artist }}</a>
-            </div>
+            <div class="show-artist">{{ page.extra.artist }}</div>
             <div class="show-venue">
                 {% if page.extra.venue_url %}
-                    <a href="{{ page.extra.venue_url }}" class="show-venue" target="_blank" rel="noopener">{{ page.extra.venue }}</a>
+                    <a href="{{ page.extra.venue_url }}" class="venue-link" target="_blank" rel="noopener">{{ page.extra.venue }}</a> 🎟️
                 {% else %}
                     {{ page.extra.venue }}
                 {% endif %}
@@ -66,4 +46,23 @@
         {% endfor %}
     {% endif %}
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.clickable-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+            if (e.target.tagName === 'A' || e.target.closest('a')) {
+                return;
+            }
+
+            const href = card.getAttribute('data-href');
+            if (href) {
+                window.location.href = href;
+            }
+        });
+
+        card.style.cursor = 'pointer';
+    });
+});
+</script>
 {% endblock content %}
