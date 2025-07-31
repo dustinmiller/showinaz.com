@@ -2,13 +2,14 @@
 
 {% block content %}
 <section class="hero">
+    <h2>Today's Events</h2>
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Search artists, venues, or dates..." class="search-input" aria-label="Search shows">
         <button id="clearSearch" class="clear-btn" aria-label="Clear search">&times;</button>
     </div>
     <div class="date-filter">
-        <a href="/" class="filter-btn active">All Events</a>
-        <a href="/today/" class="filter-btn">Today</a>
+        <a href="/" class="filter-btn">All Events</a>
+        <a href="/today/" class="filter-btn active">Today</a>
         <a href="/this-weekend/" class="filter-btn">This Weekend</a>
         <a href="/next-seven-days/" class="filter-btn">Next 7 Days</a>
     </div>
@@ -16,35 +17,46 @@
 
 <div class="shows-list" id="showsList">
     {% set event_section = get_section(path="event/_index.md") %}
-    {% set upcoming_shows = event_section.pages | sort(attribute="date") %}
-
-    <div class="results-count">Showing {{ upcoming_shows | length }} event{{ upcoming_shows | length | pluralize }} • <a href="/archive/">View Archive</a></div>
-
-    {% for page in upcoming_shows %}
-    <div class="show-item clickable-card" data-date="{{ page.date | date(format='%m/%d') }}" data-artist="{{ page.extra.artist | lower }}" data-venue="{{ page.extra.venue | lower }}" data-href="{{ page.permalink }}">
-        <div class="show-date">{{ page.date | date(format="%m/%d") }}</div>
-        <div class="show-artist">{{ page.extra.artist }}</div>
-        <div class="show-venue">
-            {% if page.extra.venue_url %}
-                <a href="{{ page.extra.venue_url }}" class="venue-link" target="_blank" rel="noopener">{{ page.extra.venue }}</a> 🎟️
-            {% else %}
-                {{ page.extra.venue }}
-            {% endif %}
-        </div>
-    </div>
+    {% set_global today_shows = [] %}
+    {% set today_timestamp = now() | date(format="%s") | int %}
+    {% set tomorrow_timestamp = today_timestamp + 86400 %}
+    
+    {% for page in event_section.pages | sort(attribute="date") %}
+        {% set page_timestamp = page.date | date(format="%s") | int %}
+        {% if page_timestamp >= today_timestamp and page_timestamp < tomorrow_timestamp %}
+            {% set_global today_shows = today_shows | concat(with=page) %}
+        {% endif %}
     {% endfor %}
+    
+    <div class="results-count">Showing {{ today_shows | length }} event{{ today_shows | length | pluralize }} for today</div>
+    
+    {% if today_shows | length == 0 %}
+    <div class="no-results">
+        <h3>No shows today</h3>
+        <p>Check out <a href="/">all upcoming events</a> or <a href="/next-seven-days/">what's coming this week</a>.</p>
+    </div>
+    {% else %}
+        {% for page in today_shows %}
+        <div class="show-item clickable-card" data-date="{{ page.date | date(format='%m/%d') }}" data-artist="{{ page.extra.artist | lower }}" data-venue="{{ page.extra.venue | lower }}" data-href="{{ page.permalink }}">
+            <div class="show-date">{{ page.date | date(format="%m/%d") }}</div>
+            <div class="show-artist">{{ page.extra.artist }}</div>
+            <div class="show-venue">
+                {% if page.extra.venue_url %}
+                    <a href="{{ page.extra.venue_url }}" class="venue-link" target="_blank" rel="noopener">{{ page.extra.venue }}</a> 🎟️
+                {% else %}
+                    {{ page.extra.venue }}
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
 </div>
 
 <script>
-function getDateObj(dateStr) {
-    const [month, day] = dateStr.split('/').map(Number);
-    const currentYear = new Date().getFullYear();
-    return new Date(currentYear, month - 1, day);
-}
-
 function initializeSearch() {
     const searchInput = document.getElementById('searchInput');
     const clearBtn = document.getElementById('clearSearch');
+    const resultsCount = document.querySelector('.results-count');
 
     if (!searchInput || !clearBtn) return;
 
@@ -70,7 +82,9 @@ function initializeSearch() {
             }
         });
 
-        updateResultsCount(visibleCount);
+        if (resultsCount) {
+            resultsCount.textContent = `Showing ${visibleCount} event${visibleCount !== 1 ? 's' : ''} for today`;
+        }
     });
 
     clearBtn.addEventListener('click', () => {
@@ -91,27 +105,13 @@ function showAllItems() {
     let visibleCount = 0;
 
     allItems.forEach(item => {
-        const itemDate = item.getAttribute('data-date');
-        const showDate = getDateObj(itemDate);
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
-
-        if (showDate >= today) {
-            item.style.display = 'flex';
-            visibleCount++;
-        } else {
-            item.style.display = 'none';
-        }
+        item.style.display = 'flex';
+        visibleCount++;
     });
 
-    updateResultsCount(visibleCount);
-}
-
-function updateResultsCount(count) {
     const resultsCount = document.querySelector('.results-count');
     if (resultsCount) {
-        const archiveLink = ' • <a href="/archive/">View Archive</a>';
-        resultsCount.innerHTML = `Showing ${count} event${count !== 1 ? 's' : ''}${archiveLink}`;
+        resultsCount.textContent = `Showing ${visibleCount} event${visibleCount !== 1 ? 's' : ''} for today`;
     }
 }
 
@@ -135,7 +135,6 @@ function initializeClickableCards() {
 document.addEventListener('DOMContentLoaded', function() {
     initializeSearch();
     initializeClickableCards();
-    showAllItems();
 });
 </script>
 {% endblock content %}

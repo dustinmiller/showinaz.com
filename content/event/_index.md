@@ -1,7 +1,4 @@
 +++
 title = "Events"
-sort_by = "date"
-template = "shows.html"
+render = false
 +++
-
-All upcoming events in Arizona.

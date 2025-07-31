@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <h2>Next 7 Days</h2>
+    <div class="date-filter">
+        <a href="/" class="filter-btn">All Events</a>
+        <a href="/today/" class="filter-btn">Today</a>
+        <a href="/this-weekend/" class="filter-btn">This Weekend</a>
+        <button class="filter-btn active" data-filter="upcoming" aria-pressed="true">Next 7 Days</button>
+    </div>
+</section>
+
+<div class="shows-list" id="showsList">
+    {% set event_section = get_section(path="event/_index.md") %}
+    {% set_global seven_day_shows = [] %}
+    {% set today_timestamp = now() | date(format="%s") | int %}
+    {% set seven_days_from_now = today_timestamp + 604800 %}
+    
+    {% for page in event_section.pages | sort(attribute="date") %}
+        {% set page_timestamp = page.date | date(format="%s") | int %}
+        
+        {% if page_timestamp >= today_timestamp and page_timestamp < seven_days_from_now %}
+            {% set_global seven_day_shows = seven_day_shows | concat(with=page) %}
+        {% endif %}
+    {% endfor %}
+    
+    <div class="results-count">Showing {{ seven_day_shows | length }} event{{ seven_day_shows | length | pluralize }} in the next 7 days</div>
+    
+    {% if seven_day_shows | length == 0 %}
+    <div class="no-results">
+        <h3>No shows in the next 7 days</h3>
+        <p>Check out <a href="/">all upcoming events</a> to see what's coming later.</p>
+    </div>
+    {% else %}
+        {% for page in seven_day_shows %}
+        <div class="show-item">
+            <div class="show-date">{{ page.date | date(format="%m/%d") }}</div>
+            <div class="show-artist">
+                <a href="{{ page.permalink }}" class="show-link">{{ page.extra.artist }}</a>
+            </div>
+            <div class="show-venue">
+                {% if page.extra.venue_url %}
+                    <a href="{{ page.extra.venue_url }}" class="show-venue" target="_blank" rel="noopener">{{ page.extra.venue }}</a>
+                {% else %}
+                    {{ page.extra.venue }}
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
+</div>
+{% endblock content %}

@@ -2,17 +2,16 @@
 
 {% block content %}
 <section class="hero">
-    <h2>Upcoming Events</h2>
     <!-- Note: Search and filtering enhanced by JavaScript, but site works without it -->
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Search artists, venues, or dates..." class="search-input" aria-label="Search shows">
         <button id="clearSearch" class="clear-btn" aria-label="Clear search">&times;</button>
     </div>
     <div class="date-filter">
-        <button class="filter-btn active" data-filter="all" aria-pressed="true">All Events</button>
-        <button class="filter-btn" data-filter="today" aria-pressed="false">Today</button>
-        <button class="filter-btn" data-filter="weekend" aria-pressed="false">This Weekend</button>
-        <button class="filter-btn" data-filter="upcoming" aria-pressed="false">Next 7 Days</button>
+        <a href="/" class="filter-btn active">All Events</a>
+        <a href="/today/" class="filter-btn">Today</a>
+        <a href="/this-weekend/" class="filter-btn">This Weekend</a>
+        <a href="/next-seven-days/" class="filter-btn">Next 7 Days</a>
     </div>
 </section>
 
@@ -41,9 +40,12 @@
 
 {% block scripts %}
 <script>
-// Minimal JavaScript for progressive enhancement
+// Progressive enhancement - hide past events and add search
 document.addEventListener('DOMContentLoaded', function() {
-    // Hide past shows
+    const searchInput = document.getElementById('searchInput');
+    const resultsCount = document.querySelector('.results-count');
+    
+    // Hide past events on page load
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     let visibleCount = 0;
@@ -59,14 +61,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Update count
-    const resultsCount = document.querySelector('.results-count');
+    // Update initial count
     if (resultsCount) {
         resultsCount.textContent = `Showing ${visibleCount} event${visibleCount !== 1 ? 's' : ''}`;
     }
     
-    // Basic search functionality
-    const searchInput = document.getElementById('searchInput');
+    // Search functionality
     if (searchInput) {
         searchInput.addEventListener('input', function() {
             const query = this.value.toLowerCase();
@@ -76,8 +76,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 const artist = item.dataset.artist || '';
                 const venue = item.dataset.venue || '';
                 const date = item.dataset.date || '';
+                const [month, day] = item.dataset.date.split('/').map(Number);
+                const showDate = new Date(today.getFullYear(), month - 1, day);
                 
-                if (artist.includes(query) || venue.includes(query) || date.includes(query)) {
+                // Only show if it matches search AND is not in the past
+                if ((artist.includes(query) || venue.includes(query) || date.includes(query)) && showDate >= today) {
                     item.style.display = 'flex';
                     matchCount++;
                 } else {
@@ -85,9 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
             
-            if (resultsCount) {
-                resultsCount.textContent = `Showing ${matchCount} event${matchCount !== 1 ? 's' : ''}`;
-            }
+            resultsCount.textContent = `Showing ${matchCount} event${matchCount !== 1 ? 's' : ''}`;
         });
     }
 });

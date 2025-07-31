@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <h2>This Weekend's Events</h2>
+    <div class="date-filter">
+        <a href="/" class="filter-btn">All Events</a>
+        <a href="/today/" class="filter-btn">Today</a>
+        <button class="filter-btn active" data-filter="weekend" aria-pressed="true">This Weekend</button>
+        <a href="/next-seven-days/" class="filter-btn">Next 7 Days</a>
+    </div>
+</section>
+
+<div class="shows-list" id="showsList">
+    {% set event_section = get_section(path="event/_index.md") %}
+    {% set_global weekend_shows = [] %}
+    {% set today_timestamp = now() | date(format="%s") | int %}
+    {% set today_weekday = now() | date(format="%w") | int %}
+    
+    {# Calculate this weekend's Friday to Sunday range #}
+    {% if today_weekday == 0 %}
+        {# Today is Sunday, this weekend is today only #}
+        {% set weekend_start = today_timestamp %}
+        {% set weekend_end = today_timestamp + 86400 %}
+    {% elif today_weekday <= 5 %}
+        {# Monday-Friday, weekend is upcoming Friday-Sunday #}
+        {% set days_until_friday = 5 - today_weekday %}
+        {% set weekend_start = today_timestamp + (days_until_friday * 86400) %}
+        {% set weekend_end = weekend_start + (3 * 86400) %}
+    {% else %}
+        {# Saturday, this weekend is yesterday-tomorrow #}
+        {% set weekend_start = today_timestamp - 86400 %}
+        {% set weekend_end = today_timestamp + (2 * 86400) %}
+    {% endif %}
+    
+    {% for page in event_section.pages | sort(attribute="date") %}
+        {% set page_timestamp = page.date | date(format="%s") | int %}
+        
+        {% if page_timestamp >= weekend_start and page_timestamp < weekend_end %}
+            {% set_global weekend_shows = weekend_shows | concat(with=page) %}
+        {% endif %}
+    {% endfor %}
+    
+    <div class="results-count">Showing {{ weekend_shows | length }} event{{ weekend_shows | length | pluralize }} this weekend</div>
+    
+    {% if weekend_shows | length == 0 %}
+    <div class="no-results">
+        <h3>No shows this weekend</h3>
+        <p>Check out <a href="/">all upcoming events</a> or <a href="/next-seven-days/">what's coming this week</a>.</p>
+    </div>
+    {% else %}
+        {% for page in weekend_shows %}
+        <div class="show-item">
+            <div class="show-date">{{ page.date | date(format="%m/%d") }}</div>
+            <div class="show-artist">
+                <a href="{{ page.permalink }}" class="show-link">{{ page.extra.artist }}</a>
+            </div>
+            <div class="show-venue">
+                {% if page.extra.venue_url %}
+                    <a href="{{ page.extra.venue_url }}" class="show-venue" target="_blank" rel="noopener">{{ page.extra.venue }}</a>
+                {% else %}
+                    {{ page.extra.venue }}
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
+</div>
+{% endblock content %}
