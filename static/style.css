@@ -21,12 +21,12 @@ body {
 .header {
     background: #44475a;
     border-bottom: 1px solid #6272a4;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     text-align: center;
 }
 
 .logo {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .logo a {
