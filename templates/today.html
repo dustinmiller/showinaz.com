@@ -2,11 +2,6 @@
 
 {% block content %}
 <section class="hero">
-    <h2>Today's Events</h2>
-    <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search artists, venues, or dates..." class="search-input" aria-label="Search shows">
-        <button id="clearSearch" class="clear-btn" aria-label="Clear search">&times;</button>
-    </div>
     <div class="date-filter">
         <a href="/" class="filter-btn">All Events</a>
         <a href="/today/" class="filter-btn active">Today</a>
@@ -52,69 +47,7 @@
 </div>
 
 <script>
-function initializeSearch() {
-    const searchInput = document.getElementById('searchInput');
-    const clearBtn = document.getElementById('clearSearch');
-    const resultsCount = document.querySelector('.results-count');
-
-    if (!searchInput || !clearBtn) return;
-
-    searchInput.addEventListener('input', (e) => {
-        const query = e.target.value.toLowerCase();
-        clearBtn.classList.toggle('visible', query.length > 0);
-        
-        const allItems = document.querySelectorAll('.show-item');
-        let visibleCount = 0;
-
-        allItems.forEach(item => {
-            const artist = item.getAttribute('data-artist') || '';
-            const venue = item.getAttribute('data-venue') || '';
-            const date = item.getAttribute('data-date') || '';
-            
-            const match = artist.includes(query) || venue.includes(query) || date.includes(query);
-            
-            if (match) {
-                item.style.display = 'flex';
-                visibleCount++;
-            } else {
-                item.style.display = 'none';
-            }
-        });
-
-        if (resultsCount) {
-            resultsCount.textContent = `Showing ${visibleCount} event${visibleCount !== 1 ? 's' : ''} for today`;
-        }
-    });
-
-    clearBtn.addEventListener('click', () => {
-        searchInput.value = '';
-        clearBtn.classList.remove('visible');
-        showAllItems();
-    });
-
-    searchInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-            searchInput.blur();
-        }
-    });
-}
-
-function showAllItems() {
-    const allItems = document.querySelectorAll('.show-item');
-    let visibleCount = 0;
-
-    allItems.forEach(item => {
-        item.style.display = 'flex';
-        visibleCount++;
-    });
-
-    const resultsCount = document.querySelector('.results-count');
-    if (resultsCount) {
-        resultsCount.textContent = `Showing ${visibleCount} event${visibleCount !== 1 ? 's' : ''} for today`;
-    }
-}
-
-function initializeClickableCards() {
+document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.clickable-card').forEach(card => {
         card.addEventListener('click', (e) => {
             if (e.target.tagName === 'A' || e.target.closest('a')) {
@@ -129,11 +62,6 @@ function initializeClickableCards() {
 
         card.style.cursor = 'pointer';
     });
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-    initializeSearch();
-    initializeClickableCards();
 });
 </script>
 {% endblock content %}
