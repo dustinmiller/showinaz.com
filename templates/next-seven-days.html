@@ -33,14 +33,12 @@
     </div>
     {% else %}
         {% for page in seven_day_shows %}
-        <div class="show-item">
+        <div class="show-item clickable-card" data-date="{{ page.date | date(format='%m/%d') }}" data-artist="{{ page.extra.artist | lower }}" data-venue="{{ page.extra.venue | lower }}" data-href="{{ page.permalink }}">
             <div class="show-date">{{ page.date | date(format="%m/%d") }}</div>
-            <div class="show-artist">
-                <a href="{{ page.permalink }}" class="show-link">{{ page.extra.artist }}</a>
-            </div>
+            <div class="show-artist">{{ page.extra.artist }}</div>
             <div class="show-venue">
                 {% if page.extra.venue_url %}
-                    <a href="{{ page.extra.venue_url }}" class="show-venue" target="_blank" rel="noopener">{{ page.extra.venue }}</a>
+                    <a href="{{ page.extra.venue_url }}" class="venue-link" target="_blank" rel="noopener">{{ page.extra.venue }}</a> 🎟️
                 {% else %}
                     {{ page.extra.venue }}
                 {% endif %}
@@ -49,4 +47,22 @@
         {% endfor %}
     {% endif %}
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.clickable-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+            if (e.target.tagName === 'A' || e.target.closest('a')) {
+                return;
+            }
+
+            const href = card.getAttribute('data-href');
+            if (href) {
+                window.location.href = href;
+            }
+        });
+
+        card.style.cursor = 'pointer';
+    });
+});
+</script>
 {% endblock content %}
